@@ -1,0 +1,21 @@
+{
+    "name": "zengsipei/simple_action",
+    "description": "simple_action",
+    "autoload": {
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "zengsipei",
+            "email": "zengsp.mail@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^6.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "nesbot/carbon": "^2.66"
+    },
+    "license": "MIT"
+}
