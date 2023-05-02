@@ -57,7 +57,7 @@ proxies:
     - { name: '_CN_中国->🇺🇸_US_美国 2', server: usa1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: '17422:TTp0SX', obfs-param: ab93117422.jd.hk, udp: true }
     - { name: _FR_法国, server: de2-vmess.greenssh.xyz, port: 443, type: vmess, uuid: e5be6b53-3645-43df-a403-7b354f312bbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { Host: de2-vmess.greenssh.xyz } }, udp: true }
     - { name: '_SG_新加坡 3', server: 13.215.194.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true }
-    - { name: DE-德国-50, server: 172.105.95.65, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
+    - { name: DE-德国-50, server: 139.177.177.31, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: SG-新加坡-47, server: 192.53.173.163, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: UK-英国-23, server: 176.58.107.235, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: US-美国-50, server: 198.74.62.29, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
