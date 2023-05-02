@@ -58,7 +58,7 @@ proxies:
     - { name: _CN_中国->🇭🇰_HK_香港, server: p1.bxy-fun1.com, port: 11407, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true }
     - { name: _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*', udp: true }
     - { name: DE-德国-50, server: 172.105.95.65, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
-    - { name: SG-新加坡-47, server: 172.105.127.52, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
+    - { name: SG-新加坡-47, server: 192.53.173.163, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: UK-英国-23, server: 212.71.234.252, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: US-美国-50, server: 198.74.62.29, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
     - { name: US-美国-55, server: 45.33.122.244, port: 37393, type: ss, cipher: chacha20-ietf-poly1305, password: '3051545115' }
