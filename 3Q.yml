@@ -57,7 +57,7 @@ proxies:
     - { name: '_SG_新加坡 8', server: tw2.microsoftjs.top, port: 443, type: trojan, password: e5d13389-59bf-4ae8-8237-d8dec8195e60, skip-cert-verify: true, udp: true }
     - { name: '_US_美国 20', server: 185.199.224.245, port: 41111, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true }
     - { name: '_JP_日本 4', server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: '', obfs-param: '', udp: true }
-    - { name: DE-德国-50, server: 172.104.226.75, port: 38062, type: ss, cipher: chacha20-ietf-poly1305, password: '6786705747' }
+    - { name: DE-德国-50, server: 139.144.177.51, port: 38062, type: ss, cipher: chacha20-ietf-poly1305, password: '6786705747' }
     - { name: SG-新加坡-44, server: 139.144.120.7, port: 38062, type: ss, cipher: chacha20-ietf-poly1305, password: '6786705747' }
     - { name: SG-新加坡-47, server: 139.177.185.164, port: 38062, type: ss, cipher: chacha20-ietf-poly1305, password: '6786705747' }
     - { name: US-美国-50, server: 192.155.89.117, port: 38062, type: ss, cipher: chacha20-ietf-poly1305, password: '6786705747' }
