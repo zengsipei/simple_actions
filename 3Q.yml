@@ -55,8 +55,8 @@ proxies:
     - { name: '_CN_中国 6', server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true }
     - { name: DE-德国-50, server: 143.42.199.130, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
     - { name: DE-德国-56, server: 172.105.247.246, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
-    - { name: SG-新加坡-44, server: 172.105.123.246, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
-    - { name: SG-新加坡-47, server: 170.187.196.241, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
+    - { name: SG-新加坡-44, server: 172.104.181.187, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
+    - { name: SG-新加坡-47, server: 139.162.28.6, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
     - { name: US-美国-50, server: 143.42.229.30, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
