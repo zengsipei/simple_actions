@@ -54,7 +54,7 @@ proxies:
     - { name: _US_美国->🇩🇪_DE_德国, server: 192.203.230.6, port: 443, type: vmess, uuid: a875b3de-131d-4425-f0bf-b56e30d5b571, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /123, headers: { Host: eu3.glucy.top } }, udp: true }
     - { name: _AE_阿联酋, server: jp1117.ljydw.top, port: 80, type: trojan, password: 691bb7fd-d1f0-43b5-9ac0-28e895eb900c, sni: jp1117.ljydw.top, skip-cert-verify: true, udp: true }
     - { name: DE-德国-50, server: 143.42.199.130, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
-    - { name: DE-德国-56, server: 170.187.186.56, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
+    - { name: DE-德国-56, server: 172.105.247.246, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
     - { name: SG-新加坡-44, server: 172.105.123.246, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
     - { name: SG-新加坡-47, server: 170.187.196.241, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
     - { name: US-美国-50, server: 143.42.229.30, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: '8257221136' }
