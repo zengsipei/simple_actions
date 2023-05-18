@@ -54,7 +54,7 @@ proxies:
     - { name: '_CN_中国->🇹🇼_TW_台湾 3', server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*', udp: true }
     - { name: CA-加拿大-54, server: 139.177.194.36, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
     - { name: DE-德国-50, server: 143.42.31.87, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
-    - { name: DE-德国-56, server: 143.42.63.164, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
+    - { name: DE-德国-56, server: 172.104.134.108, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
     - { name: UK-英国-24, server: 212.71.249.48, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
     - { name: US-美国-55, server: 45.79.9.171, port: 39043, type: ss, cipher: chacha20-ietf-poly1305, password: '8317202554' }
 proxy-groups:
