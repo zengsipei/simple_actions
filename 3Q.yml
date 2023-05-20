@@ -55,10 +55,10 @@ proxies:
     - { name: _CN_中国->🇸🇬_SG_新加坡, server: 6q59.cdn.node.a.tddns-ounk.com, port: 40261, type: vmess, uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { Host: 6q59.cdn.node.a.tddns-ounk.com } }, udp: true }
     - { name: _CN_中国->🇬🇧_GB_英国, server: en.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: '17422:TTp0SX', obfs-param: ab93117422.jd.hk, udp: true }
     - { name: CA-加拿大-54, server: 172.105.20.42, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
-    - { name: DE-德国-50, server: 139.162.142.10, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
-    - { name: SG-新加坡-44, server: 143.42.74.123, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
+    - { name: DE-德国-50, server: 194.233.173.82, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
+    - { name: SG-新加坡-44, server: 139.162.59.118, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
     - { name: UK-英国-24, server: 176.58.125.51, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
-    - { name: US-美国-50, server: 172.104.208.241, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
+    - { name: US-美国-50, server: 50.116.58.110, port: 39253, type: ss, cipher: chacha20-ietf-poly1305, password: '9987559937' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
