@@ -57,10 +57,10 @@ proxies:
     - { name: '_CN_中国->🇭🇰_HK_香港 2', server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*', udp: true }
     - { name: '_US_美国 17', server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /speedtest, headers: { Host: Dusseldorf.kotick.site } }, udp: true }
     - { name: _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*', udp: true }
-    - { name: DE-德国-50, server: 172.105.65.113, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
+    - { name: DE-德国-50, server: 172.105.92.112, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
     - { name: DE-德国-56, server: 139.162.151.128, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
     - { name: SG-新加坡-47, server: 192.46.229.64, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
-    - { name: UK-英国-23, server: 139.162.244.119, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
+    - { name: UK-英国-23, server: 212.71.255.163, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
     - { name: US-美国-50, server: 139.144.243.191, port: 39432, type: ss, cipher: chacha20-ietf-poly1305, password: '8312277392' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
