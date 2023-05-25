@@ -55,7 +55,7 @@ proxies:
     - { name: '_US_美国 21', server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /speedtest, headers: { Host: Kansas.kotick.site } }, udp: true }
     - { name: '_US_美国->🇳🇱_NL_荷兰 3', server: 141.193.213.20, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /speedtest, headers: { Host: Amsterdam.kotick.site } }, udp: true }
     - { name: '_US_美国 22', server: irvless42.forsarinna.site, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /speedtest, headers: { Host: Kansas.kotick.site } }, udp: true }
-    - { name: CA-加拿大-54, server: 172.105.111.59, port: 39680, type: ss, cipher: chacha20-ietf-poly1305, password: '4267335042' }
+    - { name: CA-加拿大-54, server: 172.105.97.38, port: 39680, type: ss, cipher: chacha20-ietf-poly1305, password: '4267335042' }
     - { name: DE-德国-50, server: 143.42.54.171, port: 39680, type: ss, cipher: chacha20-ietf-poly1305, password: '4267335042' }
     - { name: DE-德国-56, server: 172.105.72.117, port: 39680, type: ss, cipher: chacha20-ietf-poly1305, password: '4267335042' }
     - { name: UK-英国-23, server: 178.79.153.25, port: 39680, type: ss, cipher: chacha20-ietf-poly1305, password: '4267335042' }
