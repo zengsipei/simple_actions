@@ -56,8 +56,8 @@ proxies:
     - { name: '_SG_新加坡 3', server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true }
     - { name: DE-德国-56, server: 143.42.59.92, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
     - { name: SG-新加坡-44, server: 172.104.50.6, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
-    - { name: SG-新加坡-47, server: 192.53.114.7, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
-    - { name: UK-英国-24, server: 178.79.172.15, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
+    - { name: SG-新加坡-47, server: 139.162.45.153, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
+    - { name: UK-英国-24, server: 178.79.145.6, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40110, type: ss, cipher: chacha20-ietf-poly1305, password: '7033960071' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
