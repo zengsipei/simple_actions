@@ -58,8 +58,8 @@ proxies:
     - { name: '_CN_中国 5', server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true }
     - { name: '_CN_中国->🇸🇬_SG_新加坡 3', server: js2.76po.com, port: 44315, type: ss, cipher: chacha20-ietf-poly1305, password: 1196c1f1-ac69-4d3f-bbbb-722517323170, udp: true }
     - { name: DE-德国-50, server: 139.144.178.223, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
-    - { name: DE-德国-56, server: 139.162.185.196, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
-    - { name: UK-英国-23, server: 85.159.213.52, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
+    - { name: DE-德国-56, server: 143.42.21.143, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
+    - { name: UK-英国-23, server: 85.159.213.50, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
     - { name: US-美国-50, server: 66.228.45.235, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40287, type: ss, cipher: chacha20-ietf-poly1305, password: '0104738894' }
 proxy-groups:
