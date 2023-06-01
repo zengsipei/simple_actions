@@ -58,7 +58,7 @@ proxies:
     - { name: '🇭🇰 _HK_香港 3', server: 43.154.76.92, port: 54498, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
     - { name: '🇺🇸 _GE_格鲁吉亚->🇺🇸_US_美国', server: 46.49.10.229, port: 443, type: vmess, uuid: 3ced03fa-9cd0-4c3f-db9a-5c5600f65f9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /z-004716, headers: { Host: z-004716.zedware.icu } } }
     - { name: DE-德国-56, server: 194.233.173.48, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
-    - { name: UK-英国-23, server: 85.159.213.50, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
+    - { name: UK-英国-23, server: 176.58.119.128, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: UK-英国-24, server: 139.162.243.135, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: US-美国-50, server: 66.228.45.235, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
