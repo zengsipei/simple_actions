@@ -57,7 +57,7 @@ proxies:
     - { name: '_CN_中国 2', server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@ }
     - { name: '_CN_中国 3', server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@ }
     - { name: '🇸🇬 _SG_新加坡->🇬🇧_GB_英国', server: ukjs.stablize.top, port: 443, type: trojan, password: 5d6ac741-9b0d-4e1f-a12d-3f68091da4b8, skip-cert-verify: false }
-    - { name: DE-德国-56, server: 194.233.173.48, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
+    - { name: DE-德国-56, server: 170.187.190.25, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: UK-英国-23, server: 176.58.119.128, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: UK-英国-24, server: 139.162.243.135, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
     - { name: US-美国-50, server: 143.42.228.243, port: 40442, type: ss, cipher: chacha20-ietf-poly1305, password: '6345299262' }
