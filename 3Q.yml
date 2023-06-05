@@ -59,7 +59,7 @@ proxies:
     - { name: '🇨🇳 _CN_中国->🇹🇼_TW_台湾 2', server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*' }
     - { name: DE-德国-56, server: 139.162.165.107, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
     - { name: UK-英国-23, server: 151.236.218.55, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
-    - { name: UK-英国-24, server: 139.162.201.215, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
+    - { name: UK-英国-24, server: 139.162.239.228, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
     - { name: US-美国-50, server: 66.228.34.125, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
 proxy-groups:
