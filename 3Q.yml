@@ -54,10 +54,10 @@ proxies:
     - { name: '🇺🇸 _US_美国 16', server: 104.25.29.187, port: 8080, type: vmess, uuid: d7cf7b64-bf1c-46bd-cf39-90a31393843b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: uyaa.vtcss.top } } }
     - { name: '_CN_中国 2', server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '_CN_中国 3', server: 36.137.106.115, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@ }
-    - { name: DE-德国-56, server: 194.233.164.76, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
+    - { name: DE-德国-56, server: 194.195.241.218, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
     - { name: UK-英国-23, server: 139.162.199.40, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
-    - { name: UK-英国-24, server: 178.79.169.224, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
-    - { name: US-美国-50, server: 45.33.69.21, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
+    - { name: UK-英国-24, server: 178.79.153.225, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
+    - { name: US-美国-50, server: 172.104.216.46, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: '1948469439' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
