@@ -58,7 +58,7 @@ proxies:
     - { name: '🇯🇵 _JP_日本', server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: '', obfs-param: '' }
     - { name: '🇨🇳 _CN_中国->🇹🇼_TW_台湾', server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: 'QazEdcTgb159@$*' }
     - { name: DE-德国-56, server: 172.104.156.106, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
-    - { name: SG-新加坡-44, server: 172.105.123.208, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
+    - { name: SG-新加坡-44, server: 139.162.1.246, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
     - { name: SG-新加坡-47, server: 139.162.37.206, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
     - { name: US-美国-50, server: 23.92.20.175, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
     - { name: US-美国-55, server: 198.58.117.77, port: 40994, type: ss, cipher: chacha20-ietf-poly1305, password: '1104315724' }
