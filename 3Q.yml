@@ -59,7 +59,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 13', server: bb.hk1997.pro, port: 1002, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /jash-weh-peft-pseb-lous-jass, headers: { Host: bb.hk1997.pro } } }
     - { name: CA-加拿大-54, server: 139.177.199.160, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: DE-德国-50, server: 172.104.137.176, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
-    - { name: SG-新加坡-44, server: 139.162.1.246, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
+    - { name: SG-新加坡-44, server: 172.105.119.96, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: SG-新加坡-47, server: 139.162.37.206, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: US-美国-55, server: 198.58.117.77, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
 proxy-groups:
