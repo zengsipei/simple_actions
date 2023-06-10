@@ -57,7 +57,7 @@ proxies:
     - { name: '🇮🇳 _IN_印度', server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: '', obfs-param: '' }
     - { name: '🇸🇬 _US_美国->🇳🇿_NZ_新西兰', server: datacenter.cu.01.biqibao.site, port: 2052, type: vmess, uuid: c36d4223-1804-494a-a453-d4f77f10c830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /public, headers: { Host: detacenter.01.biqibao.site } } }
     - { name: '🇸🇬 _US_美国->🇳🇿_NZ_新西兰 2', server: datacenter.cm.01.biqibao.site, port: 2052, type: vmess, uuid: c36d4223-1804-494a-a453-d4f77f10c830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /public, headers: { Host: detacenter.01.biqibao.site } } }
-    - { name: CA-加拿大-54, server: 139.177.199.160, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
+    - { name: CA-加拿大-54, server: 143.42.10.39, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: DE-德国-50, server: 172.104.137.176, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: SG-新加坡-44, server: 139.162.22.203, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
     - { name: SG-新加坡-47, server: 192.46.228.43, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: '0221383156' }
