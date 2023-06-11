@@ -57,7 +57,7 @@ proxies:
     - { name: '🇮🇳 _IN_印度 2', server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: '', obfs-param: '' }
     - { name: '🇸🇬 _SG_新加坡', server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 143.42.10.39, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
-    - { name: DE-德国-50, server: 172.104.137.176, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
+    - { name: DE-德国-50, server: 194.195.243.203, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
     - { name: UK-英国-23, server: 109.74.205.39, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
     - { name: UK-英国-24, server: 139.162.229.104, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
     - { name: US-美国-55, server: 198.58.117.77, port: 41234, type: ss, cipher: chacha20-ietf-poly1305, password: '8405205541' }
