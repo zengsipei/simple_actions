@@ -59,7 +59,7 @@ proxies:
     - { name: '🇸🇬 _CN_中国->🇸🇬_SG_新加坡', server: 26.v2-ray.cyou, port: 23626, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: 26.v2-ray.cyou } } }
     - { name: CA-加拿大-54, server: 139.177.198.138, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
     - { name: UK-英国-23, server: 139.162.204.81, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
-    - { name: UK-英国-24, server: 139.162.229.104, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
+    - { name: UK-英国-24, server: 109.74.199.189, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
     - { name: US-美国-50, server: 96.126.105.73, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
     - { name: US-美国-55, server: 198.58.117.77, port: 41414, type: ss, cipher: chacha20-ietf-poly1305, password: '0571929875' }
 proxy-groups:
