@@ -60,7 +60,7 @@ proxies:
     - { name: CA-加拿大-54, server: 192.46.223.128, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
     - { name: DE-德国-50, server: 143.42.29.176, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
     - { name: DE-德国-56, server: 172.105.83.153, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
-    - { name: UK-英国-24, server: 139.162.234.239, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
+    - { name: UK-英国-24, server: 212.71.235.53, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
     - { name: US-美国-55, server: 198.58.117.77, port: 41689, type: ss, cipher: chacha20-ietf-poly1305, password: '0564206496' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
