@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国', server: 202.108.15.135, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /835757, headers: { Host: dedi2.1808.cf } } }
     - { name: '🇰🇷 _KR_韩国 2', server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇺🇸 _US_美国 19', server: 104.27.17.155, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /youlingkaishi, headers: { Host: uyaa.vtcss.top } } }
-    - { name: DE-德国-50, server: 194.233.167.104, port: 41787, type: ss, cipher: chacha20-ietf-poly1305, password: '2745134757' }
+    - { name: DE-德国-50, server: 139.177.178.69, port: 41787, type: ss, cipher: chacha20-ietf-poly1305, password: '2745134757' }
     - { name: SG-新加坡-44, server: 170.187.230.114, port: 41787, type: ss, cipher: chacha20-ietf-poly1305, password: '2745134757' }
     - { name: SG-新加坡-47, server: 139.162.39.42, port: 41787, type: ss, cipher: chacha20-ietf-poly1305, password: '2745134757' }
     - { name: UK-英国-23, server: 178.79.158.182, port: 41787, type: ss, cipher: chacha20-ietf-poly1305, password: '2745134757' }
