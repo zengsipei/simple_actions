@@ -57,8 +57,8 @@ proxies:
     - { name: '🇬🇧 _IL_以色列->🇬🇧_GB_英国 3', server: 149.50.77.97, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false }
     - { name: '🇬🇧 _IL_以色列->🇬🇧_GB_英国 4', server: 149.50.77.95, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false }
     - { name: '🇨🇳 _US_美国->🇹🇼_TW_台湾', server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /v2ray, headers: { Host: idc8.vpn-akcelluler.my.id } } }
-    - { name: CA-加拿大-54, server: 172.105.25.225, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
-    - { name: SG-新加坡-44, server: 139.144.119.75, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
+    - { name: CA-加拿大-54, server: 139.144.110.111, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
+    - { name: SG-新加坡-44, server: 139.162.2.227, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
     - { name: SG-新加坡-47, server: 172.105.118.254, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
     - { name: UK-英国-23, server: 85.159.214.65, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
     - { name: US-美国-55, server: 198.58.117.77, port: 41997, type: ss, cipher: chacha20-ietf-poly1305, password: '4857406435' }
