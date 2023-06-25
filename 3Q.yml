@@ -58,7 +58,7 @@ proxies:
     - { name: _US_美国->🇩🇪_DE_德国, server: hzdsesa.66666654.xyz, port: 2095, type: vmess, uuid: a031d87d-ea68-3511-bc8a-8ab98ac734e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /hgcefomn, headers: { Host: hzdses.66666654.xyz } }, udp: true }
     - { name: _CN_中国->🇵🇭_PH_菲律宾, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: 75b24456-a883-4a33-8f85-8842849bfffb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true }
     - { name: CA-加拿大-54, server: 139.144.110.111, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
-    - { name: DE-德国-56, server: 143.42.18.43, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
+    - { name: DE-德国-56, server: 172.105.73.122, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: SG-新加坡-44, server: 139.162.55.24, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: UK-英国-24, server: 151.236.221.191, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: US-美国-55, server: 198.58.117.77, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
