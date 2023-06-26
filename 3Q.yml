@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 16', server: 107.148.203.55, port: 55337, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇨🇳 _US_美国->🇹🇼_TW_台湾', server: rochinet.fullaccesstointernet.cn.eu.org, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /freedom, headers: { Host: rochinet.fullaccesstointernet.cn.eu.org } } }
     - { name: '🇺🇸 _US_美国 17', server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
-    - { name: CA-加拿大-54, server: 170.187.181.250, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
+    - { name: CA-加拿大-54, server: 192.53.121.147, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: DE-德国-56, server: 172.105.73.122, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: SG-新加坡-44, server: 139.162.55.24, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
     - { name: UK-英国-24, server: 151.236.221.191, port: 42114, type: ss, cipher: chacha20-ietf-poly1305, password: '4711436037' }
