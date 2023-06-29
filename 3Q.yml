@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 32', server: 172.64.206.43, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue, headers: { Host: xt.ylks01.eu.org } } }
     - { name: '🇨🇳 _CN_中国->🇹🇼_TW_台湾', server: a7d4813550c2.sanfen004.me, port: 29033, type: vmess, uuid: 92316c61-06ee-4097-aabf-b9bb34396e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇸🇬 _SG_新加坡 2', server: 118.107.46.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
-    - { name: DE-德国-50, server: 45.79.250.29, port: 42334, type: ss, cipher: chacha20-ietf-poly1305, password: '6811144956' }
+    - { name: DE-德国-50, server: 172.105.64.78, port: 42334, type: ss, cipher: chacha20-ietf-poly1305, password: '6811144956' }
     - { name: SG-新加坡-44, server: 172.105.124.66, port: 42334, type: ss, cipher: chacha20-ietf-poly1305, password: '6811144956' }
     - { name: SG-新加坡-47, server: 139.162.2.209, port: 42334, type: ss, cipher: chacha20-ietf-poly1305, password: '6811144956' }
     - { name: UK-英国-24, server: 213.219.37.94, port: 42334, type: ss, cipher: chacha20-ietf-poly1305, password: '6811144956' }
