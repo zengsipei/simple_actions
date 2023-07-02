@@ -58,8 +58,8 @@ proxies:
     - { name: '🇺🇸 _US_美国 18', server: 138.124.183.93, port: 27542, type: ss, cipher: chacha20-ietf-poly1305, password: 3f0Gag5bPSpDYwLMahAgp8 }
     - { name: '🇺🇸 _US_美国 19', server: 104.16.110.254, port: 2086, type: vmess, uuid: e544862e-c9af-476a-e757-d71aa6f0fb8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: er.vtcss.top } } }
     - { name: CA-加拿大-54, server: 45.79.116.144, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
-    - { name: SG-新加坡-44, server: 172.105.124.66, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
-    - { name: SG-新加坡-47, server: 172.105.125.149, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
+    - { name: SG-新加坡-44, server: 139.162.47.159, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
+    - { name: SG-新加坡-47, server: 192.46.224.150, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
     - { name: UK-英国-23, server: 178.79.158.102, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
     - { name: US-美国-55, server: 198.58.117.77, port: 42428, type: ss, cipher: chacha20-ietf-poly1305, password: '8735167283' }
 proxy-groups:
