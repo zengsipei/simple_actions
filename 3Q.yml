@@ -57,7 +57,7 @@ proxies:
     - { name: '🇰🇷 _KR_韩国 3', server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇺🇸 _US_美国->🇫🇷_FR_法国', server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: dl.v001sssv.pw } } }
     - { name: '🇺🇸 _US_美国 19', server: v33.emovpn.life, port: 443, type: vmess, uuid: 19ed5288-d27d-43c4-b560-07e7579fb4fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v33.emovpn.life } } }
-    - { name: CA-加拿大-54, server: 45.79.116.144, port: 42522, type: ss, cipher: chacha20-ietf-poly1305, password: '8971788405' }
+    - { name: CA-加拿大-54, server: 139.144.110.34, port: 42522, type: ss, cipher: chacha20-ietf-poly1305, password: '8971788405' }
     - { name: SG-新加坡-44, server: 172.105.113.131, port: 42522, type: ss, cipher: chacha20-ietf-poly1305, password: '8971788405' }
     - { name: SG-新加坡-47, server: 172.104.179.147, port: 42522, type: ss, cipher: chacha20-ietf-poly1305, password: '8971788405' }
     - { name: UK-英国-23, server: 212.71.234.209, port: 42522, type: ss, cipher: chacha20-ietf-poly1305, password: '8971788405' }
