@@ -57,7 +57,7 @@ proxies:
     - { name: '🇫🇷 _FR_法国->🇬🇧_GB_英国', server: 51.195.35.146, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国 5', server: video.tiktokuu.xyz, port: 701, type: ss, cipher: rc4-md5, password: BoomCloud2020 }
     - { name: '🇺🇸 _US_美国 24', server: 163.123.192.150, port: 443, type: trojan, password: 718c4ef4-9f65-496c-9547-f27e4226c4f5, sni: downloadus.xn--mes358acgm99l.com, skip-cert-verify: false }
-    - { name: CA-加拿大-54, server: 139.144.110.34, port: 42661, type: ss, cipher: chacha20-ietf-poly1305, password: '9869583295' }
+    - { name: CA-加拿大-54, server: 139.177.199.59, port: 42661, type: ss, cipher: chacha20-ietf-poly1305, password: '9869583295' }
     - { name: SG-新加坡-44, server: 139.162.40.159, port: 42661, type: ss, cipher: chacha20-ietf-poly1305, password: '9869583295' }
     - { name: UK-英国-24, server: 109.74.202.194, port: 42661, type: ss, cipher: chacha20-ietf-poly1305, password: '9869583295' }
     - { name: US-美国-50, server: 97.107.140.222, port: 42661, type: ss, cipher: chacha20-ietf-poly1305, password: '9869583295' }
