@@ -60,7 +60,7 @@ proxies:
     - { name: CA-加拿大-54, server: 139.177.199.59, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
     - { name: DE-德国-56, server: 85.90.247.163, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
     - { name: UK-英国-23, server: 212.71.233.31, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
-    - { name: US-美国-50, server: 97.107.140.222, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
+    - { name: US-美国-50, server: 45.79.158.115, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
     - { name: US-美国-55, server: 198.58.117.77, port: 42751, type: ss, cipher: chacha20-ietf-poly1305, password: '6433920169' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
