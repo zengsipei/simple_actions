@@ -60,7 +60,7 @@ proxies:
     - { name: CA-加拿大-54, server: 139.177.192.91, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
     - { name: DE-德国-50, server: 172.104.130.79, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
     - { name: SG-新加坡-44, server: 172.104.184.223, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
-    - { name: SG-新加坡-47, server: 192.46.228.162, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
+    - { name: SG-新加坡-47, server: 192.53.112.110, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
     - { name: US-美国-55, server: 198.58.117.77, port: 42837, type: ss, cipher: chacha20-ietf-poly1305, password: '6366832998' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
