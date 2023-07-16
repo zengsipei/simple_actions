@@ -57,7 +57,7 @@ proxies:
     - { name: '🇫🇷 _FR_法国', server: 15.236.37.144, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国 27', server: 162.159.247.37, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: ylks.vtcss.top } } }
     - { name: CA-加拿大-54, server: 172.105.106.90, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
-    - { name: DE-德国-56, server: 139.144.79.183, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
+    - { name: DE-德国-56, server: 139.162.155.39, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-23, server: 178.79.180.139, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-24, server: 178.79.149.108, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: US-美国-55, server: 50.116.21.109, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
