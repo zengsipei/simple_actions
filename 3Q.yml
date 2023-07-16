@@ -53,7 +53,7 @@ proxies:
     - { name: '🇯🇵 _JP_日本 2', server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇺🇸 _US_美国 25', server: 198.41.206.174, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: ylks.vtcss.top } } }
     - { name: '🇺🇸 _US_美国 26', server: cf5.992688.xyz, port: 8080, type: vmess, uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hax.992688.xyz } } }
-    - { name: CA-加拿大-54, server: 172.105.25.40, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
+    - { name: CA-加拿大-54, server: 172.105.106.90, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: DE-德国-56, server: 139.144.79.183, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-23, server: 178.79.180.139, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-24, server: 178.79.149.108, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
