@@ -101,8 +101,8 @@ proxies:
     - { name: '🇭🇰 香港(v2rayshare.com每日节点更新) 3', server: qzcn2-01.dajuzi.cc, port: 15596, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇭🇰 香港(v2rayshare.com每日节点更新) 4', server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇭🇰 香港(v2rayshare.com每日节点更新) 5', server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
-    - { name: CA-加拿大-54, server: 172.105.106.90, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
-    - { name: DE-德国-56, server: 139.162.155.39, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
+    - { name: CA-加拿大-54, server: 139.177.193.158, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
+    - { name: DE-德国-56, server: 194.233.165.143, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-23, server: 213.52.129.155, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: UK-英国-24, server: 213.219.38.212, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
     - { name: US-美国-55, server: 104.237.134.235, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: '6520064026' }
