@@ -55,10 +55,10 @@ proxies:
     - { name: '🇺🇸 _US_美国 22', server: amstd.digires.shop, port: 443, type: vmess, uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /12796, headers: { Host: amstd.digires.shop } } }
     - { name: '🇺🇸 _US_美国->🇩🇪_DE_德国', server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 0d9a0392-e0a1-4bad-e877-3721def40f11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hax2.992688.xyz } } }
     - { name: '🇺🇸 _US_美国 23', server: 104.22.20.181, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: ylks.vtcss.top } } }
-    - { name: CA-加拿大-54, server: 139.177.193.158, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
-    - { name: DE-德国-56, server: 139.162.157.81, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
-    - { name: UK-英国-23, server: 178.79.163.172, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
-    - { name: US-美国-50, server: 143.42.187.159, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
+    - { name: CA-加拿大-54, server: 172.105.25.177, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
+    - { name: DE-德国-56, server: 192.46.237.174, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
+    - { name: UK-英国-23, server: 212.71.233.118, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
+    - { name: US-美国-50, server: 139.144.232.20, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
     - { name: US-美国-55, server: 104.237.134.235, port: 43223, type: ss, cipher: chacha20-ietf-poly1305, password: '5825037789' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
