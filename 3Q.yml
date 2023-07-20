@@ -60,7 +60,7 @@ proxies:
     - { name: DE-德国-50, server: 143.42.63.214, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
     - { name: DE-德国-56, server: 194.233.169.179, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
     - { name: SG-新加坡-44, server: 170.187.198.19, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
-    - { name: UK-英国-24, server: 176.58.110.120, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
+    - { name: UK-英国-24, server: 139.162.251.210, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
     - { name: US-美国-55, server: 104.237.134.235, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: '6809403169' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
