@@ -57,11 +57,11 @@ proxies:
     - { name: '🇸🇬 _SG_新加坡 4', server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇸🇬 _SG_新加坡 5', server: 13.229.98.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇰🇷 _KR_韩国 5', server: 43.200.1.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
-    - { name: CA-加拿大-54, server: 172.105.27.189, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
+    - { name: CA-加拿大-54, server: 172.105.111.27, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
     - { name: DE-德国-50, server: 143.42.63.214, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
     - { name: SG-新加坡-44, server: 170.187.198.19, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
     - { name: SG-新加坡-47, server: 139.162.10.66, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
-    - { name: UK-英国-23, server: 178.79.180.232, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
+    - { name: UK-英国-23, server: 139.162.255.106, port: 43407, type: ss, cipher: chacha20-ietf-poly1305, password: '5293478683' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
