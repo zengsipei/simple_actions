@@ -58,7 +58,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 24', server: 104.25.177.236, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /qwer, headers: { Host: uxx.vtcss.top } } }
     - { name: CA-加拿大-54, server: 139.177.196.81, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
     - { name: DE-德国-50, server: 172.105.91.37, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
-    - { name: UK-英国-23, server: 212.111.40.25, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
+    - { name: UK-英国-23, server: 109.74.194.6, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
     - { name: UK-英国-24, server: 80.85.87.75, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
     - { name: US-美国-55, server: 50.116.16.186, port: 43498, type: ss, cipher: chacha20-ietf-poly1305, password: '1170602568' }
 proxy-groups:
