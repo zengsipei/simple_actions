@@ -57,10 +57,10 @@ proxies:
     - { name: '🇮🇪 _IE_爱尔兰', server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: '🇸🇬 _SG_新加坡 3', server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国 3', server: usa1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: '17422:TTp0SX', obfs-param: ab93117422.jd.hk }
-    - { name: CA-加拿大-54, server: 170.187.194.190, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: CA-加拿大-54, server: 172.105.28.223, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
     - { name: SG-新加坡-47, server: 172.105.114.230, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
     - { name: UK-英国-23, server: 178.79.158.32, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
-    - { name: UK-英国-24, server: 80.85.87.75, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: UK-英国-24, server: 109.237.27.73, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
     - { name: US-美国-55, server: 50.116.16.186, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
