@@ -56,10 +56,10 @@ proxies:
     - { name: '🇭🇰 _HK_香港->🇺🇸_US_美国 2', server: 103.160.204.18, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: a2284cc1, headers: { Host: dedi2.1808.cf } } }
     - { name: '🇭🇰 _HK_香港->🇺🇸_US_美国 3', server: 103.160.204.31, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: a2284cc1, headers: { Host: dedi2.1808.cf } } }
     - { name: '🇺🇸 _US_美国 11', server: cf2.992688.xyz, port: 8080, type: vmess, uuid: fda2c765-ed35-4e97-ba13-ed64b1c4c460, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hax.vpn66.eu.org } } }
-    - { name: CA-加拿大-54, server: 172.105.28.223, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
-    - { name: SG-新加坡-47, server: 172.105.114.230, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
-    - { name: UK-英国-23, server: 178.79.158.32, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
-    - { name: UK-英国-24, server: 109.237.27.73, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: CA-加拿大-54, server: 139.177.196.245, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: SG-新加坡-47, server: 139.162.57.239, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: UK-英国-23, server: 151.236.220.144, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
+    - { name: UK-英国-24, server: 139.162.205.23, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
     - { name: US-美国-55, server: 50.116.16.186, port: 43596, type: ss, cipher: chacha20-ietf-poly1305, password: '1972098001' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
