@@ -58,7 +58,7 @@ proxies:
     - { name: '🇭🇰 _HK_香港->🇺🇸_US_美国 7', server: 167.179.32.53, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: a2284cc1, headers: { Host: dedi2.1808.cf } } }
     - { name: CA-加拿大-54, server: 172.105.99.61, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
     - { name: DE-德国-50, server: 139.162.161.24, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
-    - { name: UK-英国-24, server: 178.79.171.111, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
+    - { name: UK-英国-24, server: 139.162.199.180, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
     - { name: US-美国-50, server: 143.42.182.111, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
     - { name: US-美国-55, server: 96.126.114.210, port: 43692, type: ss, cipher: chacha20-ietf-poly1305, password: '7783166569' }
 proxy-groups:
