@@ -59,7 +59,7 @@ proxies:
     - { name: '_CN_中国 3', server: 103.184.44.200, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue, headers: { Host: ecc.vtcss.top } } }
     - { name: CA-加拿大-54, server: 172.105.104.209, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
     - { name: DE-德国-56, server: 172.104.130.229, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
-    - { name: SG-新加坡-44, server: 172.104.61.67, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
+    - { name: SG-新加坡-44, server: 170.187.228.32, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
     - { name: UK-英国-23, server: 178.79.149.58, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
     - { name: US-美国-50, server: 139.144.238.160, port: 43915, type: ss, cipher: chacha20-ietf-poly1305, password: '7423765194' }
 proxy-groups:
