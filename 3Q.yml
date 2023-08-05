@@ -55,10 +55,10 @@ proxies:
     - { name: '_US_美国 19', server: 162.159.254.44, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: 4a47e680, headers: { Host: ddp2.1808.cf } }, udp: true }
     - { name: _CN_中国, server: 114.55.244.11, port: 80, type: vmess, uuid: 945f0adf-5255-459b-8fbd-54c9e781f2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { Host: tms.dingtalk.com } }, udp: true }
     - { name: _RU_俄罗斯联邦, server: www.dongtaiwang4.com, port: 22222, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true }
-    - { name: CA-加拿大-54, server: 192.53.122.24, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
+    - { name: CA-加拿大-54, server: 172.105.104.70, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
     - { name: DE-德国-50, server: 194.233.174.177, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
     - { name: SG-新加坡-44, server: 139.177.187.57, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
-    - { name: SG-新加坡-47, server: 172.104.183.225, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
+    - { name: SG-新加坡-47, server: 172.104.48.143, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
     - { name: US-美国-50, server: 45.56.111.135, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
