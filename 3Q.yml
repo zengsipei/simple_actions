@@ -59,9 +59,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 21', server: 104.26.1.6, port: 8080, type: vmess, uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v01.ssrsub.com } } }
     - { name: CA-加拿大-54, server: 172.105.104.70, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
     - { name: DE-德国-50, server: 194.233.174.177, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
-    - { name: SG-新加坡-44, server: 139.177.187.57, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
+    - { name: SG-新加坡-44, server: 192.53.173.31, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
     - { name: SG-新加坡-47, server: 172.104.48.143, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
-    - { name: US-美国-50, server: 45.56.111.135, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
+    - { name: US-美国-50, server: 173.255.228.205, port: 44148, type: ss, cipher: chacha20-ietf-poly1305, password: '9392364936' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
