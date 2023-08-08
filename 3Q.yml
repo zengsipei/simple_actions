@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 11', server: 34.223.228.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: '🇺🇸 _US_美国 12', server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: { Host: newyork.yj2022.gq } } }
     - { name: '🇺🇸 _US_美国 13', server: cf3.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: vcus2.vpn66.eu.org } } }
-    - { name: DE-德国-56, server: 139.162.156.21, port: 44238, type: ss, cipher: chacha20-ietf-poly1305, password: '5811006197' }
+    - { name: DE-德国-56, server: 139.162.167.133, port: 44238, type: ss, cipher: chacha20-ietf-poly1305, password: '5811006197' }
     - { name: SG-新加坡-47, server: 170.187.231.108, port: 44238, type: ss, cipher: chacha20-ietf-poly1305, password: '5811006197' }
     - { name: UK-英国-23, server: 176.58.103.176, port: 44238, type: ss, cipher: chacha20-ietf-poly1305, password: '5811006197' }
     - { name: US-美国-50, server: 45.33.76.193, port: 44238, type: ss, cipher: chacha20-ietf-poly1305, password: '5811006197' }
