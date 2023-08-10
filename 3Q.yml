@@ -57,7 +57,7 @@ proxies:
     - { name: '🇰🇷 _CN_中国->🇰🇷_KR_韩国 2', server: k-r02.xingyunwu.top, port: 50022, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false }
     - { name: '_CN_中国 2', server: 101.42.30.206, port: 80, type: vmess, uuid: 24bc9855-8f7c-4543-e29d-970045f205f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
     - { name: '_CN_中国 3', server: 123.207.75.74, port: 80, type: vmess, uuid: e2b73315-2fc1-4e86-8df3-023baf466438, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
-    - { name: DE-德国-50, server: 172.105.87.58, port: 44372, type: ss, cipher: chacha20-ietf-poly1305, password: '3041307896' }
+    - { name: DE-德国-50, server: 139.144.70.158, port: 44372, type: ss, cipher: chacha20-ietf-poly1305, password: '3041307896' }
     - { name: DE-德国-56, server: 172.104.232.160, port: 44372, type: ss, cipher: chacha20-ietf-poly1305, password: '3041307896' }
     - { name: UK-英国-23, server: 178.79.170.177, port: 44372, type: ss, cipher: chacha20-ietf-poly1305, password: '3041307896' }
     - { name: UK-英国-24, server: 213.219.38.238, port: 44372, type: ss, cipher: chacha20-ietf-poly1305, password: '3041307896' }
