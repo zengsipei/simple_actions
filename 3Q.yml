@@ -56,7 +56,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 22', server: cf2.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: haxus3.vpn66.eu.org } } }
     - { name: '🇭🇰 _HK_香港->🇸🇬_SG_新加坡', server: 18.163.249.175, port: 443, client-fingerprint: chrome, type: trojan, password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g, tfo: false, sni: golang.protocolbuffer.com, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国 23', server: 172.64.103.121, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /shirker, headers: { Host: lv3.sharecentrepro.org } } }
-    - { name: DE-德国-56, server: 172.104.155.83, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
+    - { name: DE-德国-56, server: 139.162.173.19, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: SG-新加坡-47, server: 170.187.197.188, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: UK-英国-23, server: 178.79.173.230, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: US-美国-50, server: 45.79.173.248, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
