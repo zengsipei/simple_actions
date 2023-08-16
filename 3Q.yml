@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国 2', server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /dongtaiwang.com, headers: { Host: 2.freek1.xyz } } }
     - { name: '🇺🇸 _US_美国 27', server: speedip.eu.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 35f07051-8e77-4b44-be56-8979cc25c249, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v01.ssrsub.com } } }
     - { name: DE-德国-56, server: 143.42.28.127, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
-    - { name: SG-新加坡-47, server: 170.187.197.188, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
+    - { name: SG-新加坡-47, server: 143.42.77.128, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: UK-英国-23, server: 212.71.247.231, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: US-美国-50, server: 45.79.173.248, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
     - { name: US-美国-55, server: 45.56.122.217, port: 44699, type: ss, cipher: chacha20-ietf-poly1305, password: '5285663721' }
