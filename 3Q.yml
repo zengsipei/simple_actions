@@ -56,7 +56,7 @@ proxies:
     - { name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国', server: 23.227.39.111, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /dongtaiwang.com, headers: { Host: 2.freek1.xyz } } }
     - { name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国 2', server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /dongtaiwang.com, headers: { Host: 2.freek1.xyz } } }
     - { name: '🇺🇸 _US_美国 27', server: speedip.eu.org, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 35f07051-8e77-4b44-be56-8979cc25c249, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v01.ssrsub.com } } }
-    - { name: CA-加拿大-54, server: 172.105.103.212, port: 44812, type: ss, cipher: chacha20-ietf-poly1305, password: '5222856088' }
+    - { name: CA-加拿大-54, server: 139.144.110.80, port: 44812, type: ss, cipher: chacha20-ietf-poly1305, password: '5222856088' }
     - { name: SG-新加坡-44, server: 139.162.13.112, port: 44812, type: ss, cipher: chacha20-ietf-poly1305, password: '5222856088' }
     - { name: SG-新加坡-47, server: 143.42.77.193, port: 44812, type: ss, cipher: chacha20-ietf-poly1305, password: '5222856088' }
     - { name: US-美国-50, server: 45.79.173.248, port: 44812, type: ss, cipher: chacha20-ietf-poly1305, password: '5222856088' }
