@@ -57,7 +57,7 @@ proxies:
     - { name: '🇭🇰 _HK_香港 5', server: 103.160.204.31, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue99, headers: { Host: ecc.vtcss.top } } }
     - { name: '🇸🇬 _SG_新加坡 2', server: vsg1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /chat, headers: { Host: vsg1.0bad.com } } }
     - { name: CA-加拿大-54, server: 139.177.193.204, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
-    - { name: DE-德国-56, server: 139.162.146.88, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
+    - { name: DE-德国-56, server: 139.162.151.181, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
     - { name: UK-英国-24, server: 178.79.139.203, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
     - { name: US-美国-50, server: 45.79.173.248, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
     - { name: US-美国-55, server: 45.56.122.217, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: '7539404170' }
