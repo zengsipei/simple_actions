@@ -53,9 +53,9 @@ proxies:
     - { name: '🇭🇰 _HK_香港 7', server: 103.160.204.22, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue03, headers: { Host: ecc.vtcss.top } } }
     - { name: '🇺🇸 _US_美国 15', server: 172.67.144.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: fhc.shabijichang.com } } }
     - { name: CA-加拿大-54, server: 192.53.122.244, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: DE-德国-56, server: 194.233.162.122, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: SG-新加坡-47, server: 139.162.6.26, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: UK-英国-23, server: 139.162.196.43, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: DE-德国-56, server: 139.162.181.242, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: SG-新加坡-47, server: 172.105.123.9, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: UK-英国-23, server: 139.162.195.210, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
     - { name: UK-英国-24, server: 178.79.139.203, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
