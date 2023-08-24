@@ -57,10 +57,10 @@ proxies:
     - { name: '🇯🇵 _CN_中国->🇯🇵_JP_日本 12', server: zdf1.cdn.node.a.tddns-ounk.com, port: 13603, client-fingerprint: chrome, type: vmess, uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, headers: { Host: zdf1.cdn.node.a.tddns-ounk.com } } }
     - { name: '🇭🇰 _HK_香港', server: 103.160.204.63, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue99, headers: { Host: ecc.vtcss.top } } }
     - { name: CA-加拿大-54, server: 192.53.122.244, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: DE-德国-56, server: 139.162.181.242, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: SG-新加坡-47, server: 172.105.123.9, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: UK-英国-23, server: 176.58.105.100, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
-    - { name: UK-英国-24, server: 85.159.215.174, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: DE-德国-56, server: 172.104.135.220, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: SG-新加坡-47, server: 139.162.56.214, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: UK-英国-23, server: 178.79.187.178, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
+    - { name: UK-英国-24, server: 139.162.195.210, port: 45124, type: ss, cipher: chacha20-ietf-poly1305, password: '0671037563' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
