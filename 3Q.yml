@@ -55,7 +55,7 @@ proxies:
     - { name: '🇯🇵 _US_美国->🇯🇵_JP_日本', server: ca-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 71e02e57-f938-4393-bf77-cdd6bf6e7bb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: ca-01.cloudlion.me } } }
     - { name: '🇮🇳 _IN_印度', server: 50.bbzbb.top, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /v2ray, headers: { Host: 50.bbzbb.top } } }
     - { name: CA-加拿大-54, server: 192.53.122.244, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
-    - { name: DE-德国-50, server: 172.104.244.82, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
+    - { name: DE-德国-50, server: 172.105.92.191, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
     - { name: DE-德国-56, server: 172.104.243.97, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
     - { name: SG-新加坡-44, server: 139.144.118.130, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
     - { name: UK-英国-23, server: 139.162.245.81, port: 45299, type: ss, cipher: chacha20-ietf-poly1305, password: '4473281321' }
