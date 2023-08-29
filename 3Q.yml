@@ -45,9 +45,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 17', server: 172.67.57.119, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /shirker, headers: { Host: dp3.scproxy.top } } }
     - { name: '🇺🇸 _US_美国->🇨🇳_CN_中国 4', server: 172.67.120.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /shirker, headers: { Host: ca.ilovescp.com } } }
     - { name: '🇺🇸 _NL_荷兰->🇺🇸_US_美国', server: 188.114.97.168, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /blue06, headers: { Host: ecc.vtcss.top } } }
-    - { name: CA-加拿大-54, server: 172.105.27.204, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
-    - { name: DE-德国-50, server: 172.105.92.191, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
-    - { name: SG-新加坡-44, server: 139.144.118.130, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
+    - { name: CA-加拿大-54, server: 139.177.193.62, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
+    - { name: DE-德国-50, server: 139.162.131.236, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
+    - { name: SG-新加坡-44, server: 45.118.133.253, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
     - { name: SG-新加坡-47, server: 139.162.39.196, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
     - { name: UK-英国-23, server: 139.162.245.81, port: 45396, type: ss, cipher: chacha20-ietf-poly1305, password: '2553938091' }
 proxy-groups:
