@@ -53,7 +53,7 @@ proxies:
     - { name: '🇰🇷 _US_美国->🇰🇷_KR_韩国 3', server: hg.620720.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: '/?ed=2048', headers: { Host: hg.620720.xyz } } }
     - { name: '🇺🇸 _US_美国 23', server: yd1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 27998387-fc3b-4237-9ac9-aba5d00bbd6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: haxus3.vpn66.eu.org } } }
     - { name: CA-加拿大-54, server: 172.105.21.121, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
-    - { name: SG-新加坡-47, server: 192.46.224.78, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
+    - { name: SG-新加坡-47, server: 139.162.17.122, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
     - { name: UK-英国-23, server: 139.162.245.81, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
     - { name: US-美国-50, server: 173.255.193.36, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
     - { name: US-美国-55, server: 23.92.29.85, port: 45495, type: ss, cipher: chacha20-ietf-poly1305, password: '4501228877' }
