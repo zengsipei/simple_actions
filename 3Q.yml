@@ -48,7 +48,7 @@ proxies:
     - { name: '_US_美国 10', server: 172.67.27.227, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: { path: /shirker, headers: { Host: dp4.ilovescp.com } }, udp: true }
     - { name: CA-加拿大-54, server: 139.177.193.119, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
     - { name: DE-德国-56, server: 172.104.135.88, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
-    - { name: UK-英国-24, server: 85.159.213.191, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
+    - { name: UK-英国-24, server: 178.79.143.103, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
     - { name: US-美国-50, server: 104.237.130.148, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
     - { name: US-美国-55, server: 139.144.17.112, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: '0139727473' }
 proxy-groups:
