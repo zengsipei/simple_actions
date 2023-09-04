@@ -51,8 +51,8 @@ proxies:
     - { name: '_US_美国 23', server: 172.67.134.209, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: { path: /shirker, headers: { Host: dp3.scproxy.top } }, udp: true }
     - { name: _HK_香港->🇦🇺_AU_澳大利亚, server: vpnpool.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: 2da5d218-4b24-4e79-8df3-ec4a5ae748ae, tfo: false, sni: ap.stablize.top, skip-cert-verify: true, udp: true }
     - { name: _CA_加拿大, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: { path: /dongtaiwang.com, headers: { Host: d.freeh1.xyz } }, udp: true }
-    - { name: CA-加拿大-54, server: 172.105.97.122, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
-    - { name: DE-德国-50, server: 172.105.70.193, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
+    - { name: CA-加拿大-54, server: 172.105.20.232, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
+    - { name: DE-德国-50, server: 143.42.55.76, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: DE-德国-56, server: 172.104.135.88, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: SG-新加坡-47, server: 172.104.166.213, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: US-美国-55, server: 45.56.116.133, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
