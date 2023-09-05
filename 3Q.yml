@@ -57,7 +57,7 @@ proxies:
     - { name: '_US_美国 26', server: 172.67.22.15, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: { path: /shirker, headers: { Host: lv2.scproxy.top } }, udp: true }
     - { name: CA-加拿大-54, server: 172.105.20.232, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: DE-德国-50, server: 143.42.55.76, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
-    - { name: DE-德国-56, server: 172.104.135.88, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
+    - { name: DE-德国-56, server: 143.42.55.229, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: SG-新加坡-47, server: 139.162.33.126, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
     - { name: US-美国-55, server: 74.207.229.121, port: 45674, type: ss, cipher: chacha20-ietf-poly1305, password: '7108779176' }
 proxy-groups:
