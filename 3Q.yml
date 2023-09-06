@@ -53,9 +53,9 @@ proxies:
     - { name: _AL_阿尔巴尼亚, server: 109.104.155.144, port: 443, client-fingerprint: chrome, type: trojan, password: f10d5c0ce1, tfo: false, skip-cert-verify: true, udp: true }
     - { name: '_US_美国 25', server: 172.64.169.211, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: { path: /shirker, headers: { Host: lv2.scproxy.top } }, udp: true }
     - { name: CA-加拿大-54, server: 172.105.20.232, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
-    - { name: DE-德国-50, server: 170.187.184.148, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
-    - { name: SG-新加坡-47, server: 139.162.33.126, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
-    - { name: UK-英国-23, server: 176.58.96.192, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
+    - { name: DE-德国-50, server: 172.104.133.199, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
+    - { name: SG-新加坡-47, server: 139.177.184.153, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
+    - { name: UK-英国-23, server: 178.79.132.97, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
     - { name: US-美国-55, server: 74.207.229.121, port: 45759, type: ss, cipher: chacha20-ietf-poly1305, password: '4664276969' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
