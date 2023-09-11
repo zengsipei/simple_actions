@@ -48,7 +48,7 @@ proxies:
     - { name: '_CN_中国->🇭🇰_HK_香港 2', server: 120.226.50.93, port: 42055, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true }
     - { name: CA-加拿大-54, server: 139.144.111.98, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
     - { name: DE-德国-56, server: 170.187.191.113, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
-    - { name: SG-新加坡-44, server: 192.53.173.243, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
+    - { name: SG-新加坡-44, server: 139.162.12.133, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
     - { name: SG-新加坡-47, server: 172.234.48.172, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
     - { name: UK-英国-24, server: 139.162.213.197, port: 45904, type: ss, cipher: chacha20-ietf-poly1305, password: '6916128044' }
 proxy-groups:
