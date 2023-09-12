@@ -57,7 +57,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 12', server: 46caadb.f2.gladns.com, port: 3331, client-fingerprint: chrome, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: '/s/46caadb.fm.apple.com:60980', headers: { Host: 46caadb.f2.gladns.com } } }
     - { name: DE-德国-50, server: 172.104.152.150, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
     - { name: DE-德国-56, server: 170.187.191.113, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
-    - { name: SG-新加坡-44, server: 172.104.164.128, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
+    - { name: SG-新加坡-44, server: 143.42.78.66, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
     - { name: UK-英国-23, server: 139.162.251.137, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
     - { name: US-美国-55, server: 170.187.203.203, port: 45986, type: ss, cipher: chacha20-ietf-poly1305, password: '9181673344' }
 proxy-groups:
