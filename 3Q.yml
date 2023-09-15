@@ -53,7 +53,7 @@ proxies:
     - { name: '🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚', server: yidong.liulangdiqiu.cyou, port: 10704, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751, tfo: false }
     - { name: CA-加拿大-54, server: 172.105.3.105, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
     - { name: DE-德国-56, server: 143.42.204.241, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
-    - { name: SG-新加坡-47, server: 172.234.51.149, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
+    - { name: SG-新加坡-47, server: 170.187.199.27, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
     - { name: US-美国-50, server: 45.33.127.77, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
     - { name: US-美国-55, server: 139.144.173.220, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
 proxy-groups:
