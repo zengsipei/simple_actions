@@ -51,10 +51,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇨🇱_CL_智利 2', server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: d6262b69-4a53-41f8-84e9-e3ddcdbf0190, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sdyg.shabijichang.com } } }
     - { name: '🇯🇵 _JP_日本 4', server: 18.183.132.14, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false }
     - { name: '🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚', server: yidong.liulangdiqiu.cyou, port: 10704, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751, tfo: false }
-    - { name: CA-加拿大-54, server: 172.105.3.105, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
+    - { name: CA-加拿大-54, server: 139.144.104.231, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
     - { name: DE-德国-56, server: 172.105.92.214, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
-    - { name: SG-新加坡-47, server: 170.187.199.27, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
-    - { name: US-美国-50, server: 45.33.127.77, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
+    - { name: SG-新加坡-47, server: 192.46.230.142, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
+    - { name: US-美国-50, server: 50.116.18.30, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
     - { name: US-美国-55, server: 139.144.173.220, port: 46087, type: ss, cipher: chacha20-ietf-poly1305, password: '4755805515' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
