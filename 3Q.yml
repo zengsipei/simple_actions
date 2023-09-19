@@ -52,10 +52,10 @@ proxies:
     - { name: '🇺🇸 _US_美国 12', server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /shirker, headers: { Host: buyvm5.ilovescp.com } } }
     - { name: '🇺🇸 _US_美国 13', server: us2.mianfenyun012.eu.org, port: 8080, client-fingerprint: chrome, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /jdbp606, headers: { Host: us2.mianfenyun012.eu.org } } }
     - { name: CA-加拿大-54, server: 139.144.104.231, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
-    - { name: DE-德国-50, server: 139.162.157.53, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
+    - { name: DE-德国-50, server: 172.104.151.61, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
     - { name: DE-德国-56, server: 172.105.92.214, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
     - { name: SG-新加坡-47, server: 170.187.224.55, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
-    - { name: US-美国-50, server: 194.195.220.37, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
+    - { name: US-美国-50, server: 45.79.51.190, port: 46298, type: ss, cipher: chacha20-ietf-poly1305, password: '8194783940' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
