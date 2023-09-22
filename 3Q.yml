@@ -49,11 +49,11 @@ proxies:
     - { name: '🇺🇸 _US_美国 5', server: 64.31.55.114, port: 12345, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, tfo: false }
     - { name: _CN_中国, server: ufxeq-1080-tr-9.d-kcd.tuil.xyz, port: 39929, client-fingerprint: chrome, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, tfo: false, sni: edge.cjhh.mom, skip-cert-verify: false }
     - { name: '🇭🇰 _CN_中国->🇭🇰_HK_香港 3', server: jjozz-1092-tr-8.r-kcd-b.iote.bond, port: 39919, client-fingerprint: chrome, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, tfo: false, sni: cdn.cjhh.lol, skip-cert-verify: false }
-    - { name: CA-加拿大-54, server: 139.177.198.144, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
+    - { name: CA-加拿大-54, server: 172.105.28.186, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
     - { name: SG-新加坡-44, server: 192.53.173.235, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
-    - { name: SG-新加坡-47, server: 139.162.7.77, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
-    - { name: US-美国-50, server: 45.33.28.8, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
-    - { name: US-美国-55, server: 172.105.152.116, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
+    - { name: SG-新加坡-47, server: 139.162.39.160, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
+    - { name: US-美国-50, server: 50.116.17.115, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
+    - { name: US-美国-55, server: 74.207.227.207, port: 46391, type: ss, cipher: chacha20-ietf-poly1305, password: '5388960124' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
