@@ -51,10 +51,10 @@ proxies:
     - { name: '🇭🇰 _HK_香港 3', server: hkt.123ddns.xyz, port: 55455, client-fingerprint: chrome, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hkt.123ddns.xyz } } }
     - { name: '🇯🇵 _CN_中国->🇯🇵_JP_日本 2', server: zjpvc-1083-tr-0.r-kcd-b.tuil.xyz, port: 29969, client-fingerprint: chrome, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, tfo: false, sni: cdn.cjhh.lol, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 170.187.179.67, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
-    - { name: DE-德国-56, server: 172.105.92.214, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
-    - { name: UK-英国-24, server: 212.71.233.112, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
-    - { name: US-美国-50, server: 45.79.46.248, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
-    - { name: US-美国-55, server: 139.144.57.126, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
+    - { name: DE-德国-56, server: 172.105.246.26, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
+    - { name: UK-英国-24, server: 139.162.243.115, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
+    - { name: US-美国-50, server: 45.56.75.130, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
+    - { name: US-美国-55, server: 170.187.203.238, port: 46630, type: ss, cipher: chacha20-ietf-poly1305, password: '9758580294' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
