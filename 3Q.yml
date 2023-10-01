@@ -50,8 +50,8 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_10, type: vmess, server: 20.kccic2pa.xyz, port: 50020, cipher: auto, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, tls: false, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国_15, type: vmess, server: 198.2.202.82, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /path/1694341232847, headers: { host: www.65825524.xyz } } }
     - { name: 🇭🇰_HK_香港_3, type: vmess, server: 156.245.8.144, port: 42952, cipher: auto, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, tls: false, skip-cert-verify: true, network: tcp }
-    - { name: DE-德国-56, server: 139.162.139.120, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
-    - { name: UK-英国-23, server: 213.52.129.241, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
+    - { name: DE-德国-56, server: 172.105.77.227, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
+    - { name: UK-英国-23, server: 88.80.188.164, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
     - { name: UK-英国-24, server: 139.162.247.147, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
     - { name: US-美国-50, server: 45.79.39.75, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
     - { name: US-美国-55, server: 139.144.62.254, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
