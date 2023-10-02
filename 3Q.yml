@@ -48,10 +48,10 @@ proxies:
     - { name: 🇺🇸_US_美国_22, type: vmess, server: 103.149.144.196, port: 35186, cipher: auto, uuid: a406e9f8-d80c-45cb-efa1-b63855b79814, alterId: 0, tls: false, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国_23, type: vmess, server: cdnjs.com, port: 443, cipher: auto, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Dusseldorf.kotick.site } } }
     - { name: 🇻🇳_VN_越南_5, type: vmess, server: hcm01.4ghatde.com, port: 80, cipher: auto, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /svip1.4ghatde.com, headers: { host: hcm01.4ghatde.com } } }
-    - { name: DE-德国-56, server: 172.105.77.227, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
+    - { name: DE-德国-56, server: 172.105.84.64, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
     - { name: UK-英国-23, server: 88.80.188.164, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
-    - { name: UK-英国-24, server: 139.162.247.147, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
-    - { name: US-美国-50, server: 45.79.39.75, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
+    - { name: UK-英国-24, server: 176.58.126.172, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
+    - { name: US-美国-50, server: 72.14.187.176, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
     - { name: US-美国-55, server: 139.144.62.254, port: 46917, type: ss, cipher: chacha20-ietf-poly1305, password: '4120171846' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
