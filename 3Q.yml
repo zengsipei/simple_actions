@@ -46,11 +46,11 @@ proxies:
     - { name: '🇺🇸 _US_美国 21', server: 162.159.143.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: xui2.xuwu996.eu.org } } }
     - { name: '🇨🇿 _CZ_捷克', server: 92.118.149.115, port: 25131, client-fingerprint: chrome, type: vmess, uuid: ece8262a-141f-42f6-8dcf-e9b7a2028086, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国->🇨🇱_CL_智利', server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sdyg.shabijichang.com } } }
-    - { name: DE-德国-50, server: 139.162.177.178, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
-    - { name: SG-新加坡-44, server: 172.104.188.17, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
+    - { name: DE-德国-50, server: 172.104.151.111, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
+    - { name: SG-新加坡-44, server: 139.162.22.180, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
     - { name: UK-英国-23, server: 139.162.207.162, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
     - { name: UK-英国-24, server: 212.71.255.41, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
-    - { name: US-美国-50, server: 72.14.187.176, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
+    - { name: US-美国-50, server: 23.239.28.182, port: 47018, type: ss, cipher: chacha20-ietf-poly1305, password: '9356430099' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
