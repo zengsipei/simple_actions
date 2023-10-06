@@ -22,11 +22,11 @@ proxies:
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国 2', server: fs.xianyuwangluo.cyou, port: 27207, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3, tfo: false }
     - { name: '🇺🇸 _US_美国 6', server: 162.159.143.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: xui2.xuwu996.eu.org } } }
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国 3', server: foshan.chiguayun.cc, port: 27140, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf75408-967d-41c4-bf89-80517807e26f, tfo: false }
-    - { name: CA-加拿大-54, server: 139.177.195.239, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
+    - { name: CA-加拿大-54, server: 170.187.193.85, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
     - { name: DE-德国-50, server: 172.104.151.111, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
-    - { name: SG-新加坡-44, server: 139.162.22.180, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
+    - { name: SG-新加坡-44, server: 143.42.72.226, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
     - { name: UK-英国-24, server: 212.71.255.41, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
-    - { name: US-美国-50, server: 45.33.31.127, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
+    - { name: US-美国-50, server: 69.164.207.76, port: 47133, type: ss, cipher: chacha20-ietf-poly1305, password: '7861185438' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
