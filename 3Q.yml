@@ -24,9 +24,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 8', server: 162.159.143.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: xui2.xuwu996.eu.org } } }
     - { name: '🇺🇸 _US_美国 9', server: www.speedtest.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hu1.xv2ray.net } } }
     - { name: '🇺🇸 _US_美国 10', server: singapore.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v002.ssrsub.com } } }
-    - { name: DE-德国-50, server: 172.104.155.76, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
-    - { name: DE-德国-56, server: 172.104.243.87, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
-    - { name: SG-新加坡-47, server: 172.234.73.41, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
+    - { name: DE-德国-50, server: 139.162.170.112, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
+    - { name: DE-德国-56, server: 139.162.149.76, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
+    - { name: SG-新加坡-47, server: 172.234.49.138, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
     - { name: UK-英国-23, server: 212.71.255.41, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
     - { name: UK-英国-24, server: 213.219.38.85, port: 47233, type: ss, cipher: chacha20-ietf-poly1305, password: '1287547801' }
 proxy-groups:
