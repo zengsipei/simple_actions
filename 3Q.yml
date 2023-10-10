@@ -53,11 +53,11 @@ proxies:
     - { name: '🇫🇷 _FR_法国 33', server: 54.36.174.181, port: 3306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false }
     - { name: '🇫🇷 _FR_法国 34', server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false }
     - { name: '🇺🇸 _US_美国 7', server: singapore.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v003.ssrsub.com } } }
-    - { name: DE-德国-50, server: 139.162.170.112, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
+    - { name: DE-德国-50, server: 139.162.183.18, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
     - { name: DE-德国-56, server: 139.162.134.148, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
-    - { name: SG-新加坡-47, server: 139.162.9.77, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
-    - { name: UK-英国-23, server: 212.71.255.41, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
-    - { name: US-美国-55, server: 45.79.221.16, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
+    - { name: SG-新加坡-47, server: 172.104.43.52, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
+    - { name: UK-英国-23, server: 139.162.225.105, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
+    - { name: US-美国-55, server: 170.187.150.158, port: 47380, type: ss, cipher: chacha20-ietf-poly1305, password: '2817376039' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
