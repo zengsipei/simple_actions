@@ -47,11 +47,11 @@ proxies:
     - { name: '🇺🇸 _US_美国 14', server: se1.xv2ray.net, port: 2082, client-fingerprint: chrome, type: vmess, uuid: fd31d195-06f6-4b48-92db-7cb1dc749f66, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: se1.xv2ray.net } } }
     - { name: '_CN_中国 5', server: hefei.chiguayun.cc, port: 27133, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678, tfo: false }
     - { name: '🇺🇸 _US_美国 15', server: ns1.v2-vip.fun, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v002.ssrsub.com } } }
-    - { name: CA-加拿大-54, server: 172.105.104.157, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
-    - { name: DE-德国-56, server: 194.233.166.163, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
-    - { name: SG-新加坡-47, server: 139.162.17.23, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
-    - { name: UK-英国-23, server: 139.162.216.11, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
-    - { name: US-美国-55, server: 172.105.158.86, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
+    - { name: CA-加拿大-54, server: 172.105.101.28, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
+    - { name: DE-德国-56, server: 172.104.241.143, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
+    - { name: SG-新加坡-47, server: 139.162.61.114, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
+    - { name: UK-英国-23, server: 176.58.100.194, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
+    - { name: US-美国-55, server: 45.56.112.195, port: 47516, type: ss, cipher: chacha20-ietf-poly1305, password: '4003844571' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
