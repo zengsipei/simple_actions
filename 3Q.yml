@@ -25,7 +25,7 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇱🇺_LU_卢森堡', server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: lu.wx.alue.link } } }
     - { name: '🇰🇷 _KR_韩国->🇨🇦_CA_加拿大', server: 130.162.154.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: '/ophelia.mom:443/linkvws', headers: { Host: cf.tonyluk.link } } }
     - { name: '🇺🇸 _US_美国->🇩🇪_DE_德国 2', server: v15.583182.xyz, port: 2053, type: vmess, uuid: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v15.583181.xyz } } }
-    - { name: CA-加拿大-54, server: 139.177.198.7, port: 47653, type: ss, cipher: chacha20-ietf-poly1305, password: '0512516911' }
+    - { name: CA-加拿大-54, server: 139.177.199.110, port: 47653, type: ss, cipher: chacha20-ietf-poly1305, password: '0512516911' }
     - { name: DE-德国-56, server: 172.105.94.210, port: 47653, type: ss, cipher: chacha20-ietf-poly1305, password: '0512516911' }
     - { name: SG-新加坡-44, server: 139.162.8.89, port: 47653, type: ss, cipher: chacha20-ietf-poly1305, password: '0512516911' }
     - { name: SG-新加坡-47, server: 139.162.8.98, port: 47653, type: ss, cipher: chacha20-ietf-poly1305, password: '0512516911' }
