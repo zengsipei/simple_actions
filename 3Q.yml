@@ -36,9 +36,9 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇩🇪_DE_德国', server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: vceu3.vpn66.eu.org } } }
     - { name: '🇺🇸 _US_美国 13', server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v03.ssrsub.com } } }
     - { name: CA-加拿大-54, server: 172.105.110.26, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
-    - { name: DE-德国-50, server: 172.104.145.233, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
+    - { name: DE-德国-50, server: 139.144.66.115, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
     - { name: DE-德国-56, server: 143.42.205.228, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
-    - { name: SG-新加坡-44, server: 143.42.74.120, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
+    - { name: SG-新加坡-44, server: 139.177.185.6, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
     - { name: SG-新加坡-47, server: 172.105.122.107, port: 47757, type: ss, cipher: chacha20-ietf-poly1305, password: '1954865284' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
