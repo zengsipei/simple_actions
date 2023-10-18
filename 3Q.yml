@@ -37,11 +37,11 @@ proxies:
     - { name: '🇫🇮 _FI_芬兰', server: 37.143.129.56, port: 443, type: trojan, password: 44c5578a7c, sni: fi1.connecton.surf, skip-cert-verify: false }
     - { name: '🇫🇮 _FI_芬兰 2', server: fi1.connecton.surf, port: 443, type: trojan, password: 44c5578a7c, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国->🇱🇺_LU_卢森堡', server: 162.159.140.6, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: lu.wx.alue.link } } }
-    - { name: DE-德国-50, server: 139.144.66.115, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: SG-新加坡-44, server: 139.177.185.6, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: UK-英国-23, server: 176.58.114.43, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: UK-英国-24, server: 139.162.192.160, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: US-美国-55, server: 170.187.201.254, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: DE-德国-50, server: 192.46.237.89, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: SG-新加坡-44, server: 192.46.231.207, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: UK-英国-23, server: 178.79.174.116, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: UK-英国-24, server: 178.79.131.141, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: US-美国-55, server: 172.105.157.195, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
