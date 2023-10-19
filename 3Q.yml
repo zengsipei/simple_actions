@@ -47,9 +47,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 19', server: 37.1.211.52, port: 3000, type: vmess, uuid: b97ad283-287e-4e20-a741-f16f7d074590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇨🇦 _CA_加拿大', server: dongtaiwang3.com, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /1IKYjV0r/, headers: { Host: dongtaiwang8.dtku47.xyz } } }
     - { name: '🇺🇸 _US_美国->🇮🇷_IR_伊朗', server: 162.159.137.86, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: us.wx.alue.link } } }
-    - { name: DE-德国-50, server: 192.46.237.89, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: SG-新加坡-44, server: 192.46.231.207, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
-    - { name: UK-英国-23, server: 178.79.174.116, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: DE-德国-50, server: 172.104.253.94, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: SG-新加坡-44, server: 139.162.33.9, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
+    - { name: UK-英国-23, server: 176.58.121.147, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
     - { name: UK-英国-24, server: 178.79.131.141, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
     - { name: US-美国-55, server: 45.33.97.114, port: 47874, type: ss, cipher: chacha20-ietf-poly1305, password: '4800765293' }
 proxy-groups:
