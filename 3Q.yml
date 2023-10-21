@@ -32,11 +32,11 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国 2', server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mrb2.shabijichang.com } } }
     - { name: '🇫🇮 _FI_芬兰', server: fi1.connecton.surf, port: 443, type: trojan, password: 44c5578a7c, skip-cert-verify: false }
     - { name: '🇫🇮 _FI_芬兰 2', server: 37.143.129.56, port: 443, type: trojan, password: 44c5578a7c, sni: fi1.connecton.surf, skip-cert-verify: false }
-    - { name: CA-加拿大-54, server: 192.53.120.154, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
-    - { name: DE-德国-56, server: 172.104.146.152, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
-    - { name: SG-新加坡-44, server: 139.144.113.244, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
-    - { name: UK-英国-23, server: 151.236.216.109, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
-    - { name: US-美国-55, server: 170.187.205.163, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
+    - { name: CA-加拿大-54, server: 172.105.5.228, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
+    - { name: DE-德国-56, server: 139.162.175.125, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
+    - { name: SG-新加坡-44, server: 139.162.8.37, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
+    - { name: UK-英国-23, server: 139.162.210.119, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
+    - { name: US-美国-55, server: 170.187.158.181, port: 47982, type: ss, cipher: chacha20-ietf-poly1305, password: '9404935667' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
