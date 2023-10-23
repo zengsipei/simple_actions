@@ -33,11 +33,11 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇮🇳_IN_印度 3', server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hdlb2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国->🇩🇪_DE_德国', server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: flkf2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国->🇿🇦_ZA_南非', server: yhnsb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: yhnsb2.shabijichang.com } } }
-    - { name: CA-加拿大-54, server: 172.105.23.209, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
-    - { name: DE-德国-50, server: 139.162.187.132, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
-    - { name: SG-新加坡-44, server: 192.53.116.53, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
-    - { name: UK-英国-23, server: 139.162.227.212, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
-    - { name: US-美国-50, server: 23.239.30.4, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
+    - { name: CA-加拿大-54, server: 172.105.4.29, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
+    - { name: DE-德国-50, server: 194.233.168.61, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
+    - { name: SG-新加坡-44, server: 139.162.58.133, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
+    - { name: UK-英国-23, server: 85.159.212.238, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
+    - { name: US-美国-50, server: 45.33.12.161, port: 48141, type: ss, cipher: chacha20-ietf-poly1305, password: '0561767087' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
