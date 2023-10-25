@@ -26,10 +26,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇮🇳_IN_印度 4', server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mm2.shabijichang.com } } }
     - { name: '🇵🇰 _PK_巴基斯坦', server: hk1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: a3f221f8-43d6-4363-8624-ce62d3db0202, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国->🇭🇺_HU_匈牙利', server: www.speedtest.net, port: 80, type: vmess, uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hu1.xv2ray.net } } }
-    - { name: CA-加拿大-54, server: 172.105.98.186, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
-    - { name: DE-德国-50, server: 139.144.178.201, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
+    - { name: CA-加拿大-54, server: 172.105.96.138, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
+    - { name: DE-德国-50, server: 170.187.188.239, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
     - { name: DE-德国-56, server: 194.233.164.7, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
-    - { name: UK-英国-23, server: 139.162.222.228, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
+    - { name: UK-英国-23, server: 139.162.253.150, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
     - { name: US-美国-55, server: 45.79.195.137, port: 48296, type: ss, cipher: chacha20-ietf-poly1305, password: '9549369674' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
