@@ -9,18 +9,18 @@ secret: ''
 proxies:
     - { name: '🇺🇸 _US_美国->🇮🇳_IN_印度', server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: hdlb2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国', server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
-    - { name: DE-德国-50, server: 172.105.69.59, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
-    - { name: DE-德国-56, server: 172.104.144.182, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
-    - { name: UK-英国-24, server: 176.58.107.232, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
-    - { name: US-美国-50, server: 45.79.8.135, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
-    - { name: US-美国-55, server: 45.79.195.137, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
+    - { name: CA-加拿大-54, server: 172.105.8.250, port: 48837, type: ss, cipher: chacha20-ietf-poly1305, password: '5706353749' }
+    - { name: DE-德国-56, server: 172.104.144.182, port: 48837, type: ss, cipher: chacha20-ietf-poly1305, password: '5706353749' }
+    - { name: UK-英国-24, server: 176.58.107.232, port: 48837, type: ss, cipher: chacha20-ietf-poly1305, password: '5706353749' }
+    - { name: US-美国-50, server: 45.79.8.135, port: 48837, type: ss, cipher: chacha20-ietf-poly1305, password: '5706353749' }
+    - { name: US-美国-55, server: 45.79.195.137, port: 48837, type: ss, cipher: chacha20-ietf-poly1305, password: '5706353749' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', DE-德国-50, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', DE-德国-50, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
-    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', DE-德国-50, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', CA-加拿大-54, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', CA-加拿大-54, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
+    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国', CA-加拿大-54, DE-德国-56, UK-英国-24, US-美国-50, US-美国-55] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
