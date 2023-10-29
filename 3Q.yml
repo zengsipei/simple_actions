@@ -32,7 +32,7 @@ proxies:
     - { name: _CN_中国, server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: 124.220.57.75 } } }
     - { name: '🇺🇸 _CN_中国->🇺🇸_US_美国 6', server: nl01.lovehjq.xyz, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国->🇧🇷_BR_巴西', server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl4.shabijichang.com } } }
-    - { name: DE-德国-50, server: 45.79.248.158, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
+    - { name: DE-德国-50, server: 172.105.69.59, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
     - { name: DE-德国-56, server: 139.162.173.10, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
     - { name: UK-英国-24, server: 178.79.158.90, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
     - { name: US-美国-50, server: 45.79.8.135, port: 48651, type: ss, cipher: chacha20-ietf-poly1305, password: '2311116055' }
