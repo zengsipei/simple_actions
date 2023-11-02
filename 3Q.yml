@@ -27,11 +27,11 @@ proxies:
     - { name: '🇺🇸 _US_美国 8', server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v006.ssrsub.com } } }
     - { name: '🇺🇸 _US_美国->🇮🇳_IN_印度', server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mm3.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯', server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: jd3.shabijichang.com } } }
-    - { name: CA-加拿大-54, server: 192.53.122.123, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
-    - { name: DE-德国-50, server: 143.42.30.36, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
-    - { name: SG-新加坡-44, server: 139.162.48.237, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
-    - { name: UK-英国-23, server: 85.159.210.237, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
-    - { name: UK-英国-24, server: 178.79.155.146, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
+    - { name: CA-加拿大-54, server: 172.105.27.249, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
+    - { name: DE-德国-50, server: 139.162.153.209, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
+    - { name: SG-新加坡-44, server: 170.187.227.133, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
+    - { name: UK-英国-23, server: 109.74.192.57, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
+    - { name: UK-英国-24, server: 212.71.252.62, port: 48997, type: ss, cipher: chacha20-ietf-poly1305, password: '2769911871' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
