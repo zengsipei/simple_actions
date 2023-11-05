@@ -23,7 +23,7 @@ proxies:
     - { name: '🇸🇬 _SG_新加坡->🇺🇸_US_美国', server: 8.222.235.92, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: warp.chigua.tk } } }
     - { name: CA-加拿大-54, server: 172.105.97.169, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: SG-新加坡-44, server: 172.105.118.89, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
-    - { name: SG-新加坡-47, server: 172.104.58.83, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
+    - { name: SG-新加坡-47, server: 143.42.65.186, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: US-美国-50, server: 23.239.26.167, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
 proxy-groups:
