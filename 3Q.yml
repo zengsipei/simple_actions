@@ -22,7 +22,7 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国 2', server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mrb2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 6', server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 7', server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v006.ssrsub.com } } }
-    - { name: CA-加拿大-54, server: 172.105.5.64, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
+    - { name: CA-加拿大-54, server: 172.105.97.169, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: SG-新加坡-44, server: 172.105.118.89, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: SG-新加坡-47, server: 172.104.58.83, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: US-美国-50, server: 23.239.26.167, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
