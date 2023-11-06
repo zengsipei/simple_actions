@@ -21,7 +21,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 3', server: 45.199.138.146, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /path/1698932401577, headers: { Host: www.19229362.xyz } } }
     - { name: '🇺🇸 _US_美国->🇳🇱_NL_荷兰', server: 156.225.67.106, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /path/1698671600986, headers: { Host: www.41758112.xyz } } }
     - { name: '🇸🇬 _SG_新加坡->🇺🇸_US_美国', server: 8.222.235.92, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: warp.chigua.tk } } }
-    - { name: CA-加拿大-54, server: 172.105.97.169, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
+    - { name: CA-加拿大-54, server: 172.105.19.177, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: SG-新加坡-44, server: 172.105.118.89, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: SG-新加坡-47, server: 143.42.65.186, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
     - { name: US-美国-50, server: 23.239.26.167, port: 49222, type: ss, cipher: chacha20-ietf-poly1305, password: '5989653488' }
