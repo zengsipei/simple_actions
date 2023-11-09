@@ -43,7 +43,7 @@ proxies:
     - { name: '🇷🇺 _RU_俄罗斯联邦', server: 5.42.75.176, port: 8080, type: vmess, uuid: 4080ef66-31f7-4cf5-b0a4-c031a8450783, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
     - { name: _CN_中国, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
     - { name: DE-德国-50, server: 143.42.205.194, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
-    - { name: SG-新加坡-47, server: 172.105.117.129, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
+    - { name: SG-新加坡-47, server: 139.162.53.55, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: UK-英国-24, server: 212.71.255.169, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: US-美国-50, server: 104.237.129.207, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
