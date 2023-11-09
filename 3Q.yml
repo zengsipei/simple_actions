@@ -23,7 +23,7 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国', server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: ld2.shabijichang.com } } }
     - { name: DE-德国-50, server: 143.42.205.194, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: SG-新加坡-47, server: 172.105.117.129, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
-    - { name: UK-英国-24, server: 139.162.230.183, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
+    - { name: UK-英国-24, server: 212.71.255.169, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: US-美国-50, server: 104.237.129.207, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49422, type: ss, cipher: chacha20-ietf-poly1305, password: '7890326050' }
 proxy-groups:
