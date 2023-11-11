@@ -30,7 +30,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 5', server: 95.164.62.204, port: 80, type: vmess, uuid: 2ba1c86f-789f-4dd8-b52a-17d21164f2ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess, headers: { Host: be1.xv2ray.net } } }
     - { name: '🇫🇷 _FR_法国 3', server: 51.20.149.119, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国 6', server: 216.73.158.35, port: 443, type: vmess, uuid: 186b8bd9-6f05-48bc-80dc-f36e84ffa601, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess-ws, headers: { Host: vmess-rs-us01.globalssh.xyz } } }
-    - { name: DE-德国-56, server: 194.233.164.219, port: 49518, type: ss, cipher: chacha20-ietf-poly1305, password: '3560850347' }
+    - { name: DE-德国-56, server: 172.104.152.129, port: 49518, type: ss, cipher: chacha20-ietf-poly1305, password: '3560850347' }
     - { name: SG-新加坡-47, server: 139.162.52.150, port: 49518, type: ss, cipher: chacha20-ietf-poly1305, password: '3560850347' }
     - { name: UK-英国-24, server: 176.58.122.92, port: 49518, type: ss, cipher: chacha20-ietf-poly1305, password: '3560850347' }
     - { name: US-美国-50, server: 45.56.68.8, port: 49518, type: ss, cipher: chacha20-ietf-poly1305, password: '3560850347' }
