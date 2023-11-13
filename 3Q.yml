@@ -26,7 +26,7 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇿🇦_ZA_南非', server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: yhnsb3.shabijichang.com } } }
     - { name: '🇸🇬 _SG_新加坡->🇺🇸_US_美国 2', server: 8.222.235.92, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: warp.chigua.tk } } }
     - { name: CA-加拿大-54, server: 172.105.11.172, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
-    - { name: DE-德国-50, server: 85.90.245.77, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
+    - { name: DE-德国-50, server: 172.105.94.61, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
     - { name: SG-新加坡-47, server: 139.162.63.49, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
     - { name: UK-英国-23, server: 178.79.138.22, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
