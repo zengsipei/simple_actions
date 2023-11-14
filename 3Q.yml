@@ -26,8 +26,8 @@ proxies:
     - { name: '🇱🇹 _LT_立陶宛', server: 212.24.103.3, port: 2053, type: trojan, password: 2228e29d-942a-4ee8-b3c0-f4a846e3f355, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 172.105.11.172, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
     - { name: DE-德国-50, server: 172.104.156.157, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
-    - { name: SG-新加坡-47, server: 139.162.63.49, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
-    - { name: UK-英国-23, server: 178.79.138.22, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
+    - { name: SG-新加坡-47, server: 139.144.113.238, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
+    - { name: UK-英国-23, server: 212.71.238.65, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49659, type: ss, cipher: chacha20-ietf-poly1305, password: '5327328367' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
