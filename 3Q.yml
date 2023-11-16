@@ -26,10 +26,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇧🇷_BR_巴西', server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl4.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国', server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: ld2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 7', server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mm3.shabijichang.com } } }
-    - { name: DE-德国-50, server: 172.104.145.63, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
-    - { name: DE-德国-56, server: 172.104.157.134, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
-    - { name: UK-英国-24, server: 212.71.247.171, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
-    - { name: US-美国-50, server: 45.56.124.88, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
+    - { name: DE-德国-50, server: 172.104.128.254, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
+    - { name: DE-德国-56, server: 172.105.94.36, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
+    - { name: UK-英国-24, server: 139.162.221.85, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
+    - { name: US-美国-50, server: 104.237.128.93, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49755, type: ss, cipher: chacha20-ietf-poly1305, password: '5853866503' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
