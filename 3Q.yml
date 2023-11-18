@@ -14,10 +14,10 @@ proxies:
     - { name: '🇷🇴 _RO_罗马尼亚->🇺🇦_UA_乌克兰', server: ss.wwww.htttbbx.alirezashhamraz.tk, port: 18785, type: vmess, uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: { method: GET, path: [/], headers: { Host: [ss.wwww.htttbbx.alirezashhamraz.tk] } } }
     - { name: '🇺🇸 _US_美国 5', server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国->🇮🇳_IN_印度', server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: mm3.shabijichang.com } } }
-    - { name: DE-德国-56, server: 172.105.71.185, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
-    - { name: SG-新加坡-44, server: 139.162.47.126, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
+    - { name: DE-德国-56, server: 139.144.66.19, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
+    - { name: SG-新加坡-44, server: 170.187.226.253, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
     - { name: SG-新加坡-47, server: 139.162.56.189, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
-    - { name: UK-英国-24, server: 151.236.222.222, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
+    - { name: UK-英国-24, server: 176.58.126.173, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
     - { name: US-美国-55, server: 139.144.26.150, port: 49880, type: ss, cipher: chacha20-ietf-poly1305, password: '1466726808' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
