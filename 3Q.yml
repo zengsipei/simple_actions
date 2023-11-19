@@ -26,7 +26,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 6', server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: { Host: cold-dawn-9246.fly.dev } } }
     - { name: DE-德国-56, server: 172.104.239.194, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
     - { name: SG-新加坡-44, server: 172.104.163.93, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
-    - { name: SG-新加坡-47, server: 172.104.57.46, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
+    - { name: SG-新加坡-47, server: 172.104.42.244, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
     - { name: UK-英国-23, server: 176.58.96.13, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
     - { name: US-美国-55, server: 139.144.26.150, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
 proxy-groups:
