@@ -23,18 +23,18 @@ proxies:
     - { name: '🇺🇸 _US_美国 6', server: a8.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /apple, headers: { Host: 777.golinkwuxian.top } } }
     - { name: '🇺🇸 _US_美国 7', server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 8', server: a7.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /apple, headers: { Host: 777.golinkwuxian.top } } }
-    - { name: DE-德国-56, server: 172.104.239.194, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
-    - { name: SG-新加坡-44, server: 172.104.160.141, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
-    - { name: SG-新加坡-47, server: 172.104.42.244, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
-    - { name: UK-英国-23, server: 151.236.222.203, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
-    - { name: US-美国-55, server: 139.144.26.150, port: 50036, type: ss, cipher: chacha20-ietf-poly1305, password: '4359144008' }
+    - { name: DE-德国-56, server: 172.104.239.194, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-23, server: 151.236.222.203, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-24, server: 185.3.95.211, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: US-美国-50, server: 69.164.197.67, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: US-美国-55, server: 139.144.26.150, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
-    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, UK-英国-23, UK-英国-24, US-美国-50, US-美国-55] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, UK-英国-23, UK-英国-24, US-美国-50, US-美国-55] }
+    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国', '🇺🇸 _US_美国 2', '🇺🇸 _US_美国 3', '🇺🇸 _US_美国 4', '🇺🇸 _US_美国->🇮🇳_IN_印度', '🇺🇸 _US_美国->🇫🇷_FR_法国', '🇺🇸 _US_美国->🇮🇷_IR_伊朗', '🇺🇸 _US_美国->🇬🇧_GB_英国', '🇹🇷 _TR_土耳其', '🇬🇧 _CN_中国->🇬🇧_GB_英国', '🇺🇸 _US_美国->🇬🇧_GB_英国 2', '🇺🇸 _US_美国 5', '🇯🇵 _JP_日本', '🇺🇸 _US_美国 6', '🇺🇸 _US_美国 7', '🇺🇸 _US_美国 8', DE-德国-56, UK-英国-23, UK-英国-24, US-美国-50, US-美国-55] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
