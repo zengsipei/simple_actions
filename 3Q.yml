@@ -24,9 +24,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 7', server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 8', server: a7.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /apple, headers: { Host: 777.golinkwuxian.top } } }
     - { name: DE-德国-56, server: 172.104.239.194, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: UK-英国-23, server: 151.236.222.203, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: UK-英国-24, server: 185.3.95.211, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: US-美国-50, server: 69.164.197.67, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-23, server: 176.58.102.159, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-24, server: 109.74.194.94, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: US-美国-50, server: 45.79.3.215, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
     - { name: US-美国-55, server: 139.144.26.150, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
