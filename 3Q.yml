@@ -53,10 +53,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇫🇷_FR_法国 10', server: 172.67.229.29, port: 2095, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: { Host: fr4.v2-teh.fun } } }
     - { name: '🇺🇸 _GB_英国->🇺🇸_US_美国', server: aa2.wuxianliulianng.xyz, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /apple, headers: { Host: 111.golinkwuxian.top } } }
     - { name: DE-德国-56, server: 172.104.239.194, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: UK-英国-23, server: 176.58.102.159, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: UK-英国-24, server: 109.74.194.94, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-23, server: 212.71.239.155, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: UK-英国-24, server: 178.79.128.188, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
     - { name: US-美国-50, server: 45.56.124.238, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
-    - { name: US-美国-55, server: 139.144.26.150, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
+    - { name: US-美国-55, server: 198.58.103.20, port: 50184, type: ss, cipher: chacha20-ietf-poly1305, password: '3603429862' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
