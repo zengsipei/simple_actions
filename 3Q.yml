@@ -39,10 +39,10 @@ proxies:
     - { name: '🇺🇦 _CN_中国->🇺🇦_UA_乌克兰', server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国 4', server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 5', server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
-    - { name: DE-德国-50, server: 172.104.139.213, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
+    - { name: DE-德国-50, server: 172.104.154.26, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
     - { name: DE-德国-56, server: 139.162.167.110, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
     - { name: SG-新加坡-44, server: 139.162.2.179, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
-    - { name: UK-英国-23, server: 212.71.233.40, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
+    - { name: UK-英国-23, server: 178.79.178.67, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
     - { name: US-美国-55, server: 198.58.124.181, port: 50374, type: ss, cipher: chacha20-ietf-poly1305, password: '2190183450' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
