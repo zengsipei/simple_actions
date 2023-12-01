@@ -39,11 +39,11 @@ proxies:
     - { name: '🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦', server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国 8', server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _US_美国 9', server: usd.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /XSjeg73o6ZdsheahCb5JG, headers: { Host: usd.yj2022.gq } } }
-    - { name: DE-德国-50, server: 139.162.170.87, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
+    - { name: DE-德国-50, server: 172.105.246.157, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
     - { name: SG-新加坡-44, server: 192.53.172.117, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
     - { name: SG-新加坡-47, server: 139.144.118.37, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
-    - { name: UK-英国-23, server: 178.79.189.49, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
-    - { name: US-美国-50, server: 104.237.138.176, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
+    - { name: UK-英国-23, server: 176.58.102.82, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
+    - { name: US-美国-50, server: 69.164.198.143, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
