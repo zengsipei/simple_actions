@@ -49,7 +49,7 @@ proxies:
     - { name: '🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦', server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: DE-德国-50, server: 139.162.168.223, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
     - { name: SG-新加坡-44, server: 139.162.48.142, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
-    - { name: SG-新加坡-47, server: 139.162.59.188, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
+    - { name: SG-新加坡-47, server: 172.104.178.241, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
     - { name: UK-英国-23, server: 139.162.214.116, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
     - { name: US-美国-50, server: 173.255.193.200, port: 50669, type: ss, cipher: chacha20-ietf-poly1305, password: '2691261771' }
 proxy-groups:
