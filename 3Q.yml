@@ -47,9 +47,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 13', server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v03.ssrsub.com } } }
     - { name: '🇺🇸 _US_美国 14', server: usd.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /XSjeg73o6ZdsheahCb5JG, headers: { Host: usd.yj2022.gq } } }
     - { name: '🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦', server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
-    - { name: DE-德国-50, server: 139.162.168.223, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
+    - { name: DE-德国-50, server: 172.104.228.96, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: DE-德国-56, server: 172.104.145.106, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
-    - { name: UK-英国-23, server: 139.162.214.116, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
+    - { name: UK-英国-23, server: 139.162.207.103, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: UK-英国-24, server: 139.162.192.146, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: US-美国-50, server: 173.255.193.200, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
 proxy-groups:
