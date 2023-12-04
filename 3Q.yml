@@ -53,7 +53,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 9', server: usd.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /XSjeg73o6ZdsheahCb5JG, headers: { Host: usd.yj2022.gq } } }
     - { name: DE-德国-50, server: 172.104.228.96, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: DE-德国-56, server: 172.104.145.106, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
-    - { name: UK-英国-23, server: 139.162.197.176, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
+    - { name: UK-英国-23, server: 109.74.195.74, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: UK-英国-24, server: 139.162.192.146, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
     - { name: US-美国-50, server: 173.255.193.200, port: 50759, type: ss, cipher: chacha20-ietf-poly1305, password: '6568111849' }
 proxy-groups:
