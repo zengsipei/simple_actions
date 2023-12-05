@@ -39,7 +39,7 @@ proxies:
     - { name: SG-新加坡-47, server: 172.104.48.8, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
     - { name: UK-英国-24, server: 139.162.192.146, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
     - { name: US-美国-50, server: 198.58.107.89, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
-    - { name: US-美国-55, server: 198.58.102.80, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
+    - { name: US-美国-55, server: 66.228.51.216, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
