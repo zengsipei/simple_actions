@@ -36,7 +36,7 @@ proxies:
     - { name: '🇭🇰 _HK_香港->🇺🇸_US_美国', server: cm1.xn-w1yu8o.xyz, port: 80, type: vmess, uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: icu2.mac2win.top } } }
     - { name: DE-德国-56, server: 139.162.138.37, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
     - { name: SG-新加坡-47, server: 172.104.48.8, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
-    - { name: UK-英国-24, server: 139.162.192.146, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
+    - { name: UK-英国-24, server: 109.237.26.64, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
     - { name: US-美国-50, server: 104.237.131.72, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
     - { name: US-美国-55, server: 198.58.126.241, port: 50873, type: ss, cipher: chacha20-ietf-poly1305, password: '0454885126' }
 proxy-groups:
