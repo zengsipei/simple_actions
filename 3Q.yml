@@ -38,7 +38,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 14', server: 64.31.55.5, port: 11223, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com }
     - { name: '🇺🇸 _US_美国 15', server: 94.131.14.177, port: 80, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess } }
     - { name: CA-加拿大-54, server: 172.105.13.135, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
-    - { name: DE-德国-50, server: 139.162.185.159, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
+    - { name: DE-德国-50, server: 172.104.251.229, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
     - { name: DE-德国-56, server: 139.162.189.171, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
     - { name: SG-新加坡-44, server: 172.104.32.167, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
     - { name: SG-新加坡-47, server: 172.104.48.8, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: '3832591707' }
