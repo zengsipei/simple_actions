@@ -57,7 +57,7 @@ proxies:
     - { name: '🇩🇪 _IR_伊朗->🇩🇪_DE_德国', server: 193.151.151.227, port: 18904, type: vmess, uuid: 270ce474-6850-4102-85af-5a77fc660350, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 172.105.13.135, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
     - { name: DE-德国-50, server: 139.162.154.95, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
-    - { name: SG-新加坡-44, server: 172.104.40.100, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
+    - { name: SG-新加坡-44, server: 172.104.43.136, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
     - { name: US-美国-50, server: 66.228.53.63, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
     - { name: US-美国-55, server: 45.79.41.204, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: '8260710110' }
 proxy-groups:
