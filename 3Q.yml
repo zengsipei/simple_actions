@@ -46,7 +46,7 @@ proxies:
     - { name: '🇺🇸 _US_美国 7', server: 85.239.52.174, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: datdGFe4LkMN710aHedy }
     - { name: '🇫🇷 _FR_法国 17', server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS }
     - { name: '🇺🇸 _US_美国 8', server: tg_mfbpn_aus2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
-    - { name: CA-加拿大-54, server: 172.105.10.210, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
+    - { name: CA-加拿大-54, server: 170.187.193.188, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
     - { name: DE-德国-56, server: 172.104.151.80, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
     - { name: UK-英国-24, server: 178.79.187.240, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
     - { name: US-美国-50, server: 23.239.29.217, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
