@@ -39,10 +39,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国', server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: family.mgtajhiz.ir } } }
     - { name: '🇺🇸 _US_美国 16', server: 95.164.87.138, port: 63830, type: ss, cipher: chacha20-ietf-poly1305, password: dPW6SKhVfqDevBfdrt5eJg }
     - { name: CA-加拿大-54, server: 172.105.10.210, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
-    - { name: DE-德国-56, server: 172.105.244.185, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
+    - { name: DE-德国-56, server: 172.104.151.80, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
     - { name: UK-英国-24, server: 178.79.187.240, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
-    - { name: US-美国-50, server: 45.56.120.228, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
-    - { name: US-美国-55, server: 69.164.195.163, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
+    - { name: US-美国-50, server: 23.239.29.217, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
+    - { name: US-美国-55, server: 45.33.119.139, port: 51317, type: ss, cipher: chacha20-ietf-poly1305, password: '5875673776' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
