@@ -35,8 +35,8 @@ proxies:
     - { name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国', server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 172.105.109.37, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
     - { name: DE-德国-56, server: 172.104.234.15, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
-    - { name: SG-新加坡-47, server: 170.187.226.32, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
-    - { name: UK-英国-24, server: 178.79.152.79, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: SG-新加坡-47, server: 139.162.34.253, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: UK-英国-24, server: 212.71.255.28, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
     - { name: US-美国-50, server: 104.200.21.53, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
