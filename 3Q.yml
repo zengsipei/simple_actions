@@ -35,11 +35,11 @@ proxies:
     - { name: '🇫🇷 _FR_法国 16', server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa }
     - { name: '🇺🇸 _US_美国 5', server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v03.ssrsub.com } } }
     - { name: '🇺🇸 _US_美国 6', server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: false }
-    - { name: CA-加拿大-54, server: 170.187.181.84, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
-    - { name: DE-德国-56, server: 45.79.251.164, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
-    - { name: SG-新加坡-47, server: 172.104.170.116, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: CA-加拿大-54, server: 192.53.122.75, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: DE-德国-56, server: 172.104.234.15, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: SG-新加坡-47, server: 170.187.226.32, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
     - { name: UK-英国-24, server: 178.79.152.79, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
-    - { name: US-美国-50, server: 104.237.129.21, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
+    - { name: US-美国-50, server: 104.200.21.53, port: 51443, type: ss, cipher: chacha20-ietf-poly1305, password: '4113567669' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
