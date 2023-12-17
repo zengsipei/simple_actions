@@ -34,10 +34,10 @@ proxies:
     - { name: '🇺🇸 _US_美国 12', server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: sbl2.shabijichang.com } } }
     - { name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国', server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: false }
     - { name: DE-德国-56, server: 172.104.234.15, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
-    - { name: SG-新加坡-47, server: 139.162.34.253, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
+    - { name: SG-新加坡-47, server: 139.162.6.100, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
     - { name: UK-英国-23, server: 178.79.133.214, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
-    - { name: US-美国-50, server: 104.200.21.53, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
-    - { name: US-美国-55, server: 173.255.193.76, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
+    - { name: US-美国-50, server: 45.33.15.120, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
+    - { name: US-美国-55, server: 72.14.177.205, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: '6491465697' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
