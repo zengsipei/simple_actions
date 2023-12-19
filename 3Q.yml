@@ -34,9 +34,9 @@ proxies:
     - { name: '🇺🇸 _US_美国 9', server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05 }
     - { name: DE-德国-50, server: 172.104.130.25, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
     - { name: DE-德国-56, server: 172.104.234.15, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
-    - { name: UK-英国-24, server: 212.71.255.28, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
-    - { name: US-美国-50, server: 45.79.54.110, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
-    - { name: US-美国-55, server: 66.228.55.4, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
+    - { name: UK-英国-24, server: 213.168.249.115, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
+    - { name: US-美国-50, server: 45.33.13.132, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
+    - { name: US-美国-55, server: 198.58.115.134, port: 51615, type: ss, cipher: chacha20-ietf-poly1305, password: '0739517151' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
