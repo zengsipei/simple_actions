@@ -36,7 +36,7 @@ proxies:
     - { name: '🇸🇬 _SG_新加坡', server: 185.230.245.213, port: 3306, type: trojan, password: d07a02a06191c99f, sni: n2.gladns.com, skip-cert-verify: false, network: ws, ws-opts: { path: /gateway/connect, headers: { Host: n2.gladns.com } } }
     - { name: '🇺🇸 _US_美国 9', server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { Host: ssrsub.v004.ssrsub.com } } }
     - { name: '🇺🇸 _US_美国 10', server: us-02.jikuai.xyz, port: 2082, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: us-02.jikuai.xyz } } }
-    - { name: CA-加拿大-54, server: 172.105.15.14, port: 51770, type: ss, cipher: chacha20-ietf-poly1305, password: '6900162244' }
+    - { name: CA-加拿大-54, server: 172.105.18.59, port: 51770, type: ss, cipher: chacha20-ietf-poly1305, password: '6900162244' }
     - { name: DE-德国-50, server: 172.105.91.17, port: 51770, type: ss, cipher: chacha20-ietf-poly1305, password: '6900162244' }
     - { name: SG-新加坡-44, server: 192.46.224.244, port: 51770, type: ss, cipher: chacha20-ietf-poly1305, password: '6900162244' }
     - { name: UK-英国-24, server: 176.58.124.47, port: 51770, type: ss, cipher: chacha20-ietf-poly1305, password: '6900162244' }
