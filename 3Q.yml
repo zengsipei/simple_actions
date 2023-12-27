@@ -44,11 +44,11 @@ proxies:
     - { name: '🇺🇸 _US_美国 25', server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN }
     - { name: '🇺🇸 _US_美国 26', server: 18.216.249.151, port: 46403, type: vmess, uuid: 28dc6b61-09d8-4c19-b655-233cfb535567, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: '_CN_中国 2', server: 159.75.178.50, port: 47551, type: vmess, uuid: 2500a228-8c00-4934-81e0-22281c015a33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
-    - { name: CA-加拿大-54, server: 192.46.222.173, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
-    - { name: DE-德国-50, server: 139.162.186.203, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
-    - { name: SG-新加坡-47, server: 139.177.191.64, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
+    - { name: CA-加拿大-54, server: 139.177.197.230, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
+    - { name: DE-德国-50, server: 172.104.252.163, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
+    - { name: SG-新加坡-47, server: 192.53.173.95, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
     - { name: US-美国-50, server: 45.33.117.73, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
-    - { name: US-美国-55, server: 23.239.26.202, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
+    - { name: US-美国-55, server: 45.56.79.188, port: 51952, type: ss, cipher: chacha20-ietf-poly1305, password: '6207325528' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
