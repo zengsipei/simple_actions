@@ -58,7 +58,7 @@ proxies:
     - { name: '🇫🇷 _IR_伊朗->🇫🇷_FR_法国', server: 81.12.27.4, port: 20554, type: vmess, uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 172.105.17.236, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
     - { name: DE-德国-56, server: 139.162.137.230, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
-    - { name: UK-英国-23, server: 109.237.27.190, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
+    - { name: UK-英国-23, server: 139.162.246.4, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
     - { name: UK-英国-24, server: 139.162.247.203, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
     - { name: US-美国-55, server: 23.239.26.246, port: 52020, type: ss, cipher: chacha20-ietf-poly1305, password: '7797977418' }
 proxy-groups:
