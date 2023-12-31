@@ -53,9 +53,9 @@ proxies:
     - { name: '🇬🇧 _CN_中国->🇬🇧_GB_英国', server: gbs.pptv-tv.store, port: 17728, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify: false }
     - { name: '🇬🇧 _GI_直布罗陀->🇬🇧_GB_英国', server: 95.164.69.115, port: 17728, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, sni: gbs.pptv-tv.store, skip-cert-verify: false }
     - { name: CA-加拿大-54, server: 172.105.17.236, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
-    - { name: DE-德国-50, server: 139.162.154.34, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: DE-德国-50, server: 139.162.181.51, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
     - { name: DE-德国-56, server: 139.162.165.223, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
-    - { name: SG-新加坡-44, server: 192.53.118.49, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: SG-新加坡-44, server: 103.3.61.159, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
     - { name: UK-英国-24, server: 176.58.124.86, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
