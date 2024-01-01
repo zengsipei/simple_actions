@@ -38,10 +38,10 @@ proxies:
     - { name: 🇺🇦_UA_乌克兰, type: vmess, server: 193.238.153.14, port: 8443, cipher: auto, uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1, alterId: 0, tls: true, skip-cert-verify: true, network: tcp }
     - { name: 🇭🇰_HK_香港->🇺🇸_US_美国, type: trojan, server: us01.trojanyyds.xyz, port: 443, udp: true, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true, network: tcp }
     - { name: 🇷🇺_RU_俄罗斯联邦_4, type: trojan, server: 89.221.224.93, port: 80, udp: true, password: 9e77b491-73d4-4ea3-985b-cfe3ae583580, sni: is1-t.sshmax.xyz, skip-cert-verify: true, network: tcp }
-    - { name: CA-加拿大-54, server: 192.53.121.217, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
-    - { name: DE-德国-50, server: 139.162.181.51, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
-    - { name: DE-德国-56, server: 139.162.165.223, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
-    - { name: SG-新加坡-44, server: 172.104.180.117, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: CA-加拿大-54, server: 172.105.106.92, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: DE-德国-50, server: 139.162.180.171, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: DE-德国-56, server: 139.177.180.166, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
+    - { name: SG-新加坡-44, server: 139.177.184.173, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
     - { name: UK-英国-24, server: 176.58.124.86, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: '3517871361' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
