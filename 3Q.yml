@@ -45,7 +45,7 @@ proxies:
     - { name: '🇲🇽 _MX_墨西哥', server: 190.103.179.23, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: '🇩🇪 _DE_德国 3', server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: / } }
     - { name: '🇸🇪 _SE_瑞典', server: 45.8.147.80, port: 5741, type: ss, cipher: chacha20-ietf-poly1305, password: Q5CEiebSuSl2qFkfE4ztG2 }
-    - { name: DE-德国-50, server: 172.105.70.236, port: 53130, type: ss, cipher: chacha20-ietf-poly1305, password: '8242967952' }
+    - { name: DE-德国-50, server: 194.233.168.214, port: 53130, type: ss, cipher: chacha20-ietf-poly1305, password: '8242967952' }
     - { name: DE-德国-56, server: 172.105.93.218, port: 53130, type: ss, cipher: chacha20-ietf-poly1305, password: '8242967952' }
     - { name: UK-英国-24, server: 176.58.124.86, port: 53130, type: ss, cipher: chacha20-ietf-poly1305, password: '8242967952' }
     - { name: US-美国-50, server: 45.33.29.135, port: 53130, type: ss, cipher: chacha20-ietf-poly1305, password: '8242967952' }
