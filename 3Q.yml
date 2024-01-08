@@ -20,10 +20,10 @@ proxies:
     - { name: 🇺🇸_US_美国_7, type: vmess, server: 94.131.14.177, port: 2082, cipher: auto, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /vmess } }
     - { name: 🇺🇸_US_美国_8, type: vmess, server: 104.17.184.241, port: 80, cipher: auto, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: mg_cdn.yunjisuan.cf } } }
     - { name: DE-德国-50, server: 194.233.168.214, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
-    - { name: SG-新加坡-44, server: 172.104.47.160, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
+    - { name: SG-新加坡-44, server: 192.53.115.110, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
     - { name: SG-新加坡-47, server: 172.104.180.34, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
     - { name: UK-英国-23, server: 139.162.210.234, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
-    - { name: US-美国-50, server: 104.200.16.147, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
+    - { name: US-美国-50, server: 45.33.127.239, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
