@@ -36,9 +36,9 @@ proxies:
     - { name: '🇬🇧 _GB_英国', server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: '🇵🇦 _PA_巴拿马', server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: DE-德国-50, server: 194.233.168.214, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
-    - { name: SG-新加坡-44, server: 192.53.115.110, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
+    - { name: SG-新加坡-44, server: 172.105.126.112, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
     - { name: SG-新加坡-47, server: 143.42.77.54, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
-    - { name: UK-英国-23, server: 139.162.210.234, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
+    - { name: UK-英国-23, server: 178.79.141.41, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
     - { name: US-美国-50, server: 45.33.127.239, port: 53462, type: ss, cipher: chacha20-ietf-poly1305, password: '8908915220' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
