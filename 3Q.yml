@@ -35,10 +35,10 @@ proxies:
     - { name: '🇫🇷 _FR_法国 4', server: 145.239.6.202, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM }
     - { name: '🇬🇧 _GB_英国', server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: '🇵🇦 _PA_巴拿马', server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
-    - { name: CA-加拿大-54, server: 170.187.181.105, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
+    - { name: CA-加拿大-54, server: 172.105.23.168, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
     - { name: DE-德国-56, server: 139.162.132.146, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
     - { name: SG-新加坡-47, server: 172.234.49.33, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
-    - { name: US-美国-50, server: 45.33.127.239, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
+    - { name: US-美国-50, server: 198.58.119.218, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
     - { name: US-美国-55, server: 45.33.3.68, port: 53673, type: ss, cipher: chacha20-ietf-poly1305, password: '0581202054' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
