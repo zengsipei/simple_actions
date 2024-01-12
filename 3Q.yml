@@ -26,10 +26,10 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇺🇦_UA_乌克兰 2', server: 104.17.2.183, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v3ra3do.wakeuptimerap.shop } } }
     - { name: '🇺🇸 _US_美国 4', server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: lv1.xv2ray.net } } }
     - { name: CA-加拿大-54, server: 172.105.23.168, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
-    - { name: UK-英国-23, server: 178.79.141.41, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
+    - { name: UK-英国-23, server: 178.79.145.36, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
     - { name: UK-英国-24, server: 139.162.244.111, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
     - { name: US-美国-50, server: 198.58.119.218, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
-    - { name: US-美国-55, server: 45.33.3.206, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
+    - { name: US-美国-55, server: 45.33.5.32, port: 53859, type: ss, cipher: chacha20-ietf-poly1305, password: '3693164059' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
