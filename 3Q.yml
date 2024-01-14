@@ -30,7 +30,7 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇺🇦_UA_乌克兰', server: 104.17.2.183, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v3ra3do.wakeuptimerap.shop } } }
     - { name: CA-加拿大-54, server: 172.105.23.168, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: DE-德国-56, server: 172.104.140.131, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
-    - { name: SG-新加坡-44, server: 172.104.173.65, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
+    - { name: SG-新加坡-44, server: 139.162.43.175, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: UK-英国-24, server: 176.58.119.250, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: US-美国-55, server: 45.33.5.32, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
 proxy-groups:
