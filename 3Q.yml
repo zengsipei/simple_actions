@@ -14,11 +14,11 @@ proxies:
     - { name: '🇪🇸 _ES_西班牙', server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: '🇰🇿 _KZ_哈萨克斯坦', server: kz-v2ray.ipracevpn.com, port: 8443, type: vmess, uuid: 48b10b02-2c60-4323-bc65-a11b15144745, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false }
     - { name: '🇺🇸 _US_美国->🇺🇦_UA_乌克兰', server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v3ra3do.wakeuptimerap.shop } } }
-    - { name: CA-加拿大-54, server: 172.105.23.168, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
+    - { name: CA-加拿大-54, server: 172.105.106.26, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: DE-德国-56, server: 172.104.128.95, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: SG-新加坡-44, server: 139.162.43.175, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
     - { name: UK-英国-24, server: 176.58.119.250, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
-    - { name: US-美国-55, server: 45.33.5.32, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
+    - { name: US-美国-55, server: 173.255.203.171, port: 54037, type: ss, cipher: chacha20-ietf-poly1305, password: '6585122093' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
