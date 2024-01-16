@@ -21,11 +21,11 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇩🇪_DE_德国 2', server: hamrahaval.asan3a.shop, port: 8080, type: vmess, uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: asan3.azad2.tech } } }
     - { name: '🇺🇦 _CN_中国->🇺🇦_UA_乌克兰', server: xibaozi.19890604.day, port: 10845, type: trojan, password: b3d24e9a-8d4a-487e-b15b-6cac5e6286b1, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false }
     - { name: '🇪🇸 _ES_西班牙', server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
-    - { name: DE-德国-50, server: 139.162.173.101, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
-    - { name: SG-新加坡-44, server: 139.162.43.175, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: DE-德国-50, server: 172.105.64.152, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: SG-新加坡-44, server: 139.162.9.227, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: SG-新加坡-47, server: 170.187.198.124, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
-    - { name: US-美国-50, server: 104.237.133.41, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
-    - { name: US-美国-55, server: 173.255.203.171, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: US-美国-50, server: 45.33.114.206, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: US-美国-55, server: 45.56.70.167, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
