@@ -23,7 +23,7 @@ proxies:
     - { name: '🇪🇸 _ES_西班牙', server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3 }
     - { name: DE-德国-50, server: 139.162.173.101, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: SG-新加坡-44, server: 139.162.43.175, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
-    - { name: SG-新加坡-47, server: 172.104.186.135, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: SG-新加坡-47, server: 170.187.198.124, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: US-美国-50, server: 104.237.133.41, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: US-美国-55, server: 173.255.203.171, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
 proxy-groups:
