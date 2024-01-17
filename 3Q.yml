@@ -27,7 +27,7 @@ proxies:
     - { name: '🇱🇺 _LU_卢森堡', server: 202.78.162.6, port: 80, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /@forwardv2ray, headers: { Host: irisoft.servecounterstrike.com } } }
     - { name: '🇺🇸 _US_美国->🇺🇦_UA_乌克兰', server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /, headers: { Host: v3ra3do.wakeuptimerap.shop } } }
     - { name: DE-德国-50, server: 172.104.240.78, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
-    - { name: SG-新加坡-44, server: 192.53.112.83, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
+    - { name: SG-新加坡-44, server: 139.177.188.212, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: SG-新加坡-47, server: 170.187.227.164, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: US-美国-50, server: 173.255.192.44, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
     - { name: US-美国-55, server: 45.56.70.167, port: 54208, type: ss, cipher: chacha20-ietf-poly1305, password: '9508670450' }
