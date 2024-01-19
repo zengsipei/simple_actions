@@ -12,7 +12,7 @@ proxies:
     - { name: _GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess, headers: { Host: internet.life.com.by } } }
     - { name: DE-德国-50, server: 172.104.225.58, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
     - { name: SG-新加坡-44, server: 139.162.44.181, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
-    - { name: SG-新加坡-47, server: 139.162.44.97, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
+    - { name: SG-新加坡-47, server: 172.104.172.19, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
     - { name: UK-英国-23, server: 176.58.117.179, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
     - { name: US-美国-55, server: 173.255.204.59, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
 proxy-groups:
