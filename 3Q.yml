@@ -10,18 +10,18 @@ proxies:
     - { name: '🇺🇸 _US_美国->🇬🇧_GB_英国', server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: { path: /glweidf.sbs/linkws, headers: { Host: mikasa.erenyeager.cloudns.biz } } }
     - { name: '🇰🇷 _KR_韩国', server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: false }
     - { name: _GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess, headers: { Host: internet.life.com.by } } }
-    - { name: DE-德国-50, server: 172.104.225.58, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
-    - { name: SG-新加坡-44, server: 139.162.44.181, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
-    - { name: SG-新加坡-47, server: 172.104.172.19, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
-    - { name: UK-英国-23, server: 176.58.117.179, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
-    - { name: US-美国-55, server: 173.255.204.59, port: 54378, type: ss, cipher: chacha20-ietf-poly1305, password: '4091147442' }
+    - { name: DE-德国-56, server: 172.104.137.168, port: 54569, type: ss, cipher: chacha20-ietf-poly1305, password: '6517877706' }
+    - { name: SG-新加坡-44, server: 139.162.44.181, port: 54569, type: ss, cipher: chacha20-ietf-poly1305, password: '6517877706' }
+    - { name: SG-新加坡-47, server: 172.104.172.19, port: 54569, type: ss, cipher: chacha20-ietf-poly1305, password: '6517877706' }
+    - { name: UK-英国-23, server: 176.58.117.179, port: 54569, type: ss, cipher: chacha20-ietf-poly1305, password: '6517877706' }
+    - { name: UK-英国-24, server: 139.162.247.68, port: 54569, type: ss, cipher: chacha20-ietf-poly1305, password: '6517877706' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
-    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-23, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, UK-英国-24] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, UK-英国-24] }
+    - { name: SELECT, type: select, proxies: ['🇺🇸 _US_美国->🇬🇧_GB_英国', '🇰🇷 _KR_韩国', _GI_直布罗陀, DE-德国-56, SG-新加坡-44, SG-新加坡-47, UK-英国-23, UK-英国-24] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
