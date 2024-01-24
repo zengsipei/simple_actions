@@ -55,7 +55,7 @@ proxies:
     - { name: 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国, type: vless, server: 190.93.247.155, port: 443, uuid: 2284a1cf-50e9-4b84-a2b1-2a92fda7e920, tls: true, servername: all2.savagev2ray.site, network: ws, ws-opts: { path: / } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_1, type: vless, server: 104.21.19.78, port: 443, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: true, servername: padt.hdogcat.click, network: ws, ws-opts: { path: / } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vless, server: 172.67.185.167, port: 443, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: true, servername: padt.hdogcat.click, network: ws, ws-opts: { path: / } }
-    - { name: DE-德国-56, server: 139.162.176.69, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
+    - { name: DE-德国-56, server: 139.162.152.144, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
     - { name: SG-新加坡-44, server: 139.162.33.23, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
     - { name: UK-英国-23, server: 176.58.127.68, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
     - { name: UK-英国-24, server: 80.85.85.6, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
