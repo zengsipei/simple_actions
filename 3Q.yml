@@ -56,9 +56,9 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_1, type: vless, server: 104.21.19.78, port: 443, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: true, servername: padt.hdogcat.click, network: ws, ws-opts: { path: / } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vless, server: 172.67.185.167, port: 443, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: true, servername: padt.hdogcat.click, network: ws, ws-opts: { path: / } }
     - { name: DE-德国-56, server: 139.162.152.144, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
-    - { name: SG-新加坡-44, server: 139.162.33.23, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
+    - { name: SG-新加坡-44, server: 172.104.175.32, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
     - { name: UK-英国-23, server: 176.58.127.68, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
-    - { name: UK-英国-24, server: 80.85.85.6, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
+    - { name: UK-英国-24, server: 80.85.87.236, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
     - { name: US-美国-55, server: 69.164.205.86, port: 54859, type: ss, cipher: chacha20-ietf-poly1305, password: '9481494288' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
