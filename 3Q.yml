@@ -44,9 +44,9 @@ proxies:
     - { name: _CN_中国, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123 }
     - { name: '🇺🇸 _US_美国 9', server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: { path: /vmess, headers: { Host: lt1-vmess.sshmax.xyz } } }
     - { name: DE-德国-50, server: 139.162.187.32, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
-    - { name: SG-新加坡-44, server: 172.105.120.237, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
+    - { name: SG-新加坡-44, server: 172.105.127.134, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
     - { name: SG-新加坡-47, server: 172.105.119.49, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
-    - { name: UK-英国-23, server: 212.111.41.235, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
+    - { name: UK-英国-23, server: 80.85.84.57, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
     - { name: US-美国-50, server: 69.164.195.14, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
