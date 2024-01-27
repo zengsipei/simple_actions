@@ -19,7 +19,7 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇦🇹_AT_奥地利, type: trojan, server: xibaozi.19890604.day, port: 10848, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10850, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰, type: trojan, server: 185.162.231.208, port: 443, udp: true, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k8nl2.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: { path: /yfjc/knl2, headers: { host: k8nl2.yfjc.sbs } } }
-    - { name: DE-德国-50, server: 139.162.187.32, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
+    - { name: DE-德国-50, server: 139.162.145.20, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
     - { name: SG-新加坡-44, server: 172.105.127.134, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
     - { name: SG-新加坡-47, server: 172.105.119.49, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
     - { name: UK-英国-23, server: 212.71.250.25, port: 55012, type: ss, cipher: chacha20-ietf-poly1305, password: '2057835587' }
