@@ -7,30 +7,24 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-    - { name: 🇦🇺_AU_澳大利亚->🇺🇸_US_美国_1, type: trojan, server: 192.65.217.200, port: 443, udp: true, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6us1.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: { path: /yfjc/kus1, headers: { host: k6us1.yfjc.sbs } } }
-    - { name: 🇦🇺_AU_澳大利亚->🇺🇸_US_美国_2, type: trojan, server: 192.65.217.247, port: 443, udp: true, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k5us2.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: { path: /yfjc/kus2, headers: { host: k5us2.yfjc.sbs } } }
-    - { name: 🇱🇺_LU_卢森堡, type: trojan, server: 188.42.145.73, port: 443, udp: true, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6nl1.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: { path: /yfjc/knl1, headers: { host: k6nl1.yfjc.sbs } } }
-    - { name: 🇨🇳_CN_中国->🇨🇿_CZ_捷克, type: trojan, server: xibaozi.19890604.day, port: 10846, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇺🇸_US_美国, type: trojan, server: 44.226.30.52, port: 22222, udp: true, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_1, type: trojan, server: xibaozi.19890604.day, port: 10847, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_2, type: trojan, server: xibaozi.19890604.day, port: 10837, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_3, type: trojan, server: xibaozi.19890604.day, port: 10838, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, type: trojan, server: xibaozi.19890604.day, port: 10845, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇦🇹_AT_奥地利, type: trojan, server: xibaozi.19890604.day, port: 10848, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10850, udp: true, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰, type: trojan, server: 185.162.231.208, port: 443, udp: true, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k8nl2.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: { path: /yfjc/knl2, headers: { host: k8nl2.yfjc.sbs } } }
+    - { name: '🇺🇸 _AU_澳大利亚->🇺🇸_US_美国', server: 192.65.217.200, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6us1.yfjc.sbs, skip-cert-verify: false, network: ws, ws-opts: { path: /yfjc/kus1, headers: { Host: k6us1.yfjc.sbs } } }
+    - { name: '🇺🇸 _AM_亚美尼亚->🇳🇱_NL_荷兰', server: 185.162.231.208, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k8nl2.yfjc.sbs, skip-cert-verify: false, network: ws, ws-opts: { path: /yfjc/knl2, headers: { Host: k8nl2.yfjc.sbs } } }
+    - { name: '🇮🇪 _IE_爱尔兰', server: 54.78.37.252, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false }
+    - { name: '🇱🇺 _LU_卢森堡', server: 188.42.145.73, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6nl1.yfjc.sbs, skip-cert-verify: false, network: ws, ws-opts: { path: /yfjc/knl1, headers: { Host: k6nl1.yfjc.sbs } } }
+    - { name: '🇰🇷 _KR_韩国', server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: false }
+    - { name: '🇺🇸 _AU_澳大利亚->🇺🇸_US_美国 2', server: 192.65.217.247, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k5us2.yfjc.sbs, skip-cert-verify: false, network: ws, ws-opts: { path: /yfjc/kus2, headers: { Host: k5us2.yfjc.sbs } } }
     - { name: DE-德国-50, server: 139.162.145.20, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
     - { name: SG-新加坡-44, server: 172.104.54.89, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
-    - { name: UK-英国-23, server: 212.71.250.25, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
+    - { name: UK-英国-23, server: 139.162.208.135, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
     - { name: UK-英国-24, server: 212.71.239.155, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
     - { name: US-美国-50, server: 69.164.195.14, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇦🇺_AU_澳大利亚->🇺🇸_US_美国_1, 🇦🇺_AU_澳大利亚->🇺🇸_US_美国_2, 🇱🇺_LU_卢森堡, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇺🇸_US_美国, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇦🇺_AU_澳大利亚->🇺🇸_US_美国_1, 🇦🇺_AU_澳大利亚->🇺🇸_US_美国_2, 🇱🇺_LU_卢森堡, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇺🇸_US_美国, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: SELECT, type: select, proxies: [🇦🇺_AU_澳大利亚->🇺🇸_US_美国_1, 🇦🇺_AU_澳大利亚->🇺🇸_US_美国_2, 🇱🇺_LU_卢森堡, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇺🇸_US_美国, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: ['🇺🇸 _AU_澳大利亚->🇺🇸_US_美国', '🇺🇸 _AM_亚美尼亚->🇳🇱_NL_荷兰', '🇮🇪 _IE_爱尔兰', '🇱🇺 _LU_卢森堡', '🇰🇷 _KR_韩国', '🇺🇸 _AU_澳大利亚->🇺🇸_US_美国 2', DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: ['🇺🇸 _AU_澳大利亚->🇺🇸_US_美国', '🇺🇸 _AM_亚美尼亚->🇳🇱_NL_荷兰', '🇮🇪 _IE_爱尔兰', '🇱🇺 _LU_卢森堡', '🇰🇷 _KR_韩国', '🇺🇸 _AU_澳大利亚->🇺🇸_US_美国 2', DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: SELECT, type: select, proxies: ['🇺🇸 _AU_澳大利亚->🇺🇸_US_美国', '🇺🇸 _AM_亚美尼亚->🇳🇱_NL_荷兰', '🇮🇪 _IE_爱尔兰', '🇱🇺 _LU_卢森堡', '🇰🇷 _KR_韩国', '🇺🇸 _AU_澳大利亚->🇺🇸_US_美国 2', DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
