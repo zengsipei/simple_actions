@@ -16,18 +16,18 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, type: trojan, server: xibaozi.19890604.day, port: 10845, udp: true, password: 17e82f43-a0c6-4518-9d1f-3ac454429c3d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10850, udp: true, password: 17e82f43-a0c6-4518-9d1f-3ac454429c3d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇦🇹_AT_奥地利, type: trojan, server: xibaozi.19890604.day, port: 10848, udp: true, password: 17e82f43-a0c6-4518-9d1f-3ac454429c3d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: DE-德国-50, server: 139.162.145.20, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
-    - { name: SG-新加坡-44, server: 45.118.134.101, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
-    - { name: UK-英国-23, server: 178.79.156.237, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
-    - { name: UK-英国-24, server: 178.79.142.26, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
-    - { name: US-美国-50, server: 45.33.120.133, port: 55162, type: ss, cipher: chacha20-ietf-poly1305, password: '1231986025' }
+    - { name: DE-德国-50, server: 139.162.145.20, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
+    - { name: SG-新加坡-44, server: 45.118.134.101, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
+    - { name: SG-新加坡-47, server: 172.104.52.123, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
+    - { name: UK-英国-24, server: 178.79.142.26, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
+    - { name: US-美国-50, server: 45.79.19.9, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: SELECT, type: select, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-24, US-美国-50] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-24, US-美国-50] }
+    - { name: SELECT, type: select, proxies: [🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇩🇪_DE_德国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇩🇪_DE_德国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, DE-德国-50, SG-新加坡-44, SG-新加坡-47, UK-英国-24, US-美国-50] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
