@@ -19,7 +19,7 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10838, udp: true, password: 3547bfda-1009-42d4-8319-b027ad049347, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: DE-德国-50, server: 139.162.145.20, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
     - { name: SG-新加坡-44, server: 172.104.190.7, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
-    - { name: SG-新加坡-47, server: 172.104.39.64, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
+    - { name: SG-新加坡-47, server: 139.162.48.195, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
     - { name: UK-英国-24, server: 178.79.142.26, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
     - { name: US-美国-50, server: 45.56.73.88, port: 55278, type: ss, cipher: chacha20-ietf-poly1305, password: '6540567455' }
 proxy-groups:
