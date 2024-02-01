@@ -18,10 +18,10 @@ proxies:
     - { name: 🇩🇪_DE_德国, type: trojan, server: 3.72.117.197, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10838, udp: true, password: 3547bfda-1009-42d4-8319-b027ad049347, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: DE-德国-50, server: 139.162.145.20, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
-    - { name: DE-德国-56, server: 194.233.166.226, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
-    - { name: SG-新加坡-44, server: 172.104.190.7, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
-    - { name: UK-英国-23, server: 178.79.176.69, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
-    - { name: UK-英国-24, server: 139.162.249.112, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
+    - { name: DE-德国-56, server: 172.104.132.151, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
+    - { name: SG-新加坡-44, server: 139.162.44.139, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
+    - { name: UK-英国-23, server: 139.162.200.4, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
+    - { name: UK-英国-24, server: 139.162.208.218, port: 55434, type: ss, cipher: chacha20-ietf-poly1305, password: '8718060949' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
