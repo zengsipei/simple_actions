@@ -15,8 +15,8 @@ proxies:
     - { name: 🇩🇪_DE_德国_3, type: trojan, server: 5.104.108.120, port: 443, udp: true, password: 676ccd3b-793d-4efd-b93c-48943711055d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, network: tcp }
     - { name: DE-德国-50, server: 139.162.145.20, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
     - { name: SG-新加坡-44, server: 192.46.224.161, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
-    - { name: SG-新加坡-47, server: 139.162.40.101, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
-    - { name: UK-英国-23, server: 178.79.157.124, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
+    - { name: SG-新加坡-47, server: 172.104.191.241, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
+    - { name: UK-英国-23, server: 139.162.193.7, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
     - { name: US-美国-50, server: 45.79.19.9, port: 55564, type: ss, cipher: chacha20-ietf-poly1305, password: '1581508792' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
