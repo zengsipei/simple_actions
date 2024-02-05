@@ -7,26 +7,27 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-    - { name: 🇬🇧_GB_英国, type: trojan, server: 18.134.176.184, port: 22222, udp: true, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇨🇿_CZ_捷克, type: trojan, server: xibaozi.19890604.day, port: 10846, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_1, type: trojan, server: xibaozi.19890604.day, port: 10847, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇦🇹_AT_奥地利, type: trojan, server: xibaozi.19890604.day, port: 10848, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_2, type: trojan, server: xibaozi.19890604.day, port: 10838, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_3, type: trojan, server: xibaozi.19890604.day, port: 10837, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10850, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, type: trojan, server: xibaozi.19890604.day, port: 10845, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.17.236, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: 🇺🇸_US_美国_1, type: trojan, server: 104.160.18.251, port: 443, udp: true, password: 7522e2c27233459aab8d0f1d715828d0, sni: www.gpt123.one, skip-cert-verify: true, network: tcp }
+    - { name: 🇺🇸_US_美国_2, type: vmess, server: server9.beheshtbaneh.com, port: 8880, cipher: auto, uuid: 62575747-37b4-4bf8-9ac5-95d214003be1, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server9.beheshtbaneh.com } } }
+    - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: vmess, server: 104.18.202.232, port: 2083, cipher: auto, uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /@golestan_vpn, headers: { host: joooin.golestan-vpn.link } } }
+    - { name: 🇺🇸_US_美国_3, type: vmess, server: www.darkroom.lol, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.darkroom.lol } } }
+    - { name: 🇺🇸_US_美国->🇳🇱_NL_荷兰, type: vmess, server: 172.67.185.208, port: 2095, cipher: auto, uuid: 3c1cca21-1373-4707-a575-195e9da0fb71, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: ebiii.fozool76.lol } } }
+    - { name: 🇺🇸_US_美国_4, type: vmess, server: 172.67.212.114, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
+    - { name: 🇺🇸_US_美国_5, type: vmess, server: server4.beheshtbaneh.com, port: 8880, cipher: auto, uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server4.beheshtbaneh.com } } }
+    - { name: 🇺🇸_US_美国_6, type: vmess, server: server20.beheshtbaneh.com, port: 8880, cipher: auto, uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server20.beheshtbaneh.com } } }
+    - { name: 🇺🇸_US_美国_7, type: vmess, server: 104.21.82.183, port: 8880, cipher: auto, uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server6.beheshtbaneh.com } } }
+    - { name: CA-加拿大-54, server: 192.53.121.44, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: DE-德国-56, server: 139.162.128.20, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: SG-新加坡-47, server: 172.104.191.241, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: UK-英国-23, server: 139.162.193.7, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: SG-新加坡-47, server: 103.3.63.83, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: UK-英国-23, server: 178.79.136.55, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: US-美国-50, server: 45.79.19.9, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇬🇧_GB_英国, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇬🇧_GB_英国, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
-    - { name: SELECT, type: select, proxies: [🇬🇧_GB_英国, 🇨🇳_CN_中国->🇨🇿_CZ_捷克, 🇨🇳_CN_中国->🇺🇸_US_美国_1, 🇨🇳_CN_中国->🇦🇹_AT_奥地利, 🇨🇳_CN_中国->🇺🇸_US_美国_2, 🇨🇳_CN_中国->🇺🇸_US_美国_3, 🇨🇳_CN_中国->🇺🇸_US_美国_4, 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_3, 🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国_7, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_3, 🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国_7, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
+    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_3, 🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国_7, CA-加拿大-54, DE-德国-56, SG-新加坡-47, UK-英国-23, US-美国-50] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
