@@ -15,8 +15,8 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_3, type: trojan, server: xibaozi.19890604.day, port: 10837, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_4, type: trojan, server: xibaozi.19890604.day, port: 10850, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇦_UA_乌克兰, type: trojan, server: xibaozi.19890604.day, port: 10845, udp: true, password: e8977c57-c5c2-478f-a67a-5af7ba873eac, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.9.95, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: DE-德国-56, server: 139.162.187.128, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: CA-加拿大-54, server: 172.105.17.236, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: DE-德国-56, server: 139.162.128.20, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: SG-新加坡-47, server: 172.104.191.241, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: UK-英国-23, server: 139.162.193.7, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: US-美国-50, server: 45.79.19.9, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
