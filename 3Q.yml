@@ -18,9 +18,9 @@ proxies:
     - { name: 🇺🇸_US_美国_7, type: vmess, server: 104.21.82.183, port: 8880, cipher: auto, uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server6.beheshtbaneh.com } } }
     - { name: CA-加拿大-54, server: 172.105.104.16, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: DE-德国-56, server: 139.162.128.20, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: SG-新加坡-47, server: 103.3.63.83, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: UK-英国-23, server: 178.79.136.55, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: US-美国-50, server: 45.79.19.9, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: SG-新加坡-47, server: 172.104.186.179, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: UK-英国-23, server: 139.162.241.174, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: US-美国-50, server: 173.255.196.192, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
