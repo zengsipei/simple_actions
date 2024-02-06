@@ -27,10 +27,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_4, type: vmess, server: 104.24.208.37, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_5, type: vmess, server: for-irancell.outline-vpn.cloud, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
     - { name: CA-加拿大-54, server: 139.177.194.46, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: DE-德国-56, server: 172.104.144.38, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: SG-新加坡-47, server: 172.104.186.179, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: DE-德国-56, server: 139.144.68.224, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: SG-新加坡-47, server: 139.162.38.134, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
     - { name: UK-英国-23, server: 139.162.241.174, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
-    - { name: US-美国-50, server: 173.255.196.192, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
+    - { name: US-美国-50, server: 50.116.22.121, port: 55741, type: ss, cipher: chacha20-ietf-poly1305, password: '9673132958' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
