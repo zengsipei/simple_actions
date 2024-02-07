@@ -26,9 +26,9 @@ proxies:
     - { name: 🇺🇸_US_美国_7, type: vmess, server: 104.21.23.176, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_4, type: vmess, server: 104.24.208.37, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_5, type: vmess, server: for-irancell.outline-vpn.cloud, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
-    - { name: CA-加拿大-54, server: 172.105.3.240, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
+    - { name: CA-加拿大-54, server: 139.177.196.48, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
     - { name: DE-德国-50, server: 139.162.148.121, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
-    - { name: DE-德国-56, server: 139.144.68.224, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
+    - { name: DE-德国-56, server: 172.104.250.22, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
     - { name: UK-英国-23, server: 109.74.202.206, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
     - { name: US-美国-50, server: 69.164.205.33, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
 proxy-groups:
