@@ -20,10 +20,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
     - { name: 🇮🇷_IR_伊朗, type: vmess, server: 128.140.4.212, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
     - { name: CA-加拿大-54, server: 192.46.223.141, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
-    - { name: DE-德国-50, server: 172.105.72.72, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
-    - { name: DE-德国-56, server: 172.104.131.246, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
+    - { name: DE-德国-50, server: 139.162.148.121, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
+    - { name: DE-德国-56, server: 139.177.183.218, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
     - { name: UK-英国-23, server: 139.162.193.193, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
-    - { name: US-美国-50, server: 45.79.42.125, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
+    - { name: US-美国-50, server: 45.33.18.185, port: 55927, type: ss, cipher: chacha20-ietf-poly1305, password: '4271930803' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
