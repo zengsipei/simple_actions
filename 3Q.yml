@@ -17,10 +17,10 @@ proxies:
     - { name: 🇺🇸_US_美国_5, type: vmess, server: www.crispyrainbow.online, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.online } } }
     - { name: 🇺🇸_US_美国_6, type: vmess, server: www.blueberrywindow.online, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.blueberrywindow.online } } }
     - { name: 🇺🇸_US_美国->🇹🇷_TR_土耳其_2, type: trojan, server: 172.67.175.243, port: 2053, udp: true, password: YS7mIZvKNt, sni: panell.followprovider.ir, skip-cert-verify: false, network: grpc, grpc-opts: { grpc-service-name: server-53651.prod.hosts.ooklaserver.net } }
-    - { name: CA-加拿大-54, server: 172.105.6.53, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: CA-加拿大-54, server: 172.105.3.64, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
     - { name: DE-德国-50, server: 172.105.70.22, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: SG-新加坡-47, server: 139.177.186.163, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: US-美国-50, server: 45.79.40.9, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: SG-新加坡-47, server: 172.104.163.139, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: US-美国-50, server: 66.228.50.124, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
     - { name: US-美国-55, server: 45.79.19.44, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
