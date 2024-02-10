@@ -11,18 +11,18 @@ proxies:
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
     - { name: 🇺🇸_US_美国_1, type: vmess, server: 172.67.221.183, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.blueberrywindow.online } } }
     - { name: 🇺🇸_US_美国_2, type: vmess, server: www.crispyrainbow.biz, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
-    - { name: CA-加拿大-54, server: 172.105.14.239, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: DE-德国-50, server: 172.104.229.171, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: SG-新加坡-47, server: 172.104.174.99, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: US-美国-50, server: 198.58.107.179, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: US-美国-55, server: 45.79.19.44, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: DE-德国-50, server: 85.90.244.128, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: SG-新加坡-44, server: 192.46.230.154, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: UK-英国-23, server: 178.79.155.159, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: US-美国-50, server: 173.255.203.153, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: US-美国-55, server: 45.33.126.249, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
-    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, DE-德国-50, SG-新加坡-44, UK-英国-23, US-美国-50, US-美国-55] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, DE-德国-50, SG-新加坡-44, UK-英国-23, US-美国-50, US-美国-55] }
+    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, DE-德国-50, SG-新加坡-44, UK-英国-23, US-美国-50, US-美国-55] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
