@@ -7,28 +7,22 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-    - { name: 🇺🇸_US_美国->🇹🇷_TR_土耳其_1, type: trojan, server: 104.21.72.61, port: 2053, udp: true, password: YS7mIZvKNt, sni: panell.followprovider.ir, skip-cert-verify: false, network: grpc, grpc-opts: { grpc-service-name: server-53651.prod.hosts.ooklaserver.net } }
-    - { name: 🇨🇦_CA_加拿大, type: trojan, server: 3.97.177.99, port: 22222, udp: true, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, network: tcp }
+    - { name: 🇺🇸_US_美国->🇳🇱_NL_荷兰, type: trojan, server: 172.67.157.8, port: 2096, udp: true, password: RtOGIC4aSC, sni: ngo.topoppongroup.space, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: '----------telegram:vpn_xw----------' } }
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
     - { name: 🇺🇸_US_美国_1, type: vmess, server: 172.67.221.183, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.blueberrywindow.online } } }
-    - { name: 🇺🇸_US_美国_2, type: vmess, server: server20.beheshtbaneh.com, port: 8880, cipher: auto, uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server20.beheshtbaneh.com } } }
-    - { name: 🇺🇸_US_美国_3, type: vmess, server: 172.67.212.114, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
-    - { name: 🇺🇸_US_美国_4, type: vmess, server: 104.21.31.244, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.nahck.site } } }
-    - { name: 🇺🇸_US_美国_5, type: vmess, server: www.crispyrainbow.online, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.online } } }
-    - { name: 🇺🇸_US_美国_6, type: vmess, server: www.blueberrywindow.online, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.blueberrywindow.online } } }
-    - { name: 🇺🇸_US_美国->🇹🇷_TR_土耳其_2, type: trojan, server: 172.67.175.243, port: 2053, udp: true, password: YS7mIZvKNt, sni: panell.followprovider.ir, skip-cert-verify: false, network: grpc, grpc-opts: { grpc-service-name: server-53651.prod.hosts.ooklaserver.net } }
-    - { name: CA-加拿大-54, server: 172.105.6.208, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: 🇺🇸_US_美国_2, type: vmess, server: www.crispyrainbow.biz, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
+    - { name: CA-加拿大-54, server: 172.105.14.75, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
     - { name: DE-德国-50, server: 172.104.229.171, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
-    - { name: SG-新加坡-47, server: 172.104.175.197, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
+    - { name: SG-新加坡-47, server: 139.162.5.138, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
     - { name: US-美国-50, server: 198.58.99.106, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
     - { name: US-美国-55, server: 45.79.19.44, port: 56173, type: ss, cipher: chacha20-ietf-poly1305, password: '1023153568' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇹🇷_TR_土耳其_1, 🇨🇦_CA_加拿大, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国->🇹🇷_TR_土耳其_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇹🇷_TR_土耳其_1, 🇨🇦_CA_加拿大, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国->🇹🇷_TR_土耳其_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
-    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇹🇷_TR_土耳其_1, 🇨🇦_CA_加拿大, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国_6, 🇺🇸_US_美国->🇹🇷_TR_土耳其_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇳🇱_NL_荷兰, 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, 🇺🇸_US_美国_1, 🇺🇸_US_美国_2, CA-加拿大-54, DE-德国-50, SG-新加坡-47, US-美国-50, US-美国-55] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
