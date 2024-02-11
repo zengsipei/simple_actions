@@ -13,7 +13,7 @@ proxies:
     - { name: 🇺🇸_US_美国_2, type: vmess, server: www.crispyrainbow.biz, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.crispyrainbow.biz } } }
     - { name: DE-德国-50, server: 85.90.244.128, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
     - { name: SG-新加坡-44, server: 192.46.230.154, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
-    - { name: UK-英国-23, server: 178.79.155.159, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: UK-英国-23, server: 176.58.122.79, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
     - { name: US-美国-50, server: 173.255.203.153, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
     - { name: US-美国-55, server: 45.33.126.249, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
 proxy-groups:
