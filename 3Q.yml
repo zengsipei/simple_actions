@@ -44,10 +44,10 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2, type: trojan, server: 183.232.230.230, port: 8443, udp: true, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: 083ab9ab-s8usg0-0-zzkl.s5.p5pv.com, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国_18, type: vmess, server: 104.21.82.183, port: 8880, cipher: auto, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server26.beheshtbaneh.com } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_5, type: vmess, server: 104.24.208.37, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
-    - { name: DE-德国-50, server: 172.104.144.175, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
-    - { name: SG-新加坡-44, server: 192.46.230.154, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
-    - { name: UK-英国-23, server: 176.58.122.79, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
-    - { name: US-美国-50, server: 173.255.203.153, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: DE-德国-50, server: 172.105.81.48, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: SG-新加坡-44, server: 172.104.175.107, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: UK-英国-23, server: 212.71.233.49, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
+    - { name: US-美国-50, server: 45.79.40.27, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
     - { name: US-美国-55, server: 96.126.117.143, port: 56373, type: ss, cipher: chacha20-ietf-poly1305, password: '4973689212' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
