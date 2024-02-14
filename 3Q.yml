@@ -55,9 +55,9 @@ proxies:
     - { name: 🇺🇸_US_美国_24, type: vmess, server: 107.167.21.150, port: 443, cipher: auto, uuid: fabb30e8-3a2c-4149-9651-2758f7712481, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /path/070410072720, headers: { host: www.58528190.xyz } } }
     - { name: 🇺🇸_US_美国_25, type: vmess, server: 67.21.73.220, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /path/060231310424, headers: { host: www.62719364.xyz } } }
     - { name: 🇺🇸_US_美国_26, type: vmess, server: 172.67.121.189, port: 8880, cipher: auto, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: server31.beheshtbaneh.com } } }
-    - { name: CA-加拿大-54, server: 172.105.9.64, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
+    - { name: CA-加拿大-54, server: 172.105.104.58, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
     - { name: DE-德国-50, server: 172.105.91.150, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
-    - { name: DE-德国-56, server: 139.162.171.12, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
+    - { name: DE-德国-56, server: 172.104.150.235, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
     - { name: SG-新加坡-47, server: 172.104.45.177, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
     - { name: US-美国-50, server: 198.58.115.141, port: 56517, type: ss, cipher: chacha20-ietf-poly1305, password: '3909756920' }
 proxy-groups:
