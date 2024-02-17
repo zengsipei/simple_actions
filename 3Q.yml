@@ -43,9 +43,9 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_9, type: vmess, server: 104.16.77.74, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: my1.tooters.ir } } }
     - { name: 🇺🇸_US_美国_8, type: vmess, server: 172.67.180.248, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.nahck.site } } }
     - { name: 🇯🇵_JP_日本->🇩🇪_DE_德国_7, type: vmess, server: 43.153.181.217, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
-    - { name: DE-德国-50, server: 139.162.131.232, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: SG-新加坡-44, server: 139.162.17.80, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: SG-新加坡-47, server: 172.104.170.173, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: DE-德国-50, server: 172.104.249.193, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: SG-新加坡-44, server: 172.104.55.26, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: SG-新加坡-47, server: 139.162.61.76, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
     - { name: US-美国-50, server: 45.33.29.135, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
     - { name: US-美国-55, server: 50.116.25.104, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
 proxy-groups:
