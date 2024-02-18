@@ -55,11 +55,11 @@ proxies:
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1, type: vmess, server: 104.18.15.149, port: 80, cipher: auto, uuid: c37f5fe6-5621-412f-8b78-1d6197ade017, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: er3.visaapp.top } } }
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2, type: vmess, server: 162.159.200.7, port: 80, cipher: auto, uuid: c37f5fe6-5621-412f-8b78-1d6197ade017, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: er3.visaapp.top } } }
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3, type: vmess, server: 162.159.200.6, port: 80, cipher: auto, uuid: c37f5fe6-5621-412f-8b78-1d6197ade017, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: er3.889611.com } } }
-    - { name: DE-德国-50, server: 172.104.249.193, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: SG-新加坡-44, server: 172.104.55.26, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: SG-新加坡-47, server: 139.162.61.76, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: US-美国-50, server: 45.33.29.135, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
-    - { name: US-美国-55, server: 50.116.25.104, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: DE-德国-50, server: 172.104.156.56, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: SG-新加坡-44, server: 103.3.61.221, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: SG-新加坡-47, server: 172.105.127.103, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: US-美国-50, server: 45.79.7.153, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
+    - { name: US-美国-55, server: 66.228.50.86, port: 56837, type: ss, cipher: chacha20-ietf-poly1305, password: '4969797595' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
