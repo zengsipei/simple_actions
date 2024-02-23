@@ -56,10 +56,10 @@ proxies:
     - { name: 🇺🇸_US_美国_5, type: vmess, server: www.ywnouvbale.biz, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.ywnouvbale.biz } } }
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
     - { name: DE-德国-50, server: 139.162.185.159, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
-    - { name: DE-德国-56, server: 172.104.130.155, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
+    - { name: DE-德国-56, server: 172.104.227.25, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
     - { name: SG-新加坡-47, server: 172.104.62.200, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
-    - { name: UK-英国-23, server: 213.219.36.65, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
-    - { name: US-美国-55, server: 104.237.139.172, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
+    - { name: UK-英国-23, server: 139.162.250.32, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
+    - { name: US-美国-55, server: 23.239.26.214, port: 57359, type: ss, cipher: chacha20-ietf-poly1305, password: '7863014953' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
