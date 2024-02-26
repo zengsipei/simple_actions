@@ -54,7 +54,7 @@ proxies:
     - { name: 🇳🇱_NL_荷兰->🇩🇪_DE_德国, type: vmess, server: mci--join.outline-vpn.cloud, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国_2, type: trojan, server: 172.67.193.36, port: 2087, udp: true, password: f85e2ad7-3e26-4589-b478-b0b15b9b5907, sni: us1.trojanvpn.de, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: grpc } }
     - { name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
-    - { name: CA-加拿大-54, server: 172.105.0.155, port: 57509, type: ss, cipher: chacha20-ietf-poly1305, password: '5166551686' }
+    - { name: CA-加拿大-54, server: 172.105.24.25, port: 57509, type: ss, cipher: chacha20-ietf-poly1305, password: '5166551686' }
     - { name: DE-德国-50, server: 45.79.251.118, port: 57509, type: ss, cipher: chacha20-ietf-poly1305, password: '5166551686' }
     - { name: SG-新加坡-47, server: 139.162.11.138, port: 57509, type: ss, cipher: chacha20-ietf-poly1305, password: '5166551686' }
     - { name: US-美国-50, server: 45.33.23.141, port: 57509, type: ss, cipher: chacha20-ietf-poly1305, password: '5166551686' }
