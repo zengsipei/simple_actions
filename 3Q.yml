@@ -58,7 +58,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇯🇵_JP_日本, type: vmess, server: 104.17.123.55, port: 8080, cipher: auto, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/qZTtpya?ed=2048', headers: { host: pq.kmoljklj.top } } }
     - { name: DE-德国-50, server: 139.162.135.230, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
     - { name: SG-新加坡-47, server: 172.104.162.111, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
-    - { name: UK-英国-23, server: 176.58.119.38, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
+    - { name: UK-英国-23, server: 178.79.131.189, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
     - { name: UK-英国-24, server: 212.71.244.190, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
     - { name: US-美国-50, server: 96.126.122.136, port: 57673, type: ss, cipher: chacha20-ietf-poly1305, password: '0405888598' }
 proxy-groups:
