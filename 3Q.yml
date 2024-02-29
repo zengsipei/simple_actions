@@ -58,10 +58,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_47, type: vmess, server: 172.67.241.165, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_48, type: vmess, server: 104.20.231.30, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: my1.tooters.ir } } }
     - { name: CA-加拿大-54, server: 172.105.16.64, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
-    - { name: DE-德国-56, server: 45.79.250.37, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
-    - { name: SG-新加坡-47, server: 139.162.6.20, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
-    - { name: UK-英国-23, server: 178.79.131.189, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
-    - { name: US-美国-55, server: 198.58.117.43, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
+    - { name: DE-德国-56, server: 139.162.181.21, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
+    - { name: SG-新加坡-47, server: 139.162.52.174, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
+    - { name: UK-英国-23, server: 212.111.41.223, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
+    - { name: US-美国-55, server: 45.79.22.227, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
