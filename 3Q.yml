@@ -49,7 +49,7 @@ proxies:
     - { name: 🇺🇸_US_美国_14, type: trojan, server: 95.164.114.43, port: 443, udp: true, password: 180c7f40-c29e-445d-8056-ae92f3b451d7, sni: kz-full.privateip.net, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_19, type: vmess, server: de-01.cloudlion.me, port: 8080, cipher: auto, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: de-01.cloudlion.me } } }
     - { name: CA-加拿大-54, server: 172.105.16.64, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
-    - { name: DE-德国-56, server: 139.162.181.21, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
+    - { name: DE-德国-56, server: 172.105.69.214, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
     - { name: SG-新加坡-47, server: 139.162.52.174, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
     - { name: UK-英国-23, server: 212.111.41.223, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
     - { name: US-美国-55, server: 96.126.126.194, port: 57800, type: ss, cipher: chacha20-ietf-poly1305, password: '3501220358' }
