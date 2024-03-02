@@ -14,7 +14,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_1, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_2, type: vmess, server: s1c.v2.v001sss.xyz, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇮🇪_IE_爱尔兰, type: trojan, server: 52.48.93.169, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.16.64, port: 57928, type: ss, cipher: chacha20-ietf-poly1305, password: '9687159759' }
+    - { name: CA-加拿大-54, server: 172.105.4.155, port: 57928, type: ss, cipher: chacha20-ietf-poly1305, password: '9687159759' }
     - { name: DE-德国-56, server: 139.162.148.98, port: 57928, type: ss, cipher: chacha20-ietf-poly1305, password: '9687159759' }
     - { name: SG-新加坡-44, server: 139.162.47.76, port: 57928, type: ss, cipher: chacha20-ietf-poly1305, password: '9687159759' }
     - { name: UK-英国-24, server: 109.74.199.17, port: 57928, type: ss, cipher: chacha20-ietf-poly1305, password: '9687159759' }
