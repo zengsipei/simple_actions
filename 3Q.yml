@@ -24,7 +24,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_1, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_2, type: vmess, server: s1c.v2.v001sss.xyz, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: DE-德国-56, server: 172.105.84.161, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
-    - { name: SG-新加坡-47, server: 139.162.2.109, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
+    - { name: SG-新加坡-47, server: 139.177.184.20, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: UK-英国-23, server: 139.162.210.64, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: US-美国-50, server: 198.58.98.151, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: US-美国-55, server: 50.116.18.121, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
