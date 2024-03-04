@@ -24,10 +24,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_1, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国_6, type: trojan, server: us-1.xxom.top, port: 543, udp: true, password: 36046875-393f-45ad-b9fc-de924680bf0b, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_2, type: vmess, server: s1c.v2.v001sss.xyz, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
-    - { name: DE-德国-56, server: 172.105.75.31, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
+    - { name: DE-德国-56, server: 45.79.249.84, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: SG-新加坡-47, server: 172.104.43.187, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: UK-英国-23, server: 139.162.218.138, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
-    - { name: US-美国-50, server: 72.14.185.129, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
+    - { name: US-美国-50, server: 198.58.98.151, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
     - { name: US-美国-55, server: 45.79.7.56, port: 58087, type: ss, cipher: chacha20-ietf-poly1305, password: '7041732887' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
