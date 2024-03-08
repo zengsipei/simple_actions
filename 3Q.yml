@@ -21,7 +21,7 @@ proxies:
     - { name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_2, type: vmess, server: 23.227.38.11, port: 8080, cipher: auto, uuid: 4a5ae806-ee72-473a-83b2-531808f454d5, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm, headers: { host: championship-bidding-oxygen-brochure.trycloudflare.com } } }
     - { name: 🇺🇸_US_美国_5, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国, type: vmess, server: de-01.cloudlion.me, port: 8080, cipher: auto, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: de-01.cloudlion.me } } }
-    - { name: DE-德国-50, server: 172.104.156.74, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
+    - { name: DE-德国-50, server: 172.104.233.72, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: SG-新加坡-44, server: 172.105.123.12, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: SG-新加坡-47, server: 139.162.48.224, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: US-美国-50, server: 198.58.126.19, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
