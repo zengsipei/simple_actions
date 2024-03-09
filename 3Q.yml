@@ -22,7 +22,7 @@ proxies:
     - { name: 🇦🇷_AR_阿根廷, type: ss, server: 190.103.176.29, port: 989, password: f8f7aCzcPKbsF8p3, cipher: aes-256-cfb }
     - { name: 🇨🇦_CA_加拿大->🇺🇸_US_美国, type: trojan, server: 23.227.38.11, port: 443, udp: true, password: b17fa17d-13a0-4e8a-a398-8e549ea8b208, sni: syndication-statutes-wanted-logo.trycloudflare.com, skip-cert-verify: true, network: ws, ws-opts: { path: /argox-tr } }
     - { name: 🇺🇸_US_美国->🇮🇳_IN_印度_2, type: vmess, server: www.visa.com.hk, port: 80, cipher: auto, uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: ydmmamd2.mac2win.top } } }
-    - { name: DE-德国-50, server: 139.162.154.90, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
+    - { name: DE-德国-50, server: 172.104.244.43, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: SG-新加坡-44, server: 172.104.185.237, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: SG-新加坡-47, server: 172.104.168.74, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
     - { name: US-美国-50, server: 45.33.15.49, port: 58365, type: ss, cipher: chacha20-ietf-poly1305, password: '8330234441' }
