@@ -23,10 +23,10 @@ proxies:
     - { name: 🇨🇦_CA_加拿大->🇺🇸_US_美国, type: trojan, server: 23.227.38.11, port: 443, udp: true, password: b17fa17d-13a0-4e8a-a398-8e549ea8b208, sni: syndication-statutes-wanted-logo.trycloudflare.com, skip-cert-verify: true, network: ws, ws-opts: { path: /argox-tr } }
     - { name: 🇺🇸_US_美国->🇮🇳_IN_印度_2, type: vmess, server: www.visa.com.hk, port: 80, cipher: auto, uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: ydmmamd2.mac2win.top } } }
     - { name: DE-德国-56, server: 172.105.65.168, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: SG-新加坡-44, server: 139.162.40.70, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: SG-新加坡-47, server: 139.162.20.126, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: UK-英国-24, server: 185.3.95.250, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: US-美国-50, server: 50.116.25.177, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: SG-新加坡-44, server: 172.105.112.111, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: SG-新加坡-47, server: 172.104.181.49, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: UK-英国-24, server: 178.79.136.168, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: US-美国-50, server: 45.79.28.51, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
