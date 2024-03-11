@@ -23,10 +23,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vmess, server: de-01.cloudlion.me, port: 8080, cipher: auto, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: de-01.cloudlion.me } } }
     - { name: 🇺🇸_US_美国_7, type: vmess, server: 172.67.143.192, port: 8080, cipher: auto, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: www.velvetmountain.shop } } }
     - { name: DE-德国-56, server: 194.195.241.232, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: SG-新加坡-44, server: 172.105.112.111, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: SG-新加坡-47, server: 139.162.31.238, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: SG-新加坡-44, server: 45.118.135.6, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: SG-新加坡-47, server: 172.104.40.31, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
     - { name: UK-英国-24, server: 139.162.236.86, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: US-美国-50, server: 72.14.176.252, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: US-美国-50, server: 104.237.138.80, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
