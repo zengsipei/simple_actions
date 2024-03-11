@@ -27,10 +27,10 @@ proxies:
     - { name: 🇺🇸_US_美国_8, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国_9, type: vmess, server: 162.159.134.23, port: 8080, cipher: auto, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: { host: championship-bidding-oxygen-brochure.trycloudflare.com } } }
     - { name: DE-德国-56, server: 194.195.241.232, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: SG-新加坡-44, server: 172.105.122.59, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: SG-新加坡-44, server: 103.3.62.165, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
     - { name: SG-新加坡-47, server: 172.104.162.244, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
     - { name: UK-英国-24, server: 139.162.236.86, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
-    - { name: US-美国-50, server: 45.33.122.10, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
+    - { name: US-美国-50, server: 50.116.26.117, port: 58514, type: ss, cipher: chacha20-ietf-poly1305, password: '7725206190' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
