@@ -43,11 +43,11 @@ proxies:
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: s1c.v2.v001sss.xyz, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国_4, type: trojan, server: 2usmax01.170203.xyz, port: 7454, udp: true, password: 7e5f9c76-bda8-4f0c-8113-36078efec3c9, sni: 2usmax01.170203.xyz, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_2, type: trojan, server: 23.227.38.11, port: 443, udp: true, password: b17fa17d-13a0-4e8a-a398-8e549ea8b208, sni: syndication-statutes-wanted-logo.trycloudflare.com, skip-cert-verify: true, network: ws, ws-opts: { path: /argox-tr } }
-    - { name: SG-新加坡-44, server: 139.162.20.239, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
-    - { name: SG-新加坡-47, server: 139.162.61.114, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
+    - { name: SG-新加坡-44, server: 139.162.61.114, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
+    - { name: SG-新加坡-47, server: 45.118.135.87, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
     - { name: UK-英国-23, server: 212.71.239.80, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
-    - { name: US-美国-50, server: 45.33.14.56, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
-    - { name: US-美国-55, server: 45.33.16.187, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
+    - { name: US-美国-50, server: 45.79.25.152, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
+    - { name: US-美国-55, server: 45.33.22.137, port: 58763, type: ss, cipher: chacha20-ietf-poly1305, password: '8698285935' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
