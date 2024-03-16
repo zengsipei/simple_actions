@@ -35,7 +35,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国, type: vmess, server: 104.21.20.19, port: 80, cipher: auto, uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: de2.xv2ray.net } } }
     - { name: CA-加拿大-54, server: 172.105.16.64, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
     - { name: DE-德国-50, server: 139.162.149.97, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
-    - { name: SG-新加坡-47, server: 172.104.161.222, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
+    - { name: SG-新加坡-47, server: 172.104.181.226, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
     - { name: UK-英国-24, server: 178.79.137.10, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
     - { name: US-美国-55, server: 198.58.98.13, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
 proxy-groups:
