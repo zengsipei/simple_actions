@@ -22,11 +22,11 @@ proxies:
     - { name: 🇫🇷_FR_法国_2, type: vmess, server: 51.159.155.52, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
     - { name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国, type: vmess, server: 94.140.0.110, port: 8880, cipher: auto, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: food.zhaal.ir } } }
     - { name: 🇺🇸_US_美国_6, type: vmess, server: russia.com, port: 2095, cipher: auto, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: ssrsub.v03.ssrsub.com } } }
-    - { name: CA-加拿大-54, server: 172.105.26.134, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
-    - { name: DE-德国-50, server: 139.162.153.225, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
-    - { name: SG-新加坡-47, server: 172.104.163.112, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
+    - { name: CA-加拿大-54, server: 172.105.104.128, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
+    - { name: DE-德国-50, server: 45.79.250.136, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
+    - { name: SG-新加坡-47, server: 192.53.112.138, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
     - { name: UK-英国-24, server: 212.71.245.188, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
-    - { name: US-美国-55, server: 45.33.9.74, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
+    - { name: US-美国-55, server: 45.79.40.229, port: 58870, type: ss, cipher: chacha20-ietf-poly1305, password: '3064899251' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
