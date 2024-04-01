@@ -27,11 +27,11 @@ proxies:
     - { name: 🇺🇸_US_美国_10, type: ss, server: 169.197.142.216, port: 6679, password: TEzjfAYq2IjtuoS, cipher: aes-256-gcm }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_1, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_2, type: vmess, server: 104.21.8.157, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
-    - { name: CA-加拿大-54, server: 172.105.17.17, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
-    - { name: DE-德国-50, server: 139.162.149.23, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
-    - { name: SG-新加坡-47, server: 139.162.39.116, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
-    - { name: UK-英国-23, server: 139.162.197.57, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
-    - { name: US-美国-50, server: 72.14.190.117, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
+    - { name: CA-加拿大-54, server: 172.105.23.96, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
+    - { name: DE-德国-50, server: 172.105.93.26, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
+    - { name: SG-新加坡-47, server: 139.162.57.148, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
+    - { name: UK-英国-23, server: 176.58.126.77, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
+    - { name: US-美国-50, server: 198.58.115.145, port: 59962, type: ss, cipher: chacha20-ietf-poly1305, password: '0851673708' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
