@@ -57,9 +57,9 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_44, type: vmess, server: 104.21.225.158, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_45, type: vmess, server: 104.21.232.61, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: a.prapt5.ir } } }
     - { name: CA-加拿大-54, server: 192.53.120.144, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
-    - { name: SG-新加坡-47, server: 172.104.164.133, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
+    - { name: SG-新加坡-47, server: 172.104.50.171, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
     - { name: UK-英国-23, server: 178.79.188.186, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
-    - { name: US-美国-50, server: 104.237.133.98, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
+    - { name: US-美国-50, server: 45.33.115.10, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
     - { name: US-美国-55, server: 50.116.17.252, port: 60503, type: ss, cipher: chacha20-ietf-poly1305, password: '1136375812' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
