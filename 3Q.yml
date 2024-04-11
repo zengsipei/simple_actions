@@ -56,10 +56,10 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_43, type: vmess, server: 104.21.225.6, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_44, type: vmess, server: 104.21.225.158, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_45, type: vmess, server: 104.21.232.61, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: a.prapt5.ir } } }
-    - { name: CA-加拿大-54, server: 172.105.102.118, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
-    - { name: SG-新加坡-44, server: 172.105.124.205, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
-    - { name: UK-英国-24, server: 109.237.27.56, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
-    - { name: US-美国-50, server: 173.255.194.113, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
+    - { name: CA-加拿大-54, server: 172.105.7.46, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
+    - { name: SG-新加坡-44, server: 139.177.187.171, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
+    - { name: UK-英国-24, server: 178.79.130.45, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
+    - { name: US-美国-50, server: 45.79.40.177, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
     - { name: US-美国-55, server: 45.56.72.234, port: 60747, type: ss, cipher: chacha20-ietf-poly1305, password: '7195166356' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
