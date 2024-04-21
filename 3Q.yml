@@ -56,11 +56,11 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_43, type: vmess, server: 104.21.225.6, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_44, type: vmess, server: 104.21.225.158, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: a.prapt5.ir } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_45, type: vmess, server: 104.21.232.61, port: 80, cipher: auto, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: a.prapt5.ir } } }
-    - { name: CA-加拿大-54, server: 139.177.196.141, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
-    - { name: DE-德国-50, server: 85.90.245.222, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
-    - { name: SG-新加坡-44, server: 139.162.33.184, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
-    - { name: UK-英国-23, server: 178.79.189.140, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
-    - { name: US-美国-55, server: 50.116.29.109, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
+    - { name: CA-加拿大-54, server: 172.105.18.48, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
+    - { name: DE-德国-50, server: 172.105.83.81, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
+    - { name: SG-新加坡-44, server: 139.162.59.79, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
+    - { name: UK-英国-23, server: 176.58.127.120, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
+    - { name: US-美国-55, server: 96.126.123.68, port: 61280, type: ss, cipher: chacha20-ietf-poly1305, password: '7767216704' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
