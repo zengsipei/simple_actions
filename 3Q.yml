@@ -17,18 +17,18 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.19.250.15, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: 🇺🇸_US_美国_5, type: vmess, server: cfcdn1.sanfencdn9.com, port: 2052, cipher: auto, uuid: 8c7b39d2-eb80-48d4-9471-76bddc5273c8, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/GQ2qE5Us9g, headers: { host: tw1bQiWSE4x.fzbqfrse.xyz } } }
     - { name: 🇱🇺_LU_卢森堡, type: vmess, server: 45.82.31.164, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
-    - { name: CA-加拿大-54, server: 172.105.19.164, port: 61910, type: ss, cipher: chacha20-ietf-poly1305, password: '6979100271' }
-    - { name: DE-德国-50, server: 172.104.241.93, port: 61910, type: ss, cipher: chacha20-ietf-poly1305, password: '6979100271' }
-    - { name: DE-德国-56, server: 172.104.155.49, port: 61910, type: ss, cipher: chacha20-ietf-poly1305, password: '6979100271' }
-    - { name: SG-新加坡-44, server: 103.3.60.99, port: 61910, type: ss, cipher: chacha20-ietf-poly1305, password: '6979100271' }
-    - { name: US-美国-55, server: 72.14.189.35, port: 61910, type: ss, cipher: chacha20-ietf-poly1305, password: '6979100271' }
+    - { name: DE-德国-50, server: 139.177.179.97, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: SG-新加坡-44, server: 139.162.8.170, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: UK-英国-23, server: 178.79.136.131, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: UK-英国-24, server: 139.162.198.94, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: US-美国-50, server: 23.239.24.139, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, CA-加拿大-54, DE-德国-50, DE-德国-56, SG-新加坡-44, US-美国-55] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, CA-加拿大-54, DE-德国-50, DE-德国-56, SG-新加坡-44, US-美国-55] }
-    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, CA-加拿大-54, DE-德国-50, DE-德国-56, SG-新加坡-44, US-美国-55] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国_5, 🇱🇺_LU_卢森堡, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
