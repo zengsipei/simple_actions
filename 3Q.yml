@@ -7,28 +7,28 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-    - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_1, type: vmess, server: 104.19.250.15, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: 🇺🇸_US_美国_1, type: vmess, server: cfcdn1.sanfencdn9.com, port: 2052, cipher: auto, uuid: 8c7b39d2-eb80-48d4-9471-76bddc5273c8, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/GQ2qE5Us9g, headers: { host: tw1bQiWSE4x.fzbqfrse.xyz } } }
-    - { name: 🇱🇺_LU_卢森堡, type: vmess, server: 45.82.31.164, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
-    - { name: 🇺🇸_US_美国_2, type: vmess, server: 104.16.61.8, port: 80, cipher: auto, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /obdii.cfd/linkws, headers: { host: d396-flower-d396.megare7260.workers.dev } } }
-    - { name: 🇺🇸_US_美国_3, type: vmess, server: 104.18.25.92, port: 2052, cipher: auto, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /afrhms16v.bestxray.buzz/linkws, headers: { host: mysan2.jaquay22.workers.dev } } }
-    - { name: 🇺🇸_US_美国_4, type: vmess, server: speed.cloudflare.com, port: 80, cipher: auto, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /hms02.fxiaomi.sbs/link, headers: { host: range-shape-b3fuegu.bananok182.workers.dev } } }
-    - { name: 🇺🇸_US_美国_5, type: vmess, server: 104.16.60.8, port: 2082, cipher: auto, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /afrhms16v.bestxray.buzz/linkws, headers: { host: worker-noisy-paper-fa00.hetoj18200.workers.dev } } }
-    - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vmess, server: 104.18.36.119, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.18.19.191, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: 🇺🇸_US_美国->🇬🇧_GB_英国, type: vmess, server: 104.19.40.84, port: 8880, cipher: auto, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/d/65dd503.TG.WangCai2.WangCai_8:107690', headers: { host: uk.moss.network } } }
-    - { name: DE-德国-50, server: 172.104.153.185, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
-    - { name: SG-新加坡-44, server: 172.105.113.103, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: 🇺🇸_US_美国->🇩🇪_DE_德国, type: vmess, server: 104.19.250.15, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
+    - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
+    - { name: 🇺🇸_US_美国_1, type: ss, server: 129.146.102.22, port: 34017, password: N0k6tSWblI, cipher: aes-256-gcm }
+    - { name: 🇩🇪_DE_德国, type: ss, server: 80.92.204.106, port: 9094, password: rpgbNnU9rDDU4aWZ, cipher: aes-256-cfb }
+    - { name: 🇨🇳_CN_中国->🇩🇪_DE_德国, type: trojan, server: 36.138.99.56, port: 40316, udp: true, password: MyYoZhfX, skip-cert-verify: true, network: tcp }
+    - { name: 🇺🇸_US_美国_2, type: trojan, server: 23.142.200.175, port: 443, udp: true, password: 27876_t7d7f4e3f, skip-cert-verify: true, network: tcp }
+    - { name: 🇺🇸_US_美国_3, type: vmess, server: cfcdn1.sanfencdn9.com, port: 2095, cipher: auto, uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/qYZue4zaWS, headers: { host: us82pRzxDMb.fzbqfrse.xyz } } }
+    - { name: 🇺🇸_US_美国_4, type: ss, server: 156.146.38.163, port: 443, password: shadowsocks, cipher: aes-128-cfb }
+    - { name: 🇺🇸_US_美国_5, type: vmess, server: de2-full.privateip.net, port: 443, cipher: auto, uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /RACEVPN } }
+    - { name: 🇨🇦_CA_加拿大, type: ss, server: 23.162.200.215, port: 9090, password: Y6R9pAtvxxzmGC, cipher: aes-256-gcm }
+    - { name: DE-德国-50, server: 172.105.249.21, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: SG-新加坡-44, server: 172.104.58.82, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
     - { name: UK-英国-23, server: 178.79.165.80, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
-    - { name: UK-英国-24, server: 178.79.140.26, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
-    - { name: US-美国-50, server: 45.33.8.34, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: UK-英国-24, server: 176.58.115.195, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
+    - { name: US-美国-50, server: 198.58.115.89, port: 62048, type: ss, cipher: chacha20-ietf-poly1305, password: '5593493651' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇱🇺_LU_卢森堡, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国->🇬🇧_GB_英国, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇱🇺_LU_卢森堡, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国->🇬🇧_GB_英国, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国_1, 🇺🇸_US_美国_1, 🇱🇺_LU_卢森堡, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇺🇸_US_美国->🇩🇪_DE_德国_2, 🇺🇸_US_美国->🇩🇪_DE_德国_3, 🇺🇸_US_美国->🇬🇧_GB_英国, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国_1, 🇩🇪_DE_德国, 🇨🇳_CN_中国->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇨🇦_CA_加拿大, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国_1, 🇩🇪_DE_德国, 🇨🇳_CN_中国->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇨🇦_CA_加拿大, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: SELECT, type: select, proxies: [🇺🇸_US_美国->🇩🇪_DE_德国, 🇺🇸_US_美国->🇫🇷_FR_法国, 🇺🇸_US_美国_1, 🇩🇪_DE_德国, 🇨🇳_CN_中国->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇺🇸_US_美国_3, 🇺🇸_US_美国_4, 🇺🇸_US_美国_5, 🇨🇦_CA_加拿大, DE-德国-50, SG-新加坡-44, UK-英国-23, UK-英国-24, US-美国-50] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
