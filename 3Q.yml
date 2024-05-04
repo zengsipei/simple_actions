@@ -17,11 +17,11 @@ proxies:
     - { name: 🇺🇸_US_美国_4, type: ss, server: 156.146.38.163, port: 443, password: shadowsocks, cipher: aes-128-cfb }
     - { name: 🇺🇸_US_美国_5, type: vmess, server: de2-full.privateip.net, port: 443, cipher: auto, uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /RACEVPN } }
     - { name: 🇨🇦_CA_加拿大, type: ss, server: 23.162.200.215, port: 9090, password: Y6R9pAtvxxzmGC, cipher: aes-256-gcm }
-    - { name: SG-新加坡-44, server: 139.162.25.86, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: SG-新加坡-47, server: 172.105.126.108, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: UK-英国-23, server: 178.79.133.66, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: US-美国-50, server: 50.116.22.59, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: US-美国-55, server: 96.126.118.108, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: SG-新加坡-44, server: 172.104.170.61, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: SG-新加坡-47, server: 139.162.37.8, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: UK-英国-23, server: 139.162.245.190, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: US-美国-50, server: 45.33.125.96, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: US-美国-55, server: 45.79.36.198, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
