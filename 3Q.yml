@@ -18,11 +18,11 @@ proxies:
     - { name: 🇱🇺_LU_卢森堡, type: vmess, server: 45.82.31.164, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
     - { name: 🇶🇦_QA_卡塔尔, type: vmess, server: 54.38.212.91, port: 80, cipher: auto, uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/?ed=2048', headers: { host: www.gov.uk } } }
     - { name: 🇳🇱_NL_荷兰_2, type: trojan, server: nl2-full.privateip.net, port: 443, udp: true, password: 6e28f704-29a0-4c86-b25b-dd090603c741, skip-cert-verify: true, network: tcp }
-    - { name: SG-新加坡-44, server: 172.104.188.187, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: SG-新加坡-47, server: 139.162.37.8, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: SG-新加坡-44, server: 172.104.175.36, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: SG-新加坡-47, server: 172.104.43.81, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
     - { name: UK-英国-23, server: 139.162.245.190, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: US-美国-50, server: 198.58.100.152, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
-    - { name: US-美国-55, server: 45.79.36.198, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: US-美国-50, server: 198.58.105.52, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
+    - { name: US-美国-55, server: 96.126.116.94, port: 62224, type: ss, cipher: chacha20-ietf-poly1305, password: '0211858693' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
