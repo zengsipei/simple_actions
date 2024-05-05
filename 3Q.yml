@@ -21,7 +21,7 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇩🇪_DE_德国, type: trojan, server: 36.138.99.56, port: 40316, udp: true, password: MyYoZhfX, skip-cert-verify: true, network: tcp }
     - { name: CA-加拿大-54, server: 172.105.6.171, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
     - { name: DE-德国-50, server: 172.104.253.237, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: SG-新加坡-44, server: 139.162.30.99, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: SG-新加坡-44, server: 172.105.118.157, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
     - { name: UK-英国-24, server: 178.79.171.143, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
     - { name: US-美国-50, server: 45.79.23.116, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
 proxy-groups:
