@@ -19,11 +19,11 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_4, type: vmess, server: 104.18.19.191, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: 🇨🇦_CA_加拿大, type: vmess, server: 23.162.200.227, port: 443, cipher: auto, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /linkvws } }
     - { name: 🇨🇳_CN_中国->🇩🇪_DE_德国, type: trojan, server: 36.138.99.56, port: 40316, udp: true, password: MyYoZhfX, skip-cert-verify: true, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.6.171, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: DE-德国-50, server: 172.104.253.237, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: SG-新加坡-44, server: 172.105.118.157, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: UK-英国-24, server: 178.79.171.143, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: US-美国-50, server: 45.79.23.116, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: CA-加拿大-54, server: 172.105.96.13, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: DE-德国-50, server: 139.162.191.164, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: SG-新加坡-44, server: 139.162.37.8, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: UK-英国-24, server: 178.79.169.78, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: US-美国-50, server: 45.33.1.158, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
