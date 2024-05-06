@@ -24,11 +24,11 @@ proxies:
     - { name: 🇺🇸_US_美国_4, type: trojan, server: 18.189.91.107, port: 22222, udp: true, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
     - { name: 🇬🇧_GB_英国, type: trojan, server: 18.134.191.135, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, network: tcp }
     - { name: 🇨🇳_CN_中国->🇩🇪_DE_德国, type: trojan, server: 36.138.99.56, port: 40316, udp: true, password: MyYoZhfX, skip-cert-verify: true, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.15.218, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: CA-加拿大-54, server: 172.105.21.38, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
     - { name: DE-德国-50, server: 139.162.181.39, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: SG-新加坡-44, server: 192.53.175.234, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: SG-新加坡-44, server: 192.46.228.40, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
     - { name: UK-英国-24, server: 178.79.154.117, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
-    - { name: US-美国-50, server: 72.14.183.68, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
+    - { name: US-美国-50, server: 69.164.203.109, port: 62390, type: ss, cipher: chacha20-ietf-poly1305, password: '7854293720' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
