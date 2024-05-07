@@ -23,11 +23,11 @@ proxies:
     - { name: 🇬🇧_GB_英国->🇺🇸_US_美国, type: vmess, server: 89.213.164.154, port: 443, cipher: auto, uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a, alterId: 0, tls: false, skip-cert-verify: true, network: http }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vmess, server: 104.18.36.119, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.18.19.191, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: CA-加拿大-54, server: 192.53.123.106, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: DE-德国-50, server: 172.105.86.36, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: DE-德国-56, server: 172.105.80.69, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: UK-英国-23, server: 139.162.248.36, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: UK-英国-24, server: 212.71.245.166, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: CA-加拿大-54, server: 172.105.16.247, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: DE-德国-50, server: 172.104.131.162, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: DE-德国-56, server: 139.162.143.8, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: UK-英国-23, server: 139.162.231.234, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: UK-英国-24, server: 139.162.237.224, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
