@@ -14,10 +14,10 @@ proxies:
     - { name: 🇺🇸_US_美国_3, type: vmess, server: 104.17.229.133, port: 2052, cipher: auto, uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: usxm.inekokkk.top } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_2, type: vmess, server: 104.19.250.15, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.18.19.191, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: CA-加拿大-54, server: 170.187.181.14, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: DE-德国-50, server: 172.104.227.129, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: CA-加拿大-54, server: 139.177.198.94, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: DE-德国-50, server: 172.104.159.85, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
     - { name: DE-德国-56, server: 172.105.66.213, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
-    - { name: UK-英国-23, server: 213.52.128.227, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
+    - { name: UK-英国-23, server: 178.79.142.46, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
     - { name: UK-英国-24, server: 178.79.154.236, port: 62532, type: ss, cipher: chacha20-ietf-poly1305, password: '8330364957' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
