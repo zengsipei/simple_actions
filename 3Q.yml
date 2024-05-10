@@ -14,11 +14,11 @@ proxies:
     - { name: 🇱🇺_LU_卢森堡, type: vmess, server: 45.82.31.164, port: 3389, cipher: auto, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, tls: false, skip-cert-verify: true, network: http }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.18.36.119, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_4, type: vmess, server: 104.18.19.191, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
-    - { name: DE-德国-56, server: 172.104.147.221, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
+    - { name: DE-德国-56, server: 172.104.159.152, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
     - { name: SG-新加坡-44, server: 172.105.126.208, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
     - { name: SG-新加坡-47, server: 172.105.119.103, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
     - { name: UK-英国-23, server: 176.58.108.175, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
-    - { name: US-美国-50, server: 50.116.25.198, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
+    - { name: US-美国-50, server: 45.56.69.18, port: 62634, type: ss, cipher: chacha20-ietf-poly1305, password: '5724751827' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
