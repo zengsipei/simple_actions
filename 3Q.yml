@@ -13,11 +13,11 @@ proxies:
     - { name: 🇺🇸_US_美国_2, type: vmess, server: cfcdn1.sanfencdn9.com, port: 2052, cipher: auto, uuid: 2eec45db-dfcd-43d6-8514-b141aff651be, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/GQ2qE5Us9g, headers: { host: tw1bQiWSE4x.fzbqfrse.xyz } } }
     - { name: 🇨🇳_CN_中国->🇮🇳_IN_印度, type: vmess, server: 183.240.255.91, port: 44001, cipher: auto, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, tls: false, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国_3, type: vmess, server: 104.18.242.177, port: 2052, cipher: auto, uuid: 2eec45db-dfcd-43d6-8514-b141aff651be, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/GQ2qE5Us9g, headers: { host: tw1bQiWSE4x.fzbqfrse.xyz } } }
-    - { name: CA-加拿大-54, server: 139.177.194.147, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: CA-加拿大-54, server: 172.105.98.236, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
     - { name: SG-新加坡-47, server: 139.162.35.150, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
     - { name: UK-英国-23, server: 139.162.198.144, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
     - { name: US-美国-50, server: 45.33.29.149, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
-    - { name: US-美国-55, server: 23.239.30.54, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: US-美国-55, server: 45.33.31.153, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
