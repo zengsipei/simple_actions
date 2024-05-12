@@ -14,11 +14,11 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国, type: trojan, server: 223.113.54.154, port: 15274, udp: true, password: MyYoZhfX, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: 172.67.204.84, port: 2082, cipher: auto, uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056', headers: { host: impr0.impr0.impr0.impr0.99-100uxprjy9vbpushl-djnbtbw28yf9ss2m.impr0sub.com } } }
     - { name: 🇺🇸_US_美国_2, type: vmess, server: russia.com, port: 2095, cipher: auto, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
-    - { name: CA-加拿大-54, server: 172.105.0.190, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
-    - { name: SG-新加坡-47, server: 172.104.59.23, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
-    - { name: UK-英国-23, server: 139.162.198.144, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
-    - { name: US-美国-50, server: 45.79.51.237, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
-    - { name: US-美国-55, server: 45.33.31.153, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: CA-加拿大-54, server: 172.105.7.57, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: SG-新加坡-47, server: 172.104.39.95, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: UK-英国-23, server: 139.162.219.134, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: US-美国-50, server: 45.33.113.201, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
+    - { name: US-美国-55, server: 45.79.4.130, port: 62768, type: ss, cipher: chacha20-ietf-poly1305, password: '8548526628' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
