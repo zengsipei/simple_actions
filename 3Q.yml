@@ -13,10 +13,10 @@ proxies:
     - { name: 🇺🇸_US_美国_1, type: vmess, server: russia.com, port: 8880, cipher: auto, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
     - { name: 🇺🇸_US_美国_2, type: vmess, server: russia.com, port: 2095, cipher: auto, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
     - { name: 🇺🇸_US_美国_3, type: vmess, server: 162.159.49.42, port: 2052, cipher: auto, uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /video/GQ2qE5Us9g, headers: { host: tw1bQiWSE4x.fzbqfrse.xyz } } }
-    - { name: CA-加拿大-54, server: 172.105.24.151, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
-    - { name: DE-德国-50, server: 139.162.138.80, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
-    - { name: UK-英国-23, server: 139.162.250.171, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
-    - { name: US-美国-50, server: 198.58.99.106, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
+    - { name: CA-加拿大-54, server: 172.105.104.149, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
+    - { name: DE-德国-50, server: 172.105.78.83, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
+    - { name: UK-英国-23, server: 178.79.180.112, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
+    - { name: US-美国-50, server: 45.33.121.93, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
     - { name: US-美国-55, server: 198.58.103.159, port: 62905, type: ss, cipher: chacha20-ietf-poly1305, password: '6923808921' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
