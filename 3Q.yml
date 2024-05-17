@@ -15,7 +15,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_3, type: vmess, server: 104.19.250.15, port: 2052, cipher: auto, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: helanv6cf.inekokkk.top } } }
     - { name: CA-加拿大-54, server: 139.177.194.57, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
     - { name: SG-新加坡-44, server: 139.162.18.183, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
-    - { name: UK-英国-23, server: 178.79.142.75, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
+    - { name: UK-英国-23, server: 178.79.150.130, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
     - { name: UK-英国-24, server: 139.162.206.141, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
     - { name: US-美国-50, server: 66.228.50.113, port: 63014, type: ss, cipher: chacha20-ietf-poly1305, password: '1392279177' }
 proxy-groups:
