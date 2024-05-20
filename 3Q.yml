@@ -30,10 +30,10 @@ proxies:
     - { name: 🇺🇸_US_美国_13, type: vmess, server: 104.20.45.232, port: 2052, cipher: auto, uuid: e6933218-ad65-3943-9afd-0d78638a61dd, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /dabai.in104.20.45.232, headers: { host: 100-100-17-38.db-link01.top } } }
     - { name: 🇺🇸_US_美国_14, type: vmess, server: 104.24.229.174, port: 2053, cipher: auto, uuid: e6933218-ad65-3943-9afd-0d78638a61dd, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /dabai.in104.24.229.174, headers: { host: 100-100-17-486.db-link02.top } } }
     - { name: CA-加拿大-54, server: 172.105.104.204, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
-    - { name: DE-德国-56, server: 172.105.246.58, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
+    - { name: DE-德国-56, server: 172.104.250.49, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
     - { name: SG-新加坡-47, server: 172.104.166.215, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
     - { name: UK-英国-24, server: 109.74.198.216, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
-    - { name: US-美国-55, server: 66.228.55.84, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
+    - { name: US-美国-55, server: 198.58.99.127, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
