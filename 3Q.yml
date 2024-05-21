@@ -18,8 +18,8 @@ proxies:
     - { name: 🇺🇸_US_美国->🇮🇳_IN_印度, type: vmess, server: hk.wish.ml, port: 2052, cipher: auto, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: in3.wish.ml } } }
     - { name: CA-加拿大-54, server: 139.177.194.75, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
     - { name: DE-德国-56, server: 139.162.138.56, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
-    - { name: SG-新加坡-47, server: 172.104.180.69, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
-    - { name: UK-英国-24, server: 109.74.198.216, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
+    - { name: SG-新加坡-47, server: 172.104.175.182, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
+    - { name: UK-英国-24, server: 176.58.122.251, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
     - { name: US-美国-55, server: 69.164.195.248, port: 63257, type: ss, cipher: chacha20-ietf-poly1305, password: '4649787191' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
