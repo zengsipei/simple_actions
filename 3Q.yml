@@ -22,8 +22,8 @@ proxies:
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国_2, type: trojan, server: 36.151.195.48, port: 20344, udp: true, password: TNDSJfNv, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰, type: vmess, server: 172.67.166.192, port: 80, cipher: auto, uuid: cd1db809-2de0-409c-aef5-861e95eff53e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: ua1-vmess.sshmax.xyz } } }
     - { name: SG-新加坡-44, server: 192.46.224.94, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
-    - { name: SG-新加坡-47, server: 139.177.187.74, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
-    - { name: UK-英国-23, server: 139.162.218.21, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
+    - { name: SG-新加坡-47, server: 192.46.227.85, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
+    - { name: UK-英国-23, server: 176.58.117.120, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
     - { name: UK-英国-24, server: 109.74.194.226, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
     - { name: US-美国-50, server: 72.14.179.189, port: 63377, type: ss, cipher: chacha20-ietf-poly1305, password: '6462463932' }
 proxy-groups:
