@@ -19,8 +19,8 @@ proxies:
     - { name: 🇷🇺_RU_俄罗斯联邦, type: vmess, server: 45.147.200.170, port: 56508, cipher: auto, uuid: 892027cd-2cb5-40ca-9dbb-80191e28239c, alterId: 0, tls: false, skip-cert-verify: true, network: tcp }
     - { name: 🇺🇸_US_美国_6, type: trojan, server: 172.67.204.84, port: 443, udp: true, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, network: grpc, grpc-opts: { grpc-service-name: 443trojan } }
     - { name: DE-德国-56, server: 172.105.131.176, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
-    - { name: SG-新加坡-44, server: 139.162.5.84, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
-    - { name: SG-新加坡-47, server: 172.104.51.148, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
+    - { name: SG-新加坡-44, server: 172.104.40.126, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
+    - { name: SG-新加坡-47, server: 139.162.25.242, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
     - { name: UK-英国-24, server: 85.159.210.177, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
     - { name: US-美国-50, server: 45.33.5.109, port: 63522, type: ss, cipher: chacha20-ietf-poly1305, password: '4452143767' }
 proxy-groups:
