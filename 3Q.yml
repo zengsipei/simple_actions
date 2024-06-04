@@ -24,7 +24,7 @@ proxies:
     - { name: 🇫🇷_FR_法国, type: trojan, server: 15.236.14.65, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
     - { name: CA-加拿大-54, server: 172.105.111.112, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
     - { name: DE-德国-50, server: 192.46.234.174, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
-    - { name: SG-新加坡-44, server: 139.162.16.159, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
+    - { name: SG-新加坡-44, server: 139.162.35.240, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
     - { name: UK-英国-23, server: 139.162.251.177, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
     - { name: US-美国-55, server: 198.58.127.173, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
 proxy-groups:
