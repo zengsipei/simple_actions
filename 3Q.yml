@@ -24,9 +24,9 @@ proxies:
     - { name: 🇬🇧_GB_英国, type: trojan, server: 18.133.59.128, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
     - { name: 🇸🇪_SE_瑞典, type: vmess, server: 185.146.173.92, port: 80, cipher: none, uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: '/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE', headers: { host: Nl2.vmess.site. } } }
     - { name: 🇺🇸_US_美国->🇦🇺_AU_澳大利亚, type: trojan, server: 104.20.18.168, port: 443, udp: true, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, network: ws, ws-opts: { path: /apple, headers: { host: 555.golinkwuxian.top } } }
-    - { name: CA-加拿大-54, server: 172.105.97.12, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
-    - { name: DE-德国-50, server: 172.104.156.90, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
-    - { name: SG-新加坡-44, server: 172.104.162.137, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
+    - { name: CA-加拿大-54, server: 172.105.19.127, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
+    - { name: DE-德国-50, server: 172.104.202.37, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
+    - { name: SG-新加坡-44, server: 172.105.112.184, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
     - { name: UK-英国-23, server: 139.162.251.177, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
     - { name: US-美国-55, server: 45.79.13.127, port: 57871, type: ss, cipher: chacha20-ietf-poly1305, password: '7970671234' }
 proxy-groups:
