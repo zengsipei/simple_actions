@@ -17,11 +17,11 @@ proxies:
     - { name: 🇺🇸_US_美国_7, type: vmess, server: 104.26.5.57, port: 2095, cipher: auto, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: 104.21.8.157, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇫🇮_FI_芬兰->🇩🇪_DE_德国, type: vmess, server: 135.181.109.197, port: 80, cipher: auto, uuid: 1b457053-80cc-4391-b2bf-badfd71ad8cd, alterId: 0, tls: false, skip-cert-verify: true, network: ws }
-    - { name: DE-德国-56, server: 172.105.65.145, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: SG-新加坡-47, server: 172.104.171.28, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
+    - { name: DE-德国-56, server: 172.105.74.41, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
+    - { name: SG-新加坡-47, server: 172.104.160.99, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
     - { name: UK-英国-23, server: 178.79.154.41, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: UK-英国-24, server: 212.111.43.132, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: US-美国-50, server: 69.164.196.35, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
+    - { name: UK-英国-24, server: 178.79.154.101, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
+    - { name: US-美国-50, server: 96.126.124.8, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
