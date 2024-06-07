@@ -37,18 +37,18 @@ proxies:
     - { name: 🇵🇱_PL_波兰_21, type: ss, server: 51.77.53.200, port: 5000, password: Y6R9pAtvxxzmGC, cipher: aes-256-gcm }
     - { name: 🇵🇱_PL_波兰_22, type: ss, server: 51.77.53.200, port: 9101, password: e4FCWrgpkji3QY, cipher: aes-256-gcm }
     - { name: 🇵🇱_PL_波兰_23, type: ss, server: 51.77.53.200, port: 6679, password: TEzjfAYq2IjtuoS, cipher: aes-256-gcm }
-    - { name: DE-德国-56, server: 139.162.143.175, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: SG-新加坡-47, server: 192.53.114.197, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: UK-英国-23, server: 213.52.130.37, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: UK-英国-24, server: 109.74.195.199, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
-    - { name: US-美国-50, server: 173.255.197.200, port: 25129, type: ss, cipher: chacha20-ietf-poly1305, password: '7958008328' }
+    - { name: DE-德国-50, server: 139.162.174.109, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: DE-德国-56, server: 139.162.149.59, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: SG-新加坡-47, server: 172.104.161.62, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: US-美国-50, server: 96.126.124.8, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: US-美国-55, server: 45.79.28.207, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
     - { name: AD, type: select, proxies: [REJECT, DIRECT, PROXY] }
-    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-56, SG-新加坡-47, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-56, SG-新加坡-47, UK-英国-23, UK-英国-24, US-美国-50] }
-    - { name: SELECT, type: select, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-56, SG-新加坡-47, UK-英国-23, UK-英国-24, US-美国-50] }
+    - { name: URL-TEST, type: url-test, url: 'http://www.google.com/generate_204', interval: 600, lazy: true, tolerance: 100, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-50, DE-德国-56, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: LOAD-BALANCE, type: load-balance, url: 'http://www.google.com/generate_204', interval: 600, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-50, DE-德国-56, SG-新加坡-47, US-美国-50, US-美国-55] }
+    - { name: SELECT, type: select, proxies: [🇵🇱_PL_波兰_1, 🇵🇱_PL_波兰_2, 🇺🇸_US_美国_1, 🇵🇱_PL_波兰_3, 🇵🇱_PL_波兰_4, 🇵🇱_PL_波兰_5, 🇵🇱_PL_波兰_6, 🇵🇱_PL_波兰_7, 🇵🇱_PL_波兰_8, 🇫🇮_FI_芬兰->🇩🇪_DE_德国, 🇺🇸_US_美国_2, 🇵🇱_PL_波兰_9, 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀, 🇵🇱_PL_波兰_10, 🇵🇱_PL_波兰_11, 🇵🇱_PL_波兰_12, 🇵🇱_PL_波兰_13, 🇵🇱_PL_波兰_14, 🇵🇱_PL_波兰_15, 🇵🇱_PL_波兰_16, 🇮🇷_IR_伊朗, 🇵🇱_PL_波兰_17, 🇺🇸_US_美国_3, 🇵🇱_PL_波兰_18, 🇺🇸_US_美国_4, 🇵🇱_PL_波兰_19, 🇵🇱_PL_波兰_20, 🇵🇱_PL_波兰_21, 🇵🇱_PL_波兰_22, 🇵🇱_PL_波兰_23, DE-德国-50, DE-德国-56, SG-新加坡-47, US-美国-50, US-美国-55] }
 rules:
     - 'RULE-SET,applications,DIRECT'
     - 'DOMAIN,clash.razord.top,DIRECT'
