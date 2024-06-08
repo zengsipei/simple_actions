@@ -25,9 +25,9 @@ proxies:
     - { name: 🇬🇧_GB_英国_2, type: trojan, server: 18.171.116.181, port: 22222, udp: true, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
     - { name: DE-德国-50, server: 139.162.174.109, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
     - { name: DE-德国-56, server: 139.162.169.209, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
-    - { name: SG-新加坡-47, server: 172.104.161.62, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: SG-新加坡-47, server: 172.104.182.86, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
     - { name: US-美国-50, server: 96.126.124.8, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
-    - { name: US-美国-55, server: 198.58.101.234, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: US-美国-55, server: 72.14.177.17, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
