@@ -24,7 +24,7 @@ proxies:
     - { name: 🇺🇸_US_美国->🇩🇪_DE_德国_4, type: vmess, server: cdnjs.com, port: 443, cipher: auto, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: { path: /QvtvPdDXXIlSdZMqnuxG, headers: { host: hdfy1c3.iraniancpi.uk } } }
     - { name: 🇺🇸_US_美国_5, type: vmess, server: speed.cloudflare.com, port: 80, cipher: auto, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /glweidf.cfd/linkws, headers: { host: freevpn878.hamidimorteza680.workers.dev } } }
     - { name: DE-德国-50, server: 172.104.238.179, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
-    - { name: DE-德国-56, server: 139.162.130.156, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
+    - { name: DE-德国-56, server: 139.162.155.163, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
     - { name: SG-新加坡-47, server: 172.104.35.9, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
     - { name: US-美国-50, server: 96.126.124.8, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
     - { name: US-美国-55, server: 72.14.178.7, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: '3984945273' }
