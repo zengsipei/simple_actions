@@ -27,10 +27,10 @@ proxies:
     - { name: 🇨🇦_CA_加拿大_2, type: trojan, server: 3.99.22.75, port: 22222, udp: true, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
     - { name: 🇨🇳_CN_中国->🇺🇸_US_美国, type: trojan, server: 223.113.54.160, port: 23223, udp: true, password: gkviEOYc, skip-cert-verify: true, network: tcp }
     - { name: 🇮🇷_IR_伊朗, type: vmess, server: 188.212.96.59, port: 1000, cipher: auto, uuid: 7926eb47-8a42-45f8-abb4-cc4d756bf4c0, alterId: 0, tls: false, skip-cert-verify: true, network: tcp }
-    - { name: DE-德国-50, server: 172.105.74.36, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
+    - { name: DE-德国-50, server: 45.79.250.151, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: SG-新加坡-47, server: 192.46.228.185, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: UK-英国-23, server: 139.162.237.106, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
-    - { name: UK-英国-24, server: 212.71.248.94, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
+    - { name: UK-英国-24, server: 178.79.138.172, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: US-美国-55, server: 96.126.118.131, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
