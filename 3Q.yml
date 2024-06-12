@@ -57,7 +57,7 @@ proxies:
     - { name: 🇨🇦_CA_加拿大_12, type: ss, server: 23.162.200.181, port: 7306, password: FoOiGlkAA9yPEGP, cipher: aes-256-gcm }
     - { name: 🇨🇦_CA_加拿大_13, type: ss, server: 23.162.200.181, port: 8008, password: XKFKl2rULjIp74, cipher: aes-256-gcm }
     - { name: 🇨🇳_CN_中国_2, type: ss, server: ua01.mmyjiedian.com, port: 40030, password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2, cipher: chacha20-ietf-poly1305 }
-    - { name: DE-德国-50, server: 45.79.250.151, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
+    - { name: DE-德国-50, server: 172.104.141.165, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: SG-新加坡-47, server: 192.46.228.185, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: UK-英国-23, server: 139.162.237.106, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
     - { name: UK-英国-24, server: 176.58.113.196, port: 48298, type: ss, cipher: chacha20-ietf-poly1305, password: '1202105887' }
