@@ -36,9 +36,9 @@ proxies:
     - { name: 🇵🇱_PL_波兰_10, type: ss, server: 51.77.53.200, port: 6679, password: TEzjfAYq2IjtuoS, cipher: aes-256-gcm }
     - { name: 🇺🇸_US_美国_6, type: ss, server: 205.134.180.139, port: 443, password: lWaGPVFjmnag, cipher: chacha20-ietf-poly1305 }
     - { name: 🇺🇸_US_美国_7, type: trojan, server: 51.44.29.109, port: 22222, udp: true, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, network: tcp }
-    - { name: CA-加拿大-54, server: 172.105.11.16, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
+    - { name: CA-加拿大-54, server: 172.105.19.76, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
     - { name: DE-德国-50, server: 172.105.90.161, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
-    - { name: DE-德国-56, server: 85.90.246.243, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
+    - { name: DE-德国-56, server: 172.104.156.161, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
     - { name: UK-英国-24, server: 213.52.130.104, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
     - { name: US-美国-50, server: 96.126.124.8, port: 35186, type: ss, cipher: chacha20-ietf-poly1305, password: '9471952346' }
 proxy-groups:
