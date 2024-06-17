@@ -56,7 +56,7 @@ proxies:
     - { name: 🇵🇱_PL_波兰_25, type: ss, server: 51.77.53.200, port: 6679, password: TEzjfAYq2IjtuoS, cipher: aes-256-gcm }
     - { name: CA-加拿大-54, server: 172.105.19.76, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: SG-新加坡-47, server: 172.104.58.152, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
-    - { name: UK-英国-23, server: 178.79.129.41, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
+    - { name: UK-英国-23, server: 178.79.140.42, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: UK-英国-24, server: 213.52.130.104, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: US-美国-55, server: 50.116.19.243, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
 proxy-groups:
