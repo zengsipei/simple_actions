@@ -46,7 +46,7 @@ proxies:
     - { name: 🇺🇸_US_美国_10, type: vmess, server: russia.com, port: 8880, cipher: auto, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
     - { name: 🇵🇱_PL_波兰_19, type: ss, server: 51.77.53.200, port: 5000, password: Y6R9pAtvxxzmGC, cipher: aes-256-gcm }
     - { name: CA-加拿大-54, server: 172.105.19.76, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
-    - { name: SG-新加坡-47, server: 172.104.58.152, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
+    - { name: SG-新加坡-47, server: 139.162.56.170, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: UK-英国-23, server: 178.79.140.42, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: UK-英国-24, server: 213.52.130.104, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
     - { name: US-美国-55, server: 45.79.28.135, port: 20236, type: ss, cipher: chacha20-ietf-poly1305, password: '8279404996' }
