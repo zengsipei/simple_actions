@@ -38,11 +38,11 @@ proxies:
     - { name: 🇺🇸_US_美国_7, type: vmess, server: russia.com, port: 80, cipher: auto, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /api/v3/download.getFile, headers: { host: sssub.v2.001.ssrsub.com } } }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国_3, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: /, headers: { host: s1c.v2.v001sss.xyz } } }
     - { name: 🇺🇸_US_美国_8, type: vmess, server: fbi.gov, port: 2086, cipher: auto, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: { path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: { host: ip002.dtku47.xyz } } }
-    - { name: CA-加拿大-54, server: 192.53.120.234, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
+    - { name: CA-加拿大-54, server: 172.105.103.233, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
     - { name: DE-德国-56, server: 172.105.85.77, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
-    - { name: SG-新加坡-44, server: 172.104.184.210, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
+    - { name: SG-新加坡-44, server: 172.104.33.243, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
     - { name: SG-新加坡-47, server: 139.162.17.160, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
-    - { name: UK-英国-23, server: 139.162.240.206, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
+    - { name: UK-英国-23, server: 139.162.209.127, port: 53816, type: ss, cipher: chacha20-ietf-poly1305, password: '3379769892' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
