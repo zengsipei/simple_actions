@@ -59,7 +59,7 @@ proxies:
     - { name: 🇩🇪_DE_德国_6, type: ss, server: 80.92.204.106, port: 9094, password: rpgbNnU9rDDU4aWZ, cipher: aes-256-cfb }
     - { name: DE-德国-50, server: 139.162.185.11, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
     - { name: DE-德国-56, server: 172.105.85.77, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
-    - { name: UK-英国-23, server: 178.79.133.61, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
+    - { name: UK-英国-23, server: 151.236.218.68, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
     - { name: UK-英国-24, server: 213.52.130.104, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
     - { name: US-美国-55, server: 45.79.28.135, port: 31591, type: ss, cipher: chacha20-ietf-poly1305, password: '2537791492' }
 proxy-groups:
