@@ -29,7 +29,7 @@ proxies:
     - { name: UK-英国-23, server: 176.58.105.21, port: 25194, type: ss, cipher: chacha20-ietf-poly1305, password: '0361136014' }
     - { name: UK-英国-24, server: 80.85.85.107, port: 25194, type: ss, cipher: chacha20-ietf-poly1305, password: '0361136014' }
     - { name: US-美国-50, server: 45.33.9.59, port: 25194, type: ss, cipher: chacha20-ietf-poly1305, password: '0361136014' }
-    - { name: US-美国-55, server: 45.33.20.47, port: 25194, type: ss, cipher: chacha20-ietf-poly1305, password: '0361136014' }
+    - { name: US-美国-55, server: 69.164.198.34, port: 25194, type: ss, cipher: chacha20-ietf-poly1305, password: '0361136014' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
