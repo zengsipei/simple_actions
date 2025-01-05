@@ -25,8 +25,8 @@ proxies:
     - { name: 🇺🇸_US_美国_6, type: vmess, server: russia.com, port: 8080, cipher: auto, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, sni: '', network: ws }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, sni: '', network: ws }
     - { name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4, type: vmess, server: 172.64.175.213, port: 2086, cipher: auto, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, sni: ip11.freegradely.xyz, network: ws }
-    - { name: DE-德国-50, server: 172.105.94.116, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
-    - { name: DE-德国-56, server: 139.162.188.128, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
+    - { name: DE-德国-50, server: 172.105.73.109, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
+    - { name: DE-德国-56, server: 172.105.69.68, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
     - { name: IN-印度-47, server: 45.79.120.128, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
     - { name: US-美国-50, server: 104.200.18.73, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
     - { name: US-美国-55, server: 198.58.96.243, port: 43147, type: ss, cipher: chacha20-ietf-poly1305, password: '1467276340' }
