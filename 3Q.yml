@@ -28,7 +28,7 @@ proxies:
     - { name: DE-德国-56, server: 172.104.141.146, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
     - { name: IN-印度-47, server: 172.105.35.42, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
     - { name: UK-英国-23, server: 85.159.210.130, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
-    - { name: US-美国-50, server: 104.237.141.196, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
+    - { name: US-美国-50, server: 104.200.20.146, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
     - { name: US-美国-55, server: 96.126.124.136, port: 27229, type: ss, cipher: chacha20-ietf-poly1305, password: '3335904085' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
