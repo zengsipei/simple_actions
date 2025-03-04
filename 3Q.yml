@@ -25,11 +25,11 @@ proxies:
     - { name: 🇺🇸_US_美国_6, type: vmess, server: russia.com, port: 8080, cipher: auto, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, sni: '', network: ws }
     - { name: 🇺🇸_US_美国->🇫🇷_FR_法国, type: vmess, server: 172.67.130.140, port: 2082, cipher: auto, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, sni: '', network: ws }
     - { name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4, type: vmess, server: 172.64.175.213, port: 2086, cipher: auto, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, sni: ip11.freegradely.xyz, network: ws }
-    - { name: CA-加拿大-54, server: 172.105.15.238, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
-    - { name: DE-德国-56, server: 172.104.241.101, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
-    - { name: IN-印度-47, server: 172.105.253.31, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
-    - { name: UK-英国-23, server: 178.79.188.78, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
-    - { name: US-美国-50, server: 173.255.205.237, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
+    - { name: CA-加拿大-54, server: 172.105.8.68, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
+    - { name: DE-德国-56, server: 139.162.162.41, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
+    - { name: IN-印度-47, server: 172.105.57.131, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
+    - { name: UK-英国-23, server: 109.74.194.6, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
+    - { name: US-美国-50, server: 50.116.24.115, port: 48524, type: ss, cipher: chacha20-ietf-poly1305, password: '5711136649' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
     - { name: OTHER, type: select, proxies: [PROXY, DIRECT] }
