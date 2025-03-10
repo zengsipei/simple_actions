@@ -28,7 +28,7 @@ proxies:
     - { name: CA-加拿大-54, server: 172.105.5.103, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
     - { name: DE-德国-56, server: 172.104.135.69, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
     - { name: IN-印度-47, server: 192.46.214.77, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
-    - { name: UK-英国-23, server: 139.162.205.111, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
+    - { name: UK-英国-23, server: 85.159.210.144, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
     - { name: UK-英国-24, server: 178.79.131.69, port: 18828, type: ss, cipher: chacha20-ietf-poly1305, password: '1206460203' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
