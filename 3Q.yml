@@ -27,8 +27,8 @@ proxies:
     - { name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4, type: vmess, server: 172.64.175.213, port: 2086, cipher: auto, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, sni: ip11.freegradely.xyz, network: ws }
     - { name: DE-德国-50, server: 192.46.236.96, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
     - { name: DE-德国-56, server: 172.104.203.164, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
-    - { name: IN-印度-47, server: 194.195.118.224, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
-    - { name: UK-英国-24, server: 212.71.238.16, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
+    - { name: IN-印度-47, server: 172.105.34.234, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
+    - { name: UK-英国-24, server: 178.79.137.25, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
     - { name: US-美国-55, server: 198.58.118.94, port: 39626, type: ss, cipher: chacha20-ietf-poly1305, password: '9635675800' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
