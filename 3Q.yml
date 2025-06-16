@@ -28,7 +28,7 @@ proxies:
     - { name: CA-加拿大-54, server: 172.105.20.167, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
     - { name: DE-德国-50, server: 139.162.149.115, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
     - { name: DE-德国-56, server: 172.104.150.133, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
-    - { name: IN-印度-47, server: 45.79.124.67, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
+    - { name: IN-印度-47, server: 172.105.56.36, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
     - { name: US-美国-55, server: 45.33.122.48, port: 38270, type: ss, cipher: chacha20-ietf-poly1305, password: '8249172469' }
 proxy-groups:
     - { name: PROXY, type: select, proxies: [URL-TEST, LOAD-BALANCE, SELECT, DIRECT] }
