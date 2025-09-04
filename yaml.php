@@ -37,6 +37,7 @@ function request($method, $url, array $options = []): bool|string
 
 try {
     $start = microtime(true);
+    dd('v2rayshare.com 提供了免费的两种订阅，MrdoorVpn 挂了');
 
     $base = Yaml::parseFile('base.yml');
     $proxies = $base['proxies'] ?: [];
@@ -46,7 +47,7 @@ try {
         $now = Carbon::now();
         $file_name = $now->format('Ymd') . '.yaml';
         $url = [
-            'https://v2rayshare.com/wp-content/uploads',
+            'https://v2rayshare.githubrowcontent.com',
             $now->year,
             $now->format('m'),
             $file_name

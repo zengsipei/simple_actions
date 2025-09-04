@@ -1,9 +1,11 @@
 name: PHP Composer
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 手动按钮
   schedule:
     - cron: "0 */6 * * *" # 每六小时
+#  push:
+#    paths: [ '3Q.yml' ] # 手动改 clash.yaml 也立即触发
 
 permissions:
   contents: read
@@ -14,33 +16,58 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: 1️⃣ 检出仓库
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: PHP Version
-        run: php -v
-
-      - name: Validate composer.json and composer.lock
-        run: composer validate --strict
-
-      - name: Cache Composer packages
-        id: composer-cache
-        uses: actions/cache@v3
-        with:
-          path: vendor
-          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-php-
-
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
-
-      - name: Generate and init
+      - name: 处理文件
         run: |
-          php yaml.php
-          git --version
+          # 获取当前日期
+          year=$(date +%Y)
+          month=$(date +%m)
+          day=$(date +%d)
+          
+          # 拼接目标链接
+          baseUrl="https://v2rayshare.githubrowcontent.com/${year}/${month}/${year}${month}${day}"
+          curl -fsSL "${baseUrl}.yaml" -o 3Q.yaml
+          curl -fsSL "${baseUrl}.txt" -o 3Q-v2ray.txt
+
+#      - name: Cache Composer packages
+#        id: composer-cache
+#        uses: actions/cache@v3
+#        with:
+#          path: vendor
+#          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+#          restore-keys: |
+#            ${{ runner.os }}-php-
+
+#      - name: Install dependencies
+#        run: composer install --prefer-dist --no-progress
+#
+#      - name: Generate and init
+#        run: |
+#          php yaml.php
+
+#      - name: 2️⃣ 安装 subconverter（官方静态二进制）
+#        run: |
+#          wget -qO- https://github.com/tindy2013/subconverter/releases/download/latest/subconverter_linux64.tar.gz | tar -xz
+#          chmod +x subconverter/subconverter
+#
+#      - name: 3️⃣ 转换 clash.yaml → v2ray 订阅
+#        run: |
+#          # 如果 clash.yaml 是本地文件，直接用
+#          # 如果想在线拉，把下面 curl 打开即可
+#          # curl -fsSL ${{ secrets.CLASH_URL }} -o clash.yaml
+#
+#          ./subconverter/subconverter -g --artifact cl2v \
+#            -f 3Q.yaml \
+#            -o 3Q-v2ray.txt \
+#            --target v2ray
+
+      - name: 4️⃣ 提交
+        run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status -s)" ]; then
