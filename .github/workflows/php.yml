@@ -30,7 +30,7 @@ jobs:
           day=$(date +%d)
           
           # 拼接目标链接
-          baseUrl="https://v2rayshare.githubrowcontent.com/${year}/${month}/${year}${month}${day}"
+          baseUrl="https://static.v2rayshare.net/${year}/${month}/${year}${month}${day}"
           curl -fsSL "${baseUrl}.yaml" -o 3Q.yaml
           curl -fsSL "${baseUrl}.txt" -o 3Q-v2ray.txt
 
