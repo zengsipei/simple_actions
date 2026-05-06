@@ -3,7 +3,7 @@ name: PHP Composer
 on:
   workflow_dispatch: # 手动按钮
   schedule:
-    - cron: "0 */6 * * *" # 每六小时
+    - cron: "0 */12 * * *" # 每12小时
 #  push:
 #    paths: [ '3Q.yml' ] # 手动改 clash.yaml 也立即触发
 
